@@ -1,3 +1,6 @@
+THIS REPOSITORY IS UNDER DEVELOPMENT AND **NOT** COMPLETE!
+<br>
+<br>
 # CoreBootstrap
 
 A few years ago, I build CoreBootstrap for my own website projects. I needed a quick and easy method to up- or even downgrade between the different versions of Twitter Bootstrap, without having to constantly make changes in some command-line prompt.
