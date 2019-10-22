@@ -19,45 +19,43 @@ Feel free to drop me a message. I'm interested what you think of CoreBootstrap
 ## MIT Licence
 I'm also new to licensing. Since Twitter Bootstrap itself is released under an MIT License, I've released my CoreBootstrap under the same, all in good faith. No copyright infringement intended.
 
-# Current Supported Versions
+## Current Supported Versions
 - Bootstrap
-..* Less: 3.3.1 / 3.3.2 / 3.3.4 / 3.3.5 / 3.3.6 / 3.3.7 / 3.4.0 / 3.4.1
-..* Sass: 4.0.0 / 4.1.0 / 4.1.1 / 4.1.2 / 4.1.3 / 4.2.1 / 4.3.0 / 4.3.1
+  - Less: 3.3.1 / 3.3.2 / 3.3.4 / 3.3.5 / 3.3.6 / 3.3.7 / 3.4.0 / 3.4.1
+  - Sass: 4.0.0 / 4.1.0 / 4.1.1 / 4.1.2 / 4.1.3 / 4.2.1 / 4.3.0 / 4.3.1
 - FontAwesome
-..* Less: 4.2.0 / 4.3.0 / 4.4.0 / 4.5.0 / 4.6.1 / 4.6.3 / 4.7.0 / 5.0.4 / 5.0.X * / 5.1.0 / 5.1.1 / 5.2.0 / 5.3.0 / 5.3.1 / 5.4.1 to 5.10.1 *
-..* Sass: 4.7.0 / 5.0.4 / 5.0.X * / 5.1.0 / 5.1.1 / 5.2.0 / 5.3.0 / 5.3.1 / 5.4.1 to 5.10.1 *
+  - Less: 4.2.0 / 4.3.0 / 4.4.0 / 4.5.0 / 4.6.1 / 4.6.3 / 4.7.0 / 5.0.4 / 5.0.X * / 5.1.0 / 5.1.1 / 5.2.0 / 5.3.0 / 5.3.1 / 5.4.1 to 5.10.1 *
+  - Sass: 4.7.0 / 5.0.4 / 5.0.X * / 5.1.0 / 5.1.1 / 5.2.0 / 5.3.0 / 5.3.1 / 5.4.1 to 5.10.1 *
 - LessHat
-..* Less: 3.0.2
-..* Sass: 4.1.0 **
+  - Less: 3.0.2
+  - Sass: 4.1.0 **
 
 * )  Increments too fast, updates postponed
 ** ) Not yet installed, to be decided
 
-# How To Version in CoreBootstrap
+## How To Version in CoreBootstrap
 1. Copy new DIST files to versioned PUBLIC folder (x-x-x) in:
-..* /template/public/fonts/font-awesome/x-x-x/
-..* /template/public/fonts/glyphicons/x-x-x/
-..* /template/public/js/bootstrap/x-x-x/
+   * /template/public/fonts/font-awesome/x-x-x/
+   * /template/public/fonts/glyphicons/x-x-x/
+   * /template/public/js/bootstrap/x-x-x/
 2. Copy new LESS or SASS files to versioned SRC folder (x-x-x) in:
-..* /template/src/less|sass/bootstrap/x-x-x/
-..* /template/src/less|sass/font-awesome/x-x-x/
-..* /template/src/less|sass/lesshat/x-x-x/
+   * /template/src/**less|sass**/bootstrap/x-x-x/
+   * /template/src/**less|sass**/font-awesome/x-x-x/
+   * /template/src/**less|sass**/lesshat/x-x-x/
 3. Update CORE TEMPLATE with:
-..* Versioned 'Basic template' source code ...copied from Bootstrap website, within <head>
-..* Latest CDN JAVASCRIPT ...copied from Bootstrap website, at end </body>
-..* If applicable, versioned folder (x-x-x) for bootstrap(.min).js ...after jQuery, at end </body>
-4. Update /TEMPLATE/SRC/LESS|SASS/STYLES-LESS|SASS.EXT with:
-..* Your preferred framework versions
-..* Your own hierarchical positioned file(s)
-5. If applicable, update /TEMPLATE/SRC/LESS|SASS/VARIABLES.EXT with:
-..* Updated framework variables
-..* Your own variables
+   * Versioned 'Basic template' source code *...copied from Bootstrap website, within <head>*
+   * Latest CDN JAVASCRIPT *...copied from Bootstrap website, at end </body>*
+   * If applicable, versioned folder (x-x-x) for bootstrap(.min).js *...after jQuery, at end </body>*
+4. Update /TEMPLATE/SRC/**LESS|SASS**/STYLES-LESS|SASS.EXT with:
+   * Your preferred framework versions
+   * Your own hierarchical positioned file(s)
+5. If applicable, update /TEMPLATE/SRC/**LESS|SASS**/VARIABLES.EXT with:
+   * Updated framework variables
+   * Your own variables
 
-# Download
-If all else fails, I still host a downloadable version on my online test environment. If you want to download a full version in a ZIP file, check out the following website: http://www.testingoursite.com/bootstrap/ 
+## Download
+I host a downloadable version on my online test environment. If you want to download a full version in a handy ZIP file, check out the following website: http://www.testingoursite.com/bootstrap/ 
 
 With best regards,
 
 Vic van der Put
-
-
