@@ -30,8 +30,8 @@ I'm also new to licensing. Since Twitter Bootstrap itself is released under an M
   - Less: 3.0.2
   - Sass: 4.1.0 **
 
-* )  Increments too fast, updates postponed
-** ) Not yet installed, to be decided
+\*)  Increments too fast, updates postponed<br>
+\*\*) Not yet installed, to be decided
 
 ## How To Version in CoreBootstrap
 1. Copy new DIST files to versioned PUBLIC folder (x-x-x) in:
@@ -43,15 +43,18 @@ I'm also new to licensing. Since Twitter Bootstrap itself is released under an M
    * /template/src/**less|sass**/font-awesome/x-x-x/
    * /template/src/**less|sass**/lesshat/x-x-x/
 3. Update CORE TEMPLATE with:
-   * Versioned 'Basic template' source code *...copied from Bootstrap website, within <head>*
-   * Latest CDN JAVASCRIPT *...copied from Bootstrap website, at end </body>*
-   * If applicable, versioned folder (x-x-x) for bootstrap(.min).js *...after jQuery, at end </body>*
+   * Versioned 'Basic template' source code *...copied from Bootstrap website, within \<head\>*
+   * Latest CDN JAVASCRIPT *...copied from Bootstrap website, at end \</body\>*
+   * If applicable, versioned folder (x-x-x) for bootstrap(.min).js *...after jQuery, at end \</body\>*
 4. Update /TEMPLATE/SRC/**LESS|SASS**/STYLES-LESS|SASS.EXT with:
    * Your preferred framework versions
    * Your own hierarchical positioned file(s)
 5. If applicable, update /TEMPLATE/SRC/**LESS|SASS**/VARIABLES.EXT with:
    * Updated framework variables
    * Your own variables
+
+## How To Compile in CoreBootstrap
+- Only compile /TEMPLATE/SRC/**LESS|SASS**/STYLES-**LESS|SASS**.EXT to /TEMPLATE/PUBLIC/CSS/STYLES-**LESS|SASS**.CSS
 
 ## Download
 I host a downloadable version on my online test environment. If you want to download a full version in a handy ZIP file, check out the following website: http://www.testingoursite.com/bootstrap/ 
