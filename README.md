@@ -38,6 +38,9 @@ I'm also new to licensing. Since Twitter Bootstrap itself is released under an M
 
 ## How To 'Version' within the CoreBootstrap code
 ### (Step 1 and 2 are only needed to install a newer version)
+
+The bolded **LESS|SASS** in these steps define the *less* or *sass* folder of filename you choose to implement. EXT defines the extension of the files, if applicable. I've chosen to include this naming convention in the entire CoreBootstrap structure, but you can of course choose other file name(s) for you compiled CSS... ie simply styles.css.
+
 1. Copy new DIST files to versioned PUBLIC folder (x-x-x) in:
    * /template/public/fonts/font-awesome/x-x-x/
    * /template/public/fonts/glyphicons/x-x-x/
@@ -50,7 +53,7 @@ I'm also new to licensing. Since Twitter Bootstrap itself is released under an M
    * Versioned 'Basic template' source code *...copied from Bootstrap website, within \<head\>*
    * Latest CDN JAVASCRIPT *...copied from Bootstrap website, at end \</body\>*
    * If applicable, versioned folder (x-x-x) for bootstrap(.min).js *...after jQuery, at end \</body\>*
-4. Update /TEMPLATE/SRC/**LESS|SASS**/STYLES-LESS|SASS.EXT with:
+4. Update /TEMPLATE/SRC/**LESS|SASS**/STYLES-**LESS|SASS**.EXT with:
    * Your preferred framework versions
    * Your own hierarchical positioned file(s)
 5. If applicable, update /TEMPLATE/SRC/**LESS|SASS**/VARIABLES.EXT with:
