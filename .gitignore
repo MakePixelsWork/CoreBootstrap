@@ -1,0 +1,8 @@
+# Ignore PrePros config
+*.config
+
+# Ignore folders
+download/
+
+# Ignore Sass
+.sass-cache/
