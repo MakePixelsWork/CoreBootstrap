@@ -67,7 +67,3 @@ The bolded **LESS|SASS** in these steps define the *less* or *sass* folder of fi
 ## Download ZIP
 I host a downloadable ZIPPED version of the entire project on my own online test environment. This includes almost the same explanation as above. Which is also within the ZIP.<br>
 \> http://www.testingoursite.com/bootstrap/ 
-
-With best regards,
-
-MakePixelsWork
