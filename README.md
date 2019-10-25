@@ -1,6 +1,3 @@
-THIS REPOSITORY IS UNDER DEVELOPMENT AND **NOT** COMPLETE!
-<br>
-<br>
 # CoreBootstrap
 
 A few years ago, I build CoreBootstrap for my own website projects. I needed a quick and easy method to up- or even downgrade between the different versions of Twitter Bootstrap, without having to constantly make changes in some command-line prompt.
@@ -66,4 +63,4 @@ The bolded **LESS|SASS** in these steps define the *less* or *sass* folder of fi
 
 ## Download ZIP
 I host a downloadable ZIPPED version of the entire project on my own online test environment. This includes almost the same explanation as above. Which is also within the ZIP.<br>
-\> http://www.testingoursite.com/bootstrap/ 
+\> http://www.testingoursite.com/bootstrap/
