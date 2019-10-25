@@ -1,0 +1,20 @@
+
+// BOOTSTRAP > COLORS
+// I'm not sure if this works. The _variables file in the Bootstrap folder
+// has its own map-merge version. To be tested.
+$theme-colors: (
+  primary: #ff0001,
+  secondary: $gray-600,
+  success: $green,
+  info: $cyan,
+  warning: $yellow,
+  danger: $red,
+  light: $gray-100,
+  dark: $gray-800
+);
+
+// WEBSITE > YOUR CUSTOM VARIABLES (COULD OVERRULE ABOVE VARS, IE PRIMARY, ETC)
+// Examples
+// @brand-primary:			#ba2a2a;
+// @brand-secondary:		theme-color("primary");
+// etc

@@ -1,0 +1,41 @@
+
+// COMPILER INFO (SASS)
+// - Use // as comments, because these are stripped
+// - Compile this file to '/public/css/styles-sass.css'
+// - If applicable, accompanied with its own source map
+// - Update your HTML to point to the compiled CSS file
+
+// VERSIONING VARS/PATHS
+// - Injecting vars within vars is not possible in SASS?!
+// - Update all versioning paths manually!
+
+// LOAD CLEAN FRAMEWORKS
+// - Untouched frameworks, each with their default variables
+@import "bootstrap/4-0-0/bootstrap";
+@import "font-awesome/5-0-4/font-awesome";
+
+// FONT-AWESOME > HACK
+// - Helps make the font path work correctly in SASS!
+$fa-font-path: "../fonts/font-awesome/5-0-4" !default;
+
+// FONT-AWESOME > IMPORTS
+// - Enable certain fonts, depending on project
+// - Only works for v5.0.4 and above!
+@import "font-awesome/5-0-4/fa-regular";
+@import "font-awesome/5-0-4/fa-solid";
+@import "font-awesome/5-0-4/fa-brands";
+
+// DEFINE WEBSITE SPECIFIC VARIABLES
+// - The variables file contains some cloned variables from the frameworks
+// - You can add your own variables in the same file and/or add seperate mixins
+@import "variables";
+
+// INCLUDE ANY POSSIBLE SPLIT-UP SCSS FILES
+// - Improves programmer usability
+@import "base";
+// @import "header";
+// @import "menu";
+// @import "footer";
+
+// UPGRADE ANY VERSIONED .JS IN YOUR TEMPLATE SYSTEM
+// - For instance the bootstrap.min.js
