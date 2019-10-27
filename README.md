@@ -76,7 +76,7 @@ simply styles.css.
 - Use a compiler, ie PrePros, available at https://prepros.io/
 - Only compile /TEMPLATE/SRC/**LESS|SASS**/STYLES-**LESS|SASS**.EXT to /TEMPLATE/PUBLIC/CSS/STYLES-**LESS|SASS**.CSS
 
-## Download ZIP
+## Download ZIP 
 I host a downloadable ZIPPED version of the entire project on my own online test environment. This includes
 almost the same explanation as above. Which is also within the ZIP.<br>
 \> http://www.testingoursite.com/bootstrap/
