@@ -1,6 +1,8 @@
 # CoreBootstrap
 
-A few years ago, I build CoreBootstrap for my own website projects. I needed a quick and easy method to up- or even downgrade between the different versions of Twitter Bootstrap, without having to constantly make changes in some command-line prompt.
+A few years ago, I build CoreBootstrap for my own website projects. I needed a quick
+and easy method to up- or even downgrade between the different versions of Twitter
+Bootstrap, without having to constantly make changes in some command-line prompt.
 
 As a designer, I've always disliked the flat and often unneeded over-complicated command-line messages. I want to use a simple and visual pleasing interface. I previously used a combination of 2+ software packages to compile (WinLess), reload (LiveReload) and minify or even uglify code. These days I just use one compiler that does it all: PrePros, available at https://prepros.io/
 
