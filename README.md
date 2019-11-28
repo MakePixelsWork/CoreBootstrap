@@ -33,7 +33,7 @@ CoreBootstrap under the same, all in good faith. There is no copyright infringem
 ## Current supported framework versions
 - Bootstrap
   - Less: 3.3.1 / 3.3.2 / 3.3.4 / 3.3.5 / 3.3.6 / 3.3.7 / 3.4.0 / 3.4.1
-  - Sass: 4.0.0 / 4.1.0 / 4.1.1 / 4.1.2 / 4.1.3 / 4.2.1 / 4.3.0 / 4.3.1
+  - Sass: 4.0.0 / 4.1.0 / 4.1.1 / 4.1.2 / 4.1.3 / 4.2.1 / 4.3.0 / 4.3.1 / 4.4.0 / 4.4.1
 - FontAwesome
   - Less: 4.2.0 / 4.3.0 / 4.4.0 / 4.5.0 / 4.6.1 / 4.6.3 / 4.7.0 / 5.0.4 / 5.0.X * / 5.1.0 / 5.1.1 / 5.2.0 / 5.3.0 / 5.3.1
   - Sass: 4.7.0 / 5.0.4 / 5.0.X * / 5.1.0 / 5.1.1 / 5.2.0 / 5.3.0 / 5.3.1
