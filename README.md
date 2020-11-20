@@ -5,7 +5,7 @@ changes in some command-line prompt.
 
 As a designer, I've always disliked the flat and often unneeded over-complicated command-line messages. I
 want to use a simple and visual pleasing interface. I previously used a combination of 2+ software packages
-to compile (WinLess), reload (LiveReload) and minify or even uglify code. These days I just use one compiler
+to transpile (WinLess), reload (LiveReload) and minify or even uglify code. These days I just use one transpiler
 that does it all: PrePros, available at https://prepros.io/
 
 ## Clean frameworks
@@ -13,12 +13,12 @@ CoreBootstrap consists of clean downloads of almost all LESS and Sass frameworks
 a lot of my projects include commonly used mixin libraries, I decided to include them too. These are currently
 FontAwesome and LessHat.
 
-You load the preferred versions of each source, add your own variables, code addition files... and compile
+You load the preferred versions of each source, add your own variables, code addition files... and transpile 
 your file(s) to a public folder to read in your final coded website.
 
 Its happened to me twice that I needed to switch to an older version of Twitter Bootstrap, to make things
 work. The only thing I needed to do in my own CoreBootstrap, was to switch a single number, ie 3.3.5 to 3.3.4,
-recompile the code and voila, finished!
+transpile the code and voila, finished!
 
 ## My first GitHub repository
 I'm new to GitHub. I'm learning. I've decided to release my CoreBootstrap to other developers. Feel free to
@@ -51,7 +51,7 @@ CoreBootstrap under the same, all in good faith. There is no copyright infringem
 
 The bolded **LESS|SASS** in these steps define the *less* or *sass* folder of filename you choose to implement.
 EXT defines the extension of the files, if applicable. I've chosen to include this naming convention in the
-entire CoreBootstrap structure, but you can of course choose other file name(s) for you compiled CSS... ie
+entire CoreBootstrap structure, but you can of course choose other file name(s) for you transpiled CSS... ie
 simply styles.css.
 
 1. Copy new DIST files to versioned PUBLIC folder (x-x-x) in:
@@ -73,9 +73,9 @@ simply styles.css.
    * Updated framework variables
    * Your own variables
 
-## How to compile
-- Use a compiler, ie PrePros, available at https://prepros.io/
-- Only compile /TEMPLATE/SRC/**LESS|SASS**/STYLES-**LESS|SASS**.EXT to /TEMPLATE/PUBLIC/CSS/STYLES-**LESS|SASS**.CSS
+## How to transpile
+- Use a transpiler, ie PrePros, available at https://prepros.io/
+- Only transpile /TEMPLATE/SRC/**LESS|SASS**/STYLES-**LESS|SASS**.EXT to /TEMPLATE/PUBLIC/CSS/STYLES-**LESS|SASS**.CSS
 
 ## Download ZIP
 I host a downloadable ZIPPED version of the entire project on my own online test environment. This includes
