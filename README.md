@@ -41,7 +41,7 @@ CoreBootstrap under the same, all in good faith. There is no copyright infringem
   - Less: 3.0.2
   - Sass: 4.1.0 **
 
-\*)  Only latest patch, then minor or major<br>
+\*)  Removed all depricated versions<br>
 \*\*) Not yet installed, to be decided
 
 ## How to 'version' within the CoreBootstrap code
