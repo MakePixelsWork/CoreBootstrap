@@ -9,7 +9,7 @@ to transpile (WinLess), reload (LiveReload) and minify or even uglify code. Thes
 that does it all: PrePros, available at https://prepros.io/
 
 ## Clean frameworks
-CoreBootstrap consists of clean downloads of almost all LESS and Sass frameworks of Twitter Bootstrap. Since
+CoreBootstrap consists of clean downloads of almost all major LESS and Sass frameworks of Twitter Bootstrap. Since
 a lot of my projects include commonly used mixin libraries, I decided to include them too. These are currently
 FontAwesome and LessHat.
 
