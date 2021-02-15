@@ -35,14 +35,14 @@ CoreBootstrap under the same, all in good faith. There is no copyright infringem
   - Less: 3.3.1 / 3.3.2 / 3.3.4 / 3.3.5 / 3.3.6 / 3.3.7 / 3.4.0 / 3.4.1
   - Sass: 4.0.0 / 4.1.0 / 4.1.1 / 4.1.2 / 4.1.3 / 4.2.1 / 4.3.0 / 4.3.1 / 4.4.0 / 4.4.1 / 4.5.0
 - FontAwesome *
-  - Less: 5.0.4 / 5.0.13 / 5.9.0 / 5.15.1
-  - Sass: 5.0.4 / 5.0.13 / 5.9.0 / 5.15.1
+  - Less: 5.0.4 / 5.0.13 / 5.9.0 / 5.15.2
+  - Sass: 5.0.4 / 5.0.13 / 5.9.0 / 5.15.2
 - LessHat
   - Less: 3.0.2
   - Sass: 4.1.0 **
 
-\*)  Latest version + key increments<br>
-\*\*) Not yet installed, to be decided
+\*) Increments shown on their website ...including 5.0.4, because I still use it.<br>
+\**) Not yet installed, to be decided.
 
 ## How to 'version' within the CoreBootstrap code
 ### (Step 1 and 2 are only needed to install a newer version)
