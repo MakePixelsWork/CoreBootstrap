@@ -1,5 +1,6 @@
 # Ignore PrePros config
 *.config
+*.cfg
 
 # Ignore folders
 download/
