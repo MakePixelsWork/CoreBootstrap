@@ -1,6 +1,8 @@
 {
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  //"javascript.format.enable": false,
+  // Switched off, because I want to learn JavaScript
+  // "javascript.format.enable": false,
   "editor.tabSize": 2,
+  "editor.formatOnPaste": true,
   "editor.formatOnSave": true
 }
