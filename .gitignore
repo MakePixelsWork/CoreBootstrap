@@ -1,6 +1,3 @@
-# Ignore PrePros config
-# *.config
-
 # Ignore download folders
 download/
 
@@ -8,20 +5,20 @@ download/
 .sass-cache/
 
 # Ignore executables
-*.exe
-*.out
 *.app
+*.exe
 *.ipa
+*.out
 
 # Ignore dependency directories (if applicable)
 node_modules/
 
-# Ignore Visual Studio Code folder, except specific settings
+# Ignore vscode folder, except specific settings
 .vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
 !.vscode/settings.json
 !.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
 *.code-workspace
 
 # Ignore Local History for Visual Studio Code
