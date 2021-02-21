@@ -16,7 +16,7 @@ download/
 # Ignore dependency directories (if applicable)
 node_modules/
 
-# Ignore specific files for Visual Studio Code
+# Ignore Visual Studio Code folder, except specific settings
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
