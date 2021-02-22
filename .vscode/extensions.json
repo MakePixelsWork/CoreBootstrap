@@ -5,6 +5,6 @@
     "editorconfig.editorconfig",
     "esbenp.prettier-vscode",
     "formulahendry.auto-rename-tag",
-    "ritwickdey.liveserver"
+    "ritwickdey.liveserver" // This can also be done with PrePros
   ]
 }
