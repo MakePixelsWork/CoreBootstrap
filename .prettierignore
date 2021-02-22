@@ -1,0 +1,12 @@
+# Ignore artifacts
+build
+coverage
+
+# Ignore folders
+.git/**
+.history/**
+.sass-cache/**
+.vscode/**
+download/**
+node_modules/**
+template/public/**
