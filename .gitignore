@@ -1,25 +1,13 @@
-# Ignore download folders
-download/
+# Ignore folders
+.history/**
+.sass-cache/**
+download/**
+node_modules/**
 
-# Ignore Sass
-.sass-cache/
-
-# Ignore executables
-*.app
-*.exe
-*.ipa
-*.out
-
-# Ignore dependency directories (if applicable)
-node_modules/
-
-# Ignore vscode folder, except specific settings
+# Ignore folder .vscode, except specific files
 .vscode/*
 !.vscode/extensions.json
 !.vscode/launch.json
 !.vscode/settings.json
 !.vscode/tasks.json
 *.code-workspace
-
-# Ignore Local History for Visual Studio Code
-.history/
