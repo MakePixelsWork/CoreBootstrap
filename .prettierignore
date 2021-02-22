@@ -2,7 +2,7 @@
 build
 coverage
 
-# Ignore folders
+# Ignore folders (** = infinite depth)
 .git/**
 .history/**
 .sass-cache/**
