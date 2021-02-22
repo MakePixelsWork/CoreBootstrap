@@ -1,8 +1,8 @@
 # Ignore folders
-.history/**
-.sass-cache/**
-download/**
-node_modules/**
+.history/
+.sass-cache/
+download/
+node_modules/
 
 # Ignore folder .vscode, except specific files
 .vscode/*
