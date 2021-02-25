@@ -1,67 +1,66 @@
-
 // BOOTSTRAP > COLORS
-@gray-base:					#000;
-@gray-darker:				lighten(@gray-base, 13.5%); // #222
-@gray-dark:					lighten(@gray-base, 20%);   // #333
-@gray:						lighten(@gray-base, 33.5%); // #555
-@gray-light:				lighten(@gray-base, 46.7%); // #777
-@gray-lighter:				lighten(@gray-base, 93.5%); // #eee
+@gray-base: #000;
+@gray-darker: lighten(@gray-base, 13.5%); // #222
+@gray-dark: lighten(@gray-base, 20%); // #333
+@gray: lighten(@gray-base, 33.5%); // #555
+@gray-light: lighten(@gray-base, 46.7%); // #777
+@gray-lighter: lighten(@gray-base, 93.5%); // #eee
 
-@brand-primary:				darken(#428bca, 6.5%); // #337ab7
-@brand-success:				#5cb85c;
-@brand-info:				#5bc0de;
-@brand-warning:				#f0ad4e;
-@brand-danger:				#d9534f;
+@brand-primary: darken(#428bca, 6.5%); // #337ab7
+@brand-success: #5cb85c;
+@brand-info: #5bc0de;
+@brand-warning: #f0ad4e;
+@brand-danger: #d9534f;
 
 // BOOTSTRAP > SCAFFOLDING
-@body-bg:					#fff;
-@text-color:				@gray-dark;
-@link-color:				@brand-primary;
-@link-hover-color:			darken(@link-color, 15%);
-@link-hover-decoration:		underline;
+@body-bg: #fff;
+@text-color: @gray-dark;
+@link-color: @brand-primary;
+@link-hover-color: darken(@link-color, 15%);
+@link-hover-decoration: underline;
 
 // BOOTSTRAP > TYPOGRAPHY
-@font-family-sans-serif:	"Helvetica Neue", Helvetica, Arial, sans-serif;
-@font-family-serif:			Georgia, "Times New Roman", Times, serif;
-@font-family-monospace:		Menlo, Monaco, Consolas, "Courier New", monospace;
-@font-family-base:			@font-family-sans-serif;
+@font-family-sans-serif: "Helvetica Neue", Helvetica, Arial, sans-serif;
+@font-family-serif: Georgia, "Times New Roman", Times, serif;
+@font-family-monospace: Menlo, Monaco, Consolas, "Courier New", monospace;
+@font-family-base: @font-family-sans-serif;
 
-@font-size-base:			14px;
-@font-size-large:			ceil((@font-size-base * 1.25)); // ~18px
-@font-size-small:			ceil((@font-size-base * 0.85)); // ~12px
+@font-size-base: 14px;
+@font-size-large: ceil((@font-size-base * 1.25)); // ~18px
+@font-size-small: ceil((@font-size-base * 0.85)); // ~12px
 
-@font-size-h1:				floor((@font-size-base * 2.6)); // ~36px
-@font-size-h2:				floor((@font-size-base * 2.15)); // ~30px
-@font-size-h3:				ceil((@font-size-base * 1.7)); // ~24px
-@font-size-h4:				ceil((@font-size-base * 1.25)); // ~18px
-@font-size-h5:				@font-size-base;
-@font-size-h6:				ceil((@font-size-base * 0.85)); // ~12px
+@font-size-h1: floor((@font-size-base * 2.6)); // ~36px
+@font-size-h2: floor((@font-size-base * 2.15)); // ~30px
+@font-size-h3: ceil((@font-size-base * 1.7)); // ~24px
+@font-size-h4: ceil((@font-size-base * 1.25)); // ~18px
+@font-size-h5: @font-size-base;
+@font-size-h6: ceil((@font-size-base * 0.85)); // ~12px
 
-@line-height-base:			1.428571429; // 20/14
-@line-height-computed:		floor((@font-size-base * @line-height-base)); // ~20px
+@line-height-base: 1.428571429; // 20/14
+@line-height-computed: floor((@font-size-base * @line-height-base)); // ~20px
 
-@headings-font-family:		inherit;
-@headings-font-weight:		500;
-@headings-line-height:		1.1;
-@headings-color:			inherit;
+@headings-font-family: inherit;
+@headings-font-weight: 500;
+@headings-line-height: 1.1;
+@headings-color: inherit;
 
-// BOOTSTRAP > ICONOGRAPHY (RELATIVE TO TRANSPILED STYLES.CSS FILE! / HAS A TRAILING SLASH!)
-@icon-font-path:			"../fonts/glyphicons/@{version-glyphicons}/";
-@icon-font-name:			"glyphicons-halflings-regular";
-@icon-font-svg-id:			"glyphicons_halflingsregular";
+// BOOTSTRAP > ICONOGRAPHY (RELATIVE TO TRANSPILED STYLES-LESS.CSS FILE! / HAS A TRAILING SLASH!)
+@icon-font-path: "../fonts/glyphicons/@{version-glyphicons}/";
+@icon-font-name: "glyphicons-halflings-regular";
+@icon-font-svg-id: "glyphicons_halflingsregular";
 
-// FONT-AWESOME > ICONOGRAPHY (RELATIVE TO TRANSPILED STYLES.CSS FILE! / HAS NO TRAILING SLASH!)
-@fa-font-path:				"../fonts/font-awesome/@{version-fontawesome}";
-@fa-font-size-base:			14px;
-@fa-line-height-base:		1;
-@fa-css-prefix:				fa;
-@fa-version:          		"@{version-fontawesome}";
-@fa-border-color:			#eee;
-@fa-inverse:				#fff;
-@fa-li-width:				(30em / 14);
+// FONT-AWESOME > ICONOGRAPHY (RELATIVE TO TRANSPILED STYLES-LESS.CSS FILE! / HAS NO TRAILING SLASH!)
+@fa-font-path: "../fonts/font-awesome/@{version-fontawesome}";
+@fa-font-size-base: 14px;
+@fa-line-height-base: 1;
+@fa-css-prefix: fa;
+@fa-version: "@{version-fontawesome}";
+@fa-border-color: #eee;
+@fa-inverse: #fff;
+@fa-li-width: (30em / 14);
 
 // WEBSITE > YOUR CUSTOM VARIABLES (COULD OVERRULE ABOVE VARS, IE @BRAND-PRIMARY, ETC)
 // Examples
-// @brand-primary:			pink;
-// @brand-secondary:		lime;
+// @brand-primary: pink;
+// @brand-secondary: lime;
 // etc
