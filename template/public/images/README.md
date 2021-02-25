@@ -67,7 +67,7 @@ Don't get crazy and shorten all the words... or no-one will understand what you 
 
 If you have hundreds or even thousands of photos to share, you may need to think about applying the naming-convention on its folder structure. 
 
-    Got a site with hundreds of pages, each with their own banner? Then I would place all of them in their own 'banner' folder. This is easier to recognise and order. You can alwys sort them inside the folder with your own system.
+Got a site with hundreds of pages, each with their own banner? Then I would place all of them in their own 'banner' folder. This is easier to recognise and order. You can alwys sort them inside the folder with your own system.
 
 ## Why no underscores as seperators?
 
