@@ -2,15 +2,15 @@
 
 A few years ago, I build CoreBootstrap for my own website projects. I needed a quick and easy method to up- or even downgrade between the different versions of Twitter Bootstrap, without having to constantly make changes in some command-line prompt.
 
-As a designer, I've always disliked the flat and often unneeded over-complicated command-line messages. I want to use a simple and visual pleasing interface. I previously used a combination of 2+ software packages to transpile (WinLess), reload (LiveReload) and minify or even uglify code. These days I just use one program that does it all: PrePros, available at https://prepros.io/
+As a designer, I've always disliked the flat and often unneeded over-complicated command-line messages. I want to use a simple and visual pleasing interface. I previously used a combination of 2+ software packages to compile (WinLess), reload (LiveReload) and minify or even uglify code. These days I just use one program that does it all: PrePros, available at https://prepros.io/
 
 ## Clean frameworks
 
 CoreBootstrap consists of clean downloads of almost all major LESS and Sass frameworks of Twitter Bootstrap. Since a lot of my projects include commonly used mixin libraries, I decided to include them too. These are currently FontAwesome and LessHat.
 
-You load the preferred versions of each source, add your own variables, code addition files... and transpile your file(s) to a public folder to read in your final coded website.
+You load the preferred versions of each source, add your own variables, code addition files... and compile your file(s) to a public folder to read in your final coded website.
 
-Its happened to me twice that I needed to switch to an older version of Twitter Bootstrap, to make things work. The only thing I needed to do in my own CoreBootstrap, was to switch a single number, ie 3.3.5 to 3.3.4, transpile the code and voila, finished!
+Its happened to me twice that I needed to switch to an older version of Twitter Bootstrap, to make things work. The only thing I needed to do in my own CoreBootstrap, was to switch a single number, ie 3.3.5 to 3.3.4, compile the code and voila, finished!
 
 ## My first GitHub repository
 
@@ -41,7 +41,7 @@ I'm also new to licensing. Since Twitter Bootstrap itself is released under an M
 
 ### (Step 1 and 2 are only needed to install a newer version)
 
-The bolded **LESS|SASS** in these steps define the _less_ or _sass_ folder of filename you choose to implement. EXT defines the extension of the files, if applicable. I've chosen to include this naming convention in the entire CoreBootstrap structure, but you can of course choose other file name(s) for you transpiled CSS... ie simply styles.css.
+The bolded **LESS|SASS** in these steps define the _less_ or _sass_ folder of filename you choose to implement. EXT defines the extension of the files, if applicable. I've chosen to include this naming convention in the entire CoreBootstrap structure, but you can of course choose other file name(s) for you compiled CSS... ie simply styles.css.
 
 1. Copy new DIST files to versioned PUBLIC folder (x-x-x) in:
    - /template/public/fonts/font-awesome/x-x-x/
@@ -62,10 +62,10 @@ The bolded **LESS|SASS** in these steps define the _less_ or _sass_ folder of fi
    - Updated framework variables
    - Your own variables
 
-## How to transpile
+## How to compile
 
-- Use a transpiler, ie PrePros, available at https://prepros.io/
-- Only transpile /TEMPLATE/SRC/**LESS|SASS**/STYLES-**LESS|SASS**.EXT to /TEMPLATE/PUBLIC/CSS/STYLES-**LESS|SASS**.CSS
+- Use a compiler, ie PrePros, available at https://prepros.io/
+- Only compile /TEMPLATE/SRC/**LESS|SASS**/STYLES-**LESS|SASS**.EXT to /TEMPLATE/PUBLIC/CSS/STYLES-**LESS|SASS**.CSS
 
 **PrePros settings**
 

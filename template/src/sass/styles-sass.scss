@@ -1,8 +1,8 @@
-// TRANSPILER INFO (SASS)
+// COMPILER INFO (SASS)
 // - Use // as comments, because these are stripped
-// - Transpile this file to '../../public/css/styles-sass.css'
+// - Compile this file to '../../public/css/styles-sass.css'
 // - If applicable, accompanied with its own source map
-// - Update your HTML to point to the transpiled CSS file
+// - Update your HTML to point to the compiled CSS file
 
 // VERSIONING VARS/PATHS
 // - Injecting vars within vars is not possible in SASS?!
@@ -15,7 +15,7 @@
 
 // FONT-AWESOME > HACK
 // - Helps make the font path work correctly in SASS!
-// - This path is relative to the transpiled CSS file
+// - This path is relative to the compiled CSS file
 $fa-font-path: "../fonts/font-awesome/5-0-4" !default;
 // WARNING: This could have been changed after 5.0.4, but I've not updated since.
 
