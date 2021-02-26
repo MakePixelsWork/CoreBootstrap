@@ -1,35 +1,38 @@
 // COMPILER INFO (SASS)
-// - Use // as comments, because these are stripped
 // - Compile this file to '../../public/css/styles-sass.css'
 // - If applicable, accompanied with its own source map
 // - Update your HTML to point to the compiled CSS file
 
-// VERSIONING VARS/PATHS
-// - Injecting vars within vars is not possible in SASS?!
-// - Update all versioning paths manually!
+// BOOTSTRAP SETUP
+// - Option B, as shown at https://getbootstrap.com/docs/4.6/getting-started/theming/
+// - First add required imports
+// - Second add custom vars import
+// - Third add optional imports or whole bootstrap framework
 
-// LOAD CLEAN FRAMEWORKS
-// - Untouched frameworks, each with their default variables
+// Required
+@import "bootstrap/4-6-0/functions";
+@import "bootstrap/4-6-0/variables";
+@import "bootstrap/4-6-0/mixins";
+
+// Custom vars
+@import "variables";
+
+// Optional
 @import "bootstrap/4-6-0/bootstrap";
+
+// FONTAWESOME
 @import "font-awesome/5-15-2/fontawesome";
 
-// FONT-AWESOME > HACK
+// FONTAWESOME > HACK
 // - Helps make the font path work correctly in SASS!
 // - This path is relative to the compiled CSS file
 $fa-font-path: "../fonts/fontawesome/5-15-2" !default;
-// WARNING: This could have been changed after 5.0.4, but I've not updated since.
 
-// FONT-AWESOME > IMPORTS
+// FONTAWESOME > IMPORTS
 // - Enable certain fonts, depending on project
-// - Only works for v5.0.4 and above!
 @import "font-awesome/5-15-2/regular";
 @import "font-awesome/5-15-2/solid";
 @import "font-awesome/5-15-2/brands";
-
-// DEFINE WEBSITE SPECIFIC VARIABLES
-// - The variables file contains some cloned variables from the frameworks
-// - You can add your own variables in the same file and/or add seperate mixins
-@import "variables";
 
 // INCLUDE ANY POSSIBLE SPLIT-UP SCSS FILES
 // - Improves programmer usability
@@ -37,6 +40,3 @@ $fa-font-path: "../fonts/fontawesome/5-15-2" !default;
 // @import "header";
 // @import "menu";
 // @import "footer";
-
-// UPGRADE ANY VERSIONED .JS IN YOUR TEMPLATE SYSTEM
-// - For instance the bootstrap.min.js

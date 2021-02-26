@@ -7397,6 +7397,22 @@ button.bg-dark:focus {
   padding-top: 100%;
 }
 
+.embed-responsive-21by9::before {
+  padding-top: 42.8571428571%;
+}
+
+.embed-responsive-16by9::before {
+  padding-top: 56.25%;
+}
+
+.embed-responsive-4by3::before {
+  padding-top: 75%;
+}
+
+.embed-responsive-1by1::before {
+  padding-top: 100%;
+}
+
 .flex-row {
   -webkit-box-orient: horizontal !important;
   -webkit-box-direction: normal !important;
@@ -17273,45 +17289,84 @@ body {
   border: 0px solid red;
 }
 
-/* HACKS > FONT-AWESOME > MARGINS */
-.fa-margin-left-5 {
+/* HELPERS > FONT-AWESOME AND OTHER TEXT SETTINGS */
+/* prettier-ignore */
+body .fa-margin-left-5 {
   margin-left: 5px;
 }
-
-.fa-margin-left-10 {
+body .fa-margin-left-10 {
   margin-left: 10px;
 }
-
-.fa-margin-left-15 {
+body .fa-margin-left-15 {
   margin-left: 15px;
 }
-
-.fa-margin-left-20 {
+body .fa-margin-left-20 {
   margin-left: 20px;
 }
-
-.fa-margin-left-30 {
+body .fa-margin-left-30 {
   margin-left: 30px;
 }
-
-.fa-margin-right-5 {
+body .fa-margin-right-5 {
   margin-right: 5px;
 }
-
-.fa-margin-right-10 {
+body .fa-margin-right-10 {
   margin-right: 10px;
 }
-
-.fa-margin-right-15 {
+body .fa-margin-right-15 {
   margin-right: 15px;
 }
-
-.fa-margin-right-20 {
+body .fa-margin-right-20 {
   margin-right: 20px;
 }
-
-.fa-margin-right-30 {
+body .fa-margin-right-30 {
   margin-right: 30px;
+}
+body .mt-10 {
+  margin-top: 10px;
+}
+body .mt-20 {
+  margin-top: 20px;
+}
+body .mr-10 {
+  margin-right: 10px;
+}
+body .mr-20 {
+  margin-right: 20px;
+}
+body .mb-10 {
+  margin-bottom: 10px;
+}
+body .mb-20 {
+  margin-bottom: 20px;
+}
+body .ml-10 {
+  margin-left: 10px;
+}
+body .ml-20 {
+  margin-left: 20px;
+}
+body .spacer {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+body .no-margin {
+  margin: 0 !important;
+}
+body .text-left {
+  text-align: left;
+}
+body .text-center {
+  text-align: center;
+}
+body .text-right {
+  text-align: right;
+}
+body .text-uppercase {
+  text-transform: uppercase;
+}
+body .text-lowercase {
+  text-transform: lowercase;
 }
 
 /* CLEARERS */

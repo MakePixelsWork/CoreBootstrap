@@ -1,19 +1,16 @@
-// BOOTSTRAP > COLORS
-// I'm not sure if this works. The _variables file in the Bootstrap folder
-// has its own map-merge version. To be tested.
-$theme-colors: (
-  primary: #ff0001,
-  secondary: $gray-600,
-  success: $green,
-  info: $cyan,
-  warning: $yellow,
-  danger: $red,
-  light: $gray-100,
-  dark: $gray-800,
-);
+// INCLUDE CUSTOM VARIABLE DEFAULT OVERRIDES HERE
+// - Clone the needed vars from the Bootstrap _variables file and override
+// - Add your own custom variables needed for the rest of your application
 
-// WEBSITE > YOUR CUSTOM VARIABLES (COULD OVERRULE ABOVE VARS, IE PRIMARY, ETC)
-// Examples
-// @brand-primary:			#ba2a2a;
-// @brand-secondary:		theme-color("primary");
-// etc
+// VARS > OVERRIDES FOR BOOTSTRAP
+$primary: #346908;
+$secondary: #529120; // $gray-600 !default;
+
+// VARS > CUSTOM APPLICATION VARIABLES
+// Using your application name is sometimes helpful
+$appname-font: Roboto, Arial, Verdana, "Helvetica Neue", sans-serif;
+$appname-font-host: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial,
+  Verdana, Helvetica, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+  "Segoe UI Symbol";
+$appname-font-base-color: #000000;
+$appname-font-base-size: 16px;
