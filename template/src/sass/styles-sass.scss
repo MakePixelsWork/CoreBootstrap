@@ -10,21 +10,21 @@
 
 // LOAD CLEAN FRAMEWORKS
 // - Untouched frameworks, each with their default variables
-@import "bootstrap/4-0-0/bootstrap";
-@import "font-awesome/5-0-4/font-awesome";
+@import "bootstrap/4-6-0/bootstrap";
+@import "font-awesome/5-15-2/fontawesome";
 
 // FONT-AWESOME > HACK
 // - Helps make the font path work correctly in SASS!
 // - This path is relative to the compiled CSS file
-$fa-font-path: "../fonts/font-awesome/5-0-4" !default;
+$fa-font-path: "../fonts/fontawesome/5-15-2" !default;
 // WARNING: This could have been changed after 5.0.4, but I've not updated since.
 
 // FONT-AWESOME > IMPORTS
 // - Enable certain fonts, depending on project
 // - Only works for v5.0.4 and above!
-@import "font-awesome/5-0-4/fa-regular";
-@import "font-awesome/5-0-4/fa-solid";
-@import "font-awesome/5-0-4/fa-brands";
+@import "font-awesome/5-15-2/regular";
+@import "font-awesome/5-15-2/solid";
+@import "font-awesome/5-15-2/brands";
 
 // DEFINE WEBSITE SPECIFIC VARIABLES
 // - The variables file contains some cloned variables from the frameworks
