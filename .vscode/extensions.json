@@ -3,7 +3,6 @@
     "christian-kohler.path-intellisense",
     "ecmel.vscode-html-css",
     "editorconfig.editorconfig",
-    "esbenp.prettier-vscode",
     "formulahendry.auto-rename-tag",
     "ritwickdey.liveserver" // This can also be done with PrePros
   ]
