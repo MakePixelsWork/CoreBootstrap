@@ -1,57 +1,49 @@
-/*!
- * CoreBootstrap by MakePixelsWork - http://www.makepixelswork.com
- */
 
+/* BASE > BODY */
 body {
   background-color: #ffffff;
 }
 
+
+/* BASE > CONTAINERS */
 .container {
   border: 0px solid red;
 }
 
-/* HELPERS > FONT-AWESOME AND OTHER TEXT SETTINGS */
-/* prettier-ignore */
-body {
-  // Nested, so 'prettier-ignore' works!
-  .fa-margin-left-5   { margin-left: 5px; }
-  .fa-margin-left-10  { margin-left: 10px; }
-  .fa-margin-left-15  { margin-left: 15px; }
-  .fa-margin-left-20  { margin-left: 20px; }
-  .fa-margin-left-30  { margin-left: 30px; }
 
-  .fa-margin-right-5  { margin-right: 5px; }
-  .fa-margin-right-10 { margin-right: 10px; }
-  .fa-margin-right-15 { margin-right: 15px; }
-  .fa-margin-right-20 { margin-right: 20px; }
-  .fa-margin-right-30 { margin-right: 30px; }
+/* BASE > TEXT > HELPERS */
+.fa-margin-left-5     { margin-left: 5px; }
+.fa-margin-left-10    { margin-left: 10px; }
+.fa-margin-left-15    { margin-left: 15px; }
+.fa-margin-left-20    { margin-left: 20px; }
+.fa-margin-left-30    { margin-left: 30px; }
 
-  .mt-10 { margin-top: 10px; }
-  .mt-20 { margin-top: 20px; }
-  .mr-10 { margin-right: 10px; }
-  .mr-20 { margin-right: 20px; }
-  .mb-10 { margin-bottom: 10px; }
-  .mb-20 { margin-bottom: 20px; }
-  .ml-10 { margin-left: 10px; }
-  .ml-20 { margin-left: 20px; }
+.fa-margin-right-5    { margin-right: 5px; }
+.fa-margin-right-10   { margin-right: 10px; }
+.fa-margin-right-15   { margin-right: 15px; }
+.fa-margin-right-20   { margin-right: 20px; }
+.fa-margin-right-30   { margin-right: 30px; }
 
-  .spacer { flex: 1; }
-  .no-margin { margin: 0 !important; }
+.mt-10                { margin-top: 10px; }
+.mt-20                { margin-top: 20px; }
+.mr-10                { margin-right: 10px; }
+.mr-20                { margin-right: 20px; }
+.mb-10                { margin-bottom: 10px; }
+.mb-20                { margin-bottom: 20px; }
+.ml-10                { margin-left: 10px; }
+.ml-20                { margin-left: 20px; }
 
-  .text-left { text-align: left; }
-  .text-center { text-align: center; }
-  .text-right { text-align: right; }
-  .text-uppercase { text-transform: uppercase; }
-  .text-lowercase { text-transform: lowercase; }
-}
+.spacer               { flex: 1; }
+.no-margin            { margin: 0 !important; }
+
+.text-left            { text-align: left; }
+.text-center          { text-align: center; }
+.text-right           { text-align: right; }
+.text-uppercase       { text-transform: uppercase; }
+.text-lowercase       { text-transform: lowercase; }
+
 
 /* CLEARERS */
-.clearer {
-  clear: both;
-}
-.clearer-left {
-  clear: left;
-}
-.clearer-right {
-  clear: right;
-}
+.clearer        { clear: both; }
+.clearer-left   { clear: left; }
+.clearer-right  { clear: right; }

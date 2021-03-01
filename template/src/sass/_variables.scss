@@ -1,16 +1,28 @@
 // INCLUDE CUSTOM VARIABLE DEFAULT OVERRIDES HERE
 // - Clone the needed vars from the Bootstrap _variables file and override
 // - Add your own custom variables needed for the rest of your application
+// - Using your application name is sometimes helpful
 
-// VARS > OVERRIDES FOR BOOTSTRAP
-$primary: #346908;
-$secondary: #529120; // $gray-600 !default;
+// Colors
+$appname-color-primary: #346908;
+$appname-color-secondary: #529120;
+$appname-color-tertiary: #214107;
 
-// VARS > CUSTOM APPLICATION VARIABLES
-// Using your application name is sometimes helpful
+// Fonts
 $appname-font: Roboto, Arial, Verdana, "Helvetica Neue", sans-serif;
 $appname-font-host: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial,
   Verdana, Helvetica, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
   "Segoe UI Symbol";
-$appname-font-base-color: #000000;
-$appname-font-base-size: 16px;
+$appname-font-color: #000000;
+$appname-font-size: 16px;
+
+// Backgrounds (example)
+$appname-background-radial: radial-gradient(
+  99.31% 99.31% at 0% 0.69%,
+  $appname-color-secondary 0%,
+  $appname-color-primary 100%
+);
+
+// Overrides for Bootstrap
+$primary: $appname-color-primary;
+$secondary: $appname-color-secondary;

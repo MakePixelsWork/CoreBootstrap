@@ -17278,94 +17278,116 @@ readers do not read off random characters that represent icons */
   font-weight: 400;
 }
 
-/*!
- * CoreBootstrap by MakePixelsWork - http://www.makepixelswork.com
- */
+/* BASE > BODY */
 body {
   background-color: #ffffff;
 }
 
+/* BASE > CONTAINERS */
 .container {
   border: 0px solid red;
 }
 
-/* HELPERS > FONT-AWESOME AND OTHER TEXT SETTINGS */
-/* prettier-ignore */
-body .fa-margin-left-5 {
+/* BASE > TEXT > HELPERS */
+.fa-margin-left-5 {
   margin-left: 5px;
 }
-body .fa-margin-left-10 {
+
+.fa-margin-left-10 {
   margin-left: 10px;
 }
-body .fa-margin-left-15 {
+
+.fa-margin-left-15 {
   margin-left: 15px;
 }
-body .fa-margin-left-20 {
+
+.fa-margin-left-20 {
   margin-left: 20px;
 }
-body .fa-margin-left-30 {
+
+.fa-margin-left-30 {
   margin-left: 30px;
 }
-body .fa-margin-right-5 {
+
+.fa-margin-right-5 {
   margin-right: 5px;
 }
-body .fa-margin-right-10 {
+
+.fa-margin-right-10 {
   margin-right: 10px;
 }
-body .fa-margin-right-15 {
+
+.fa-margin-right-15 {
   margin-right: 15px;
 }
-body .fa-margin-right-20 {
+
+.fa-margin-right-20 {
   margin-right: 20px;
 }
-body .fa-margin-right-30 {
+
+.fa-margin-right-30 {
   margin-right: 30px;
 }
-body .mt-10 {
+
+.mt-10 {
   margin-top: 10px;
 }
-body .mt-20 {
+
+.mt-20 {
   margin-top: 20px;
 }
-body .mr-10 {
+
+.mr-10 {
   margin-right: 10px;
 }
-body .mr-20 {
+
+.mr-20 {
   margin-right: 20px;
 }
-body .mb-10 {
+
+.mb-10 {
   margin-bottom: 10px;
 }
-body .mb-20 {
+
+.mb-20 {
   margin-bottom: 20px;
 }
-body .ml-10 {
+
+.ml-10 {
   margin-left: 10px;
 }
-body .ml-20 {
+
+.ml-20 {
   margin-left: 20px;
 }
-body .spacer {
+
+.spacer {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
 }
-body .no-margin {
+
+.no-margin {
   margin: 0 !important;
 }
-body .text-left {
+
+.text-left {
   text-align: left;
 }
-body .text-center {
+
+.text-center {
   text-align: center;
 }
-body .text-right {
+
+.text-right {
   text-align: right;
 }
-body .text-uppercase {
+
+.text-uppercase {
   text-transform: uppercase;
 }
-body .text-lowercase {
+
+.text-lowercase {
   text-transform: lowercase;
 }
 
