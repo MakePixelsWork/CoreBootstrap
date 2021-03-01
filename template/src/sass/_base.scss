@@ -1,4 +1,18 @@
 
+/* MIXINS */
+// Use by adding @include blueprint(0, 1); to preferred selector
+// Add 0 or 1 for (in)active row or col, multiplied by thickness
+@mixin blueprint($row, $col) {
+	$thickness: 1px;
+	.row {
+		border: $row*$thickness dashed blue !important;
+	}
+	div[class^='col-'],div[class*=' col-'] {
+		border: $col*$thickness dashed red !important;
+	}
+}
+
+
 /* BASE > BODY */
 body {
   background-color: #ffffff;
