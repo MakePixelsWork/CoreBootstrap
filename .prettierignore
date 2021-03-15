@@ -1,6 +1,46 @@
-# Ignore artifacts
-build
-coverage
+# PRETTIER SUCKS AND IS NOT ALLOWED TO RUN IN THIS PROJECT
+# This file is here to make sure Prettier does NOT change anything to this project!
+# The Prettier rules suck major ass and makes code look worse than if you practice
+# good code ethics yourself. Learn to fucking code! Do NOT remove this ignore file,
+# or you will be shot, fired, kicked, deleted and terminated!
+
+# Ignore specific extensions
+*.bundle.js
+*.bundle.js.map
+*.bundle.min.js
+*.bundle.min.js.map
+*.config
+*.css
+*.css.map
+*.editorconfig
+*.gitignore
+*.htm
+*.html
+*.js
+*.js.map
+*.json
+*.less
+*.md
+*.min.js
+*.min.js.map
+*.sass
+*.scss
+
+# Ignore images (when inadvertently opened by user)
+*.gif
+*.jpeg
+*.jpg
+*.png
+*.svg
+*.tif
+*.tiff
+
+# Ignore fonts (when inadvertently opened by user)
+*.eot
+*.svg
+*.ttf
+*.woff
+*.woff2
 
 # Ignore folders (** = infinite depth)
 .git/**
@@ -10,3 +50,7 @@ coverage
 download/**
 node_modules/**
 template/public/**
+
+# Ignore all
+# Put as last rule, because Prettier may ignore this (according to reviews online)
+/*
