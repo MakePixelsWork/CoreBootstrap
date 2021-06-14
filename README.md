@@ -34,6 +34,13 @@ I'm also new to licensing. Since Twitter Bootstrap itself is released under an M
   - Less: 3.0.2
   - Sass: 4.1.0 \*\*
 
+> &nbsp;<br/>
+> <span style="color:#4285f4;">**Warning**</span><br>
+> Bootstrap 5 introduces new features, which may break your old builds. These include Sass changes, a color system, grid updates and lots of little throughout the entire framework.
+> 
+> If you start a new project, this does not concern you. If you upgrade from an older major version, then be sure to check and update your code where needed. A full migration guide can be found at https://getbootstrap.com/docs/5.0/migration/<br>
+> &nbsp;
+
 \*) Increments shown on their website ...including 5.0.4, because I still use it.<br>
 \*\*) Not yet installed, to be decided.
 
