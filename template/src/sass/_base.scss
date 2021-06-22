@@ -13,6 +13,30 @@
 }
 
 
+/* HELPER > WHICH BOOTSTRAP 5 BREAKPOINT IS ACTIVE? */
+.which-res {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  z-index: 2000;
+  background-color: red;
+  color: #ffffff;
+  width: 100px;
+  height: auto;
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  &::after {
+    @media screen and (max-width: 575px)                            { content: 'XS'; }
+    @media screen and (min-width: 576px) and (max-width: 767px)     { content: 'SM'; }
+    @media screen and (min-width: 768px) and (max-width: 991px)     { content: 'MD'; }
+    @media screen and (min-width: 992px) and (max-width: 1199px)    { content: 'LG'; }
+    @media screen and (min-width: 1200px) and (max-width: 1399px)   { content: 'XL'; }
+    @media screen and (min-width: 1400px)                           { content: 'XXL'; }
+  }
+}
+
+
 /* BASE > BODY */
 body {
   background-color: #ffffff;
