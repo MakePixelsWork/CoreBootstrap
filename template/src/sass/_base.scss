@@ -15,8 +15,8 @@
 
 /* HELPER > WHICH BOOTSTRAP 5 BREAKPOINT IS ACTIVE? */
 .which-res {
-  position: absolute;
-  left: 10px;
+  position: fixed;
+  right: 10px;
   top: 10px;
   z-index: 2000;
   background-color: red;
