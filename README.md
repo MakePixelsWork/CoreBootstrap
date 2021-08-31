@@ -78,4 +78,4 @@ The bolded **LESS|SASS** in these steps define the _less_ or _sass_ folder of fi
 
 - You can set PrePros to detect file changes in the other SCSS files, so it recompiles on each save. If you add your own, update the settings in the PrePros software.
 - PrePros constantly updates this file, so I've exluded it in the .gitignore file
-- I have made a 'prepros-backup.config' file available, in case you want to see the settings.
+- I have made a 'prepros-backup.config' file available, in case you want to see the settings, or update them in between different machines.
