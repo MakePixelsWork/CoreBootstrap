@@ -41,7 +41,7 @@ I'm also new to licensing. Since Twitter Bootstrap itself is released under an M
 > If you start a new project, this does not concern you. If you upgrade from an older major version, then be sure update your code where needed. A full migration guide can be found at https://getbootstrap.com/docs/5.0/migration/<br>
 > &nbsp;
 
-\*) Increments shown on their website ...including 5.0.4, because I still use it.<br>
+\*) Only increments shown on the Font Awesome website. Rest are 50+ redundant versions. I did include 5.0.4, because I still use it.<br />
 \*\*) Not yet installed, to be decided.
 
 ## How to 'version' within the CoreBootstrap code
