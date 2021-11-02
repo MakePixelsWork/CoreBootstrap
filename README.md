@@ -33,8 +33,7 @@ I'm also new to licensing. Since Twitter Bootstrap itself is released under an M
   - Less: 5.0.4 / 5.0.13 / 5.9.0 / 5.15.4
   - Sass: 5.0.4 / 5.0.13 / 5.9.0 / 5.15.4
 - LessHat
-  - Less: 3.0.2
-  - Sass: 4.1.0 \*\*
+  - Less: 3.0.2 / 4.1.0 \*\*
 
 > &nbsp;<br/>
 > <span style="color:#4285f4;">**Warning**</span><br>
