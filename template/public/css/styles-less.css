@@ -9467,9 +9467,38 @@ button.close {
   font-family: 'Font Awesome 5 Free';
   font-weight: 900;
 }
+/* HIGHER/LOWER BREAKPOINTS BOOTSTRAP 3
+// Media queries to define 'higher' and 'lower' breakpoints. The 'lower' are 1px
+// smaller than the official Bootstrap 3 breakpoints. You can use them to define
+// visibility of your classes, for specific resolutions.
+// Via https://getbootstrap.com/docs/3.3/css/#grid-options
+
+// SM and higher
+@media (min-width: 768px) { }
+
+// MD and higher
+@media (min-width: 992px) { }
+
+// LG and higher
+@media (min-width: 1200px) { }
+
+
+
+// XS and lower
+@media (max-width: 767px) { }
+
+// SM and lower
+@media (max-width: 991px) { }
+
+// MD and lower
+@media (max-width: 1199px) { }
+
+*/
+/* BASE > BODY */
 body {
   background-color: #ffffff;
 }
+/* BASE > CONTAINERS */
 .container {
   border: 0px solid red;
 }
