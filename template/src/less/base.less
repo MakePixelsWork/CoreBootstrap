@@ -1,4 +1,26 @@
 
+/* HELPER > WHICH BOOTSTRAP 3 BREAKPOINT IS ACTIVE? */
+.which-res {
+  position: fixed;
+  right: 10px;
+  top: 10px;
+  z-index: 2000;
+  background-color: red;
+  color: #ffffff;
+  width: 100px;
+  height: auto;
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  &::after {
+    @media screen and (max-width: 767px)                            { content: 'XS'; }
+    @media screen and (min-width: 768px) and (max-width: 991px)     { content: 'SM'; }
+    @media screen and (min-width: 992px) and (max-width: 1199px)    { content: 'MD'; }
+    @media screen and (min-width: 1200px)                           { content: 'LG'; }
+  }
+}
+
+
 /* HIGHER/LOWER BREAKPOINTS BOOTSTRAP 3
 // Media queries to define 'higher' and 'lower' breakpoints. The 'lower' are 1px
 // smaller than the official Bootstrap 3 breakpoints. You can use them to define
