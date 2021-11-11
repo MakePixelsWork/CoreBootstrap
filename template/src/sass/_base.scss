@@ -37,6 +37,47 @@
 }
 
 
+/* HIGHER/LOWER BREAKPOINTS BOOTSTRAP 5
+// Media queries to define 'higher' and 'lower' breakpoints. The 'lower' are 1px
+// smaller than the official Bootstrap 5 breakpoints. You can use them to define
+// visibility of your classes, for specific resolutions.
+// Via https://getbootstrap.com/docs/5.0/layout/breakpoints/#available-breakpoints
+
+// SM and higher
+@media (min-width: 576px) { }
+
+// MD and higher
+@media (min-width: 768px) { }
+
+// LG and higher
+@media (min-width: 992px) { }
+
+// XL and higher
+@media (min-width: 1200px) { }
+
+// XXL and higher
+@media (min-width: 1400px) { }
+
+
+
+// XS and lower
+@media (max-width: 575px) { }
+
+// SM and lower
+@media (max-width: 767px) { }
+
+// MD and lower
+@media (max-width: 991px) { }
+
+// LG and lower
+@media (max-width: 1199px) { }
+
+// XL and lower
+@media (max-width: 1399px) { }
+
+*/
+
+
 /* BASE > BODY */
 body {
   background-color: #ffffff;
