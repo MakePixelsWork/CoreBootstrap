@@ -17276,7 +17276,7 @@ readers do not read off random characters that represent icons */
 
 /* MIXINS */
 /* HELPER > WHICH BOOTSTRAP 5 BREAKPOINT IS ACTIVE? */
-.which-res {
+.which-resOFF {
   position: fixed;
   right: 10px;
   top: 10px;
@@ -17290,32 +17290,32 @@ readers do not read off random characters that represent icons */
   font-size: 30px;
 }
 @media screen and (max-width: 575px) {
-  .which-res::after {
+  .which-resOFF::after {
     content: "XS";
   }
 }
 @media screen and (min-width: 576px) and (max-width: 767px) {
-  .which-res::after {
+  .which-resOFF::after {
     content: "SM";
   }
 }
 @media screen and (min-width: 768px) and (max-width: 991px) {
-  .which-res::after {
+  .which-resOFF::after {
     content: "MD";
   }
 }
 @media screen and (min-width: 992px) and (max-width: 1199px) {
-  .which-res::after {
+  .which-resOFF::after {
     content: "LG";
   }
 }
 @media screen and (min-width: 1200px) and (max-width: 1399px) {
-  .which-res::after {
+  .which-resOFF::after {
     content: "XL";
   }
 }
 @media screen and (min-width: 1400px) {
-  .which-res::after {
+  .which-resOFF::after {
     content: "XXL";
   }
 }

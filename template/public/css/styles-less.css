@@ -9468,7 +9468,7 @@ button.close {
   font-weight: 900;
 }
 /* HELPER > WHICH BOOTSTRAP 3 BREAKPOINT IS ACTIVE? */
-.which-res {
+.which-resOFF {
   position: fixed;
   right: 10px;
   top: 10px;
@@ -9482,22 +9482,22 @@ button.close {
   font-size: 30px;
 }
 @media screen and (max-width: 767px) {
-  .which-res::after {
+  .which-resOFF::after {
     content: 'XS';
   }
 }
 @media screen and (min-width: 768px) and (max-width: 991px) {
-  .which-res::after {
+  .which-resOFF::after {
     content: 'SM';
   }
 }
 @media screen and (min-width: 992px) and (max-width: 1199px) {
-  .which-res::after {
+  .which-resOFF::after {
     content: 'MD';
   }
 }
 @media screen and (min-width: 1200px) {
-  .which-res::after {
+  .which-resOFF::after {
     content: 'LG';
   }
 }
