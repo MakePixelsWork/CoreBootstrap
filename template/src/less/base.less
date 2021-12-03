@@ -51,16 +51,85 @@
 */
 
 
-
-/* BASE > BODY */
-body {
-	background-color: #ffffff;
+/* BASE > HOST */
+:host {
+  font-family: @font-family-base;
+  font-size: @font-size-base;
+  color: @text-color;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 
-/* BASE > CONTAINERS */
-.container {
-	border: 0px solid red;
+/* BASE > BODY */
+html, body {
+  position: relative;
+  margin: 0;
+  font-family: @font-family-sans-serif; // Change the var if you want a (sans)serif
+  font-size: @font-size-base;
+  color: @text-color;
+  background-color: @body-bg;
+}
+
+
+/* BASE > TEXT */
+// First normalize them, then redefine them below
+// 8px grid system = 8/16/24/32/40/48/56/64/72/80
+// Don't add UL, because this often fucks up menus
+h1, h2, h3, h4, h5, h6, p, ul:not(.navbar-nav, .dropdown-menu) {
+  position: relative;
+  margin: 0;
+  margin-bottom: 10px;
+  font-weight: normal;
+  color: @brand-primary;
+}
+
+h1, .mainheader {
+  font-family: @font-family-serif;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-family: @font-family-serif;
+  font-size: 32px;
+  font-weight: normal;
+  margin-bottom: 10px;
+  margin-top: 40px;
+}
+
+h3, h4, h5, h6 {
+  font-size: 22px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+p {
+  color: @text-color;
+  margin: 0;
+  font-size: @font-size-base;
+  margin-bottom: 20px;
+  //line-height: 26px;
+  &:last-child {
+    margin-bottom: 0px;
+  }
+}
+
+a {
+  color: @brand-secondary;
+  text-decoration: underline;
+  outline: none;
+  &:hover, &:focus {
+    color: @brand-primary;
+    outline: none;
+  }
+  &:active {
+    outline: none;
+  }
+}
+
+b, strong {
+  font-weight: bold;
 }
 
 
@@ -93,7 +162,7 @@ body {
 .ml-30                { margin-left: 30px; }
 .ml-40                { margin-left: 40px; }
 
-.spacer               { flex: 1; }
+.spacer               { flex: 1; } // Not really sure if this works in Bootstrap 3 and lower
 .no-margin            { margin: 0 !important; }
 
 .text-left            { text-align: left; }

@@ -9528,13 +9528,85 @@ button.close {
 @media (max-width: 1199px) { }
 
 */
-/* BASE > BODY */
-body {
-  background-color: #ffffff;
+/* BASE > HOST */
+:host {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #333333;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
-/* BASE > CONTAINERS */
-.container {
-  border: 0px solid red;
+/* BASE > BODY */
+html,
+body {
+  position: relative;
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #333333;
+  background-color: #fff;
+}
+/* BASE > TEXT */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul:not(.navbar-nav, .dropdown-menu) {
+  position: relative;
+  margin: 0;
+  margin-bottom: 10px;
+  font-weight: normal;
+  color: #337ab7;
+}
+h1,
+.mainheader {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 32px;
+  font-weight: normal;
+  margin-bottom: 10px;
+  margin-top: 40px;
+}
+h3,
+h4,
+h5,
+h6 {
+  font-size: 22px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+p {
+  color: #333333;
+  margin: 0;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+p:last-child {
+  margin-bottom: 0px;
+}
+a {
+  color: #2968a0;
+  text-decoration: underline;
+  outline: none;
+}
+a:hover,
+a:focus {
+  color: #337ab7;
+  outline: none;
+}
+a:active {
+  outline: none;
+}
+b,
+strong {
+  font-weight: bold;
 }
 /* BASE > TEXT > HELPERS */
 .mt-5 {

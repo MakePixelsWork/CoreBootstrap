@@ -79,15 +79,85 @@
 */
 
 
-/* BASE > BODY */
-body {
-  background-color: #ffffff;
+/* BASE > HOST */
+:host {
+  font-family: $appname-font-host;
+  font-size: $appname-font-size;
+  color: $appname-font-color;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 
-/* BASE > CONTAINERS */
-.container {
-  border: 0px solid red;
+/* BASE > BODY */
+html, body {
+  position: relative;
+  margin: 0;
+  font-family: $appname-font;
+  font-size: $appname-font-size;
+  color: $appname-font-color;
+  background-color: $appname-color-bg;
+}
+
+
+/* BASE > TEXT */
+// First normalize them, then redefine them below
+// 8px grid system = 8/16/24/32/40/48/56/64/72/80
+// Don't add UL, because this often fucks up menus
+h1, h2, h3, h4, h5, h6, p, ul:not(.navbar-nav, .dropdown-menu) {
+  position: relative;
+  margin: 0;
+  margin-bottom: 10px;
+  font-weight: normal;
+  color: $appname-color-primary;
+}
+
+h1 {
+  font-family: $appname-font;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-family: $appname-font;
+  font-size: 32px;
+  font-weight: normal;
+  margin-bottom: 10px;
+  margin-top: 40px;
+}
+
+h3, h4, h5, h6 {
+  font-size: 22px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+p {
+  color: $appname-font-color;
+  margin: 0;
+  font-size: $appname-font-size;
+  margin-bottom: 20px;
+  line-height: 26px;
+  &:last-child {
+    margin-bottom: 0px;
+  }
+}
+
+a {
+  color: $appname-color-secondary;
+  text-decoration: underline;
+  outline: none;
+  &:hover, &:focus {
+    color: $appname-color-primary;
+    outline: none;
+  }
+  &:active {
+    outline: none;
+  }
+}
+
+b, strong {
+  font-weight: bold;
 }
 
 
