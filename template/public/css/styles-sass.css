@@ -18350,14 +18350,14 @@ h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   font-weight: bold;
 }
 
-p {
+p, ul:not(.navbar-nav, .dropdown-menu) {
   color: #000000;
   margin: 0;
   font-size: 16px;
   margin-bottom: 20px;
   line-height: 26px;
 }
-p:last-child {
+p:last-child, ul:not(.navbar-nav, .dropdown-menu):last-child {
   margin-bottom: 0px;
 }
 

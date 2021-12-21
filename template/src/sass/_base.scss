@@ -103,7 +103,6 @@ html, body {
 /* BASE > TEXT */
 // First normalize them, then redefine them below
 // 8px grid system = 8/16/24/32/40/48/56/64/72/80
-// Don't add UL, because this often fucks up menus
 h1, h2, h3, h4, h5, h6, p, ul:not(.navbar-nav, .dropdown-menu) {
   position: relative;
   margin: 0;
@@ -132,7 +131,7 @@ h3, h4, h5, h6 {
   font-weight: bold;
 }
 
-p {
+p, ul:not(.navbar-nav, .dropdown-menu) {
   color: $appname-font-color;
   margin: 0;
   font-size: $appname-font-size;
