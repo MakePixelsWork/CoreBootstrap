@@ -3,39 +3,44 @@
 // - If applicable, accompanied with its own source map
 // - Update your HTML to point to the compiled CSS file
 
-// BOOTSTRAP SETUP
-// - Option B, as shown at https://getbootstrap.com/docs/4.6/getting-started/theming/
-// - First add required imports
-// - Second add custom vars import
-// - Third add optional imports or whole bootstrap framework
+// BOOTSTRAP 5 SETUP
+// - Option B, as shown at https://getbootstrap.com/docs/5.0/customize/sass/#importing
+// - 1. Add functions first
+// - 2. Add custom vars import
+// - 3. Add remainder or required imports
+// - 4. Add optional imports or whole Bootstrap framework
+// - 5. Add additional libraries
+// - 6. Add additional custom (split-up) code
 
-// Required
-@import "bootstrap/4-6-0/functions";
-@import "bootstrap/4-6-0/variables";
-@import "bootstrap/4-6-0/mixins";
+// 1. Functions
+@import "bootstrap/5-0-0/functions";
 
-// Custom vars
+// 2. Custom vars
 @import "variables";
 
-// Optional
-@import "bootstrap/4-6-0/bootstrap";
+// 3. Remainder required
+@import "bootstrap/5-0-0/variables";
+@import "bootstrap/5-0-0/mixins";
 
-// FONTAWESOME
+// 4. Optional
+@import "bootstrap/5-0-0/bootstrap";
+
+// 5. FONTAWESOME
 @import "font-awesome/5-15-4/fontawesome";
 
-// FONTAWESOME > HACK
+// 5. FONTAWESOME > HACK
 // - Helps make the font path work correctly in SASS!
 // - This path is relative to the compiled CSS file
 // - Does NOT have a trailing slash!
 $fa-font-path: "../fonts/font-awesome/5-15-4/webfonts";
 
-// FONTAWESOME > IMPORTS
+// 5. FONTAWESOME > IMPORTS
 // - Enable certain fonts, depending on project
 @import "font-awesome/5-15-4/regular";
 @import "font-awesome/5-15-4/solid";
 @import "font-awesome/5-15-4/brands";
 
-// INCLUDE ANY POSSIBLE SPLIT-UP SCSS FILES
+// 6. INCLUDE ANY POSSIBLE SPLIT-UP SCSS FILES
 // - Improves programmer usability
 @import "base";
 // @import "header";
