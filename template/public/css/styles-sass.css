@@ -18217,7 +18217,7 @@ readers do not read off random characters that represent icons */
   font-weight: 400;
 }
 
-/* MIXINS */
+/* MIXIN > BLUEPRINT */
 /* HELPER > WHICH BOOTSTRAP 5 BREAKPOINT IS ACTIVE? */
 .which-resOFF {
   position: fixed;
@@ -18263,43 +18263,45 @@ readers do not read off random characters that represent icons */
   }
 }
 
-/* HIGHER/LOWER BREAKPOINTS BOOTSTRAP 5
-// Media queries to define 'higher' and 'lower' breakpoints. The 'lower' are 1px
-// smaller than the official Bootstrap 5 breakpoints. You can use them to define
-// visibility of your classes, for specific resolutions.
-// Via https://getbootstrap.com/docs/5.0/layout/breakpoints/#available-breakpoints
+/* BREAKPOINTS BOOTSTRAP 5
+// Mixins with media queries that define 'up, 'down', 'only' and 'between'
+// breakpoints. You can use these to define visibility of your classes,
+// for each or a range of specific devices.
+// See https://getbootstrap.com/docs/5.1/layout/breakpoints/#media-queries
 
-// SM and higher
-@media (min-width: 576px) { }
+// XS is often not needed, because Bootstrap is mobile-first
 
-// MD and higher
-@media (min-width: 768px) { }
+// SM and up        @include media-breakpoint-up(sm) { }
+// MD and up        @include media-breakpoint-up(md) { }
+// LG and up        @include media-breakpoint-up(lg) { }
+// XL and up        @include media-breakpoint-up(xl) { }
+// XXL and up       @include media-breakpoint-up(xxl) { }
 
-// LG and higher
-@media (min-width: 992px) { }
+// SM and down      @include media-breakpoint-down(sm) { }
+// MD and down      @include media-breakpoint-down(md) { }
+// LG and down      @include media-breakpoint-down(lg) { }
+// XL and down      @include media-breakpoint-down(xl) { }
+// XXL and down     @include media-breakpoint-down(xxl) { }
 
-// XL and higher
-@media (min-width: 1200px) { }
+// XS only          @include media-breakpoint-only(xs) { }
+// SM only          @include media-breakpoint-only(sm) { }
+// MD only          @include media-breakpoint-only(md) { }
+// LG only          @include media-breakpoint-only(lg) { }
+// XL only          @include media-breakpoint-only(xl) { }
+// XXL only         @include media-breakpoint-only(xxl) { }
 
-// XXL and higher
-@media (min-width: 1400px) { }
+// MD upto XL       @include media-breakpoint-between(md, xl) { }
+// Etc
 
-
-
-// XS and lower
-@media (max-width: 575px) { }
-
-// SM and lower
-@media (max-width: 767px) { }
-
-// MD and lower
-@media (max-width: 991px) { }
-
-// LG and lower
-@media (max-width: 1199px) { }
-
-// XL and lower
-@media (max-width: 1399px) { }
+// Example: Hide starting at `min-width: 0`, and then show at the `sm` breakpoint
+// .custom-class {
+//   display: none;
+// }
+// @include media-breakpoint-up(sm) {
+//   .custom-class {
+//     display: block;
+//   }
+// }
 
 */
 /* BASE > HOST */
