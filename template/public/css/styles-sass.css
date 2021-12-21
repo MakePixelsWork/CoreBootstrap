@@ -18293,15 +18293,16 @@ readers do not read off random characters that represent icons */
 // MD upto XL       @include media-breakpoint-between(md, xl) { }
 // Etc
 
-// Example: Hide starting at `min-width: 0`, and then show at the `sm` breakpoint
-// .custom-class {
-//   display: none;
-// }
-// @include media-breakpoint-up(sm) {
+// Example
+// Hide starting at 'min-width: 0', and then show at the 'SM' breakpoint
 //   .custom-class {
-//     display: block;
+//     display: none;
 //   }
-// }
+//   @include media-breakpoint-up(sm) {
+//     .custom-class {
+//       display: block;
+//     }
+//   }
 
 */
 /* BASE > HOST */
