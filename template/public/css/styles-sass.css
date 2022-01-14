@@ -18758,11 +18758,11 @@ readers do not read off random characters that represent icons */
 // XL and up        @include media-breakpoint-up(xl) { }
 // XXL and up       @include media-breakpoint-up(xxl) { }
 
-// SM and down      @include media-breakpoint-down(sm) { }
-// MD and down      @include media-breakpoint-down(md) { }
-// LG and down      @include media-breakpoint-down(lg) { }
-// XL and down      @include media-breakpoint-down(xl) { }
-// XXL and down     @include media-breakpoint-down(xxl) { }
+// XS and down      @include media-breakpoint-down(sm) { }
+// SM and down      @include media-breakpoint-down(md) { }
+// MD and down      @include media-breakpoint-down(lg) { }
+// LG and down      @include media-breakpoint-down(xl) { }
+// XL and down      @include media-breakpoint-down(xxl) { }
 
 // XS only          @include media-breakpoint-only(xs) { }
 // SM only          @include media-breakpoint-only(sm) { }
@@ -18771,7 +18771,7 @@ readers do not read off random characters that represent icons */
 // XL only          @include media-breakpoint-only(xl) { }
 // XXL only         @include media-breakpoint-only(xxl) { }
 
-// MD upto XL       @include media-breakpoint-between(md, xl) { }
+// MD to XL         @include media-breakpoint-between(md, xl) { }
 // Etc
 
 // Example
