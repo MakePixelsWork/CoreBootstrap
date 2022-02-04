@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="/template/public/css/styles-sass.css">
+
+  <title>Bootstrap grid example</title>
+
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: none;
+      background-color: #ffffff;
+    }
+
+    .row {
+      border-bottom: 10px solid #ffffff;
+      background-color: #ffffff;
+    }
+
+    div[class^='col'],
+    div[class*=' col'] {
+      padding: 0 12px;
+      background-clip: content-box, padding-box;
+      background-image:
+        linear-gradient(to bottom, #ffd1d1 0%, #ffd1d1 100%),
+        linear-gradient(to right, rgba(255, 0, 0, 0.1) 20%, rgba(255, 0, 0, 0.8) 80%);
+      min-height: 100px;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <div class="which-res"></div>
+
+  <!-- MAIN -->
+  <main>
+
+    <div class="container">
+
+      <!-- 12 cols of 1 = 12 -->
+      <div class="row">
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+      </div>
+
+      <!-- 6 cols of 2 = 12 -->
+      <div class="row">
+        <div class="col-2"></div>
+        <div class="col-2"></div>
+        <div class="col-2"></div>
+        <div class="col-2"></div>
+        <div class="col-2"></div>
+        <div class="col-2"></div>
+      </div>
+
+      <!-- 4 cols of 3 = 12 -->
+      <div class="row">
+        <div class="col-3"></div>
+        <div class="col-3"></div>
+        <div class="col-3"></div>
+        <div class="col-3"></div>
+      </div>
+
+      <!-- 3 cols of 4 = 12 -->
+      <div class="row">
+        <div class="col-4"></div>
+        <div class="col-4"></div>
+        <div class="col-4"></div>
+      </div>
+
+      <!-- 2 cols of 6 = 12 -->
+      <div class="row">
+        <div class="col-6"></div>
+        <div class="col-6"></div>
+      </div>
+
+      <!-- 1 col of 12 = 12 -->
+      <div class="row">
+        <div class="col-12 text-center">
+          <br>
+          <b>In XXL (or your Figma)</b><br>
+          86px cols, with 12px horizontal padding, aka 24px 'gutter' (= 110px each)
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
