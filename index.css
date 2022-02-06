@@ -1,0 +1,50 @@
+:root {
+  --color-1: #0B486B;
+  --color-2: #266B7A;
+  --color-3: #3B8686;
+  --color-4: #79BD9A;
+  --color-5: #A8DBA8;
+  --color-6: #CFF09E;
+  --opacity: 60%;
+}
+
+.container {
+  margin-top: 5px;
+}
+
+div[class^='color'], div[class*=' color'] {
+  min-height: 20px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-bottom: 5px;
+}
+div[class^='color']:nth-child(2n), div[class*=' color']:nth-child(2n) {
+  opacity: var(--opacity);
+}
+
+/* COLORS COLUMNS */
+div.color-12of1   { background-color: var(--color-1); }
+div.color-6of2    { background-color: var(--color-2); }
+div.color-4of3    { background-color: var(--color-3); }
+div.color-3of4    { background-color: var(--color-4); }
+div.color-2of6    { background-color: var(--color-5); }
+div.color-1of12   { background-color: var(--color-6); }
+
+
+/* COLORS VERSIONS */
+.active           { color: #1599e6; }
+.available        { color: var(--color-4); }
+.todo             { color: #ff8c00; }
+
+/* COLORS TEXT */
+.advice           { color: #b4b4b4; }
+.language         { color: #d60000; }
+
+
+/* LISTS */
+ol > li {
+  margin-bottom: 10px;
+}
+ul li {
+  list-style-type: disc;
+}

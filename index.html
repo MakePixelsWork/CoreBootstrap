@@ -2,379 +2,245 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="template/public/css/styles-sass.css">
 
   <title>Core Bootstrap</title>
 
-  <!-- IF IT AIN'T BROKE, DON'T FIX IT!
-		 This page is build with the LESS versions of Bootstrap v3.3.7 and FontAwesome v5.0.5. It still works, so I never felt the need to upgrade it.
+  <!-- Only needed for this index page -->
+  <link rel="stylesheet" href="index.css">
 
-		 To make this page work, the href's are all relative paths. Personally I prefer to build a lot of my websites with absolute paths, but those only work on an (emulated) server.
-
-		 I may upgrade this whole project to use relative paths instead. To be decided.
-
-		 The HTML5 shim below the compiled CSS is a remnant of this older version of Bootstrap. Its no longer needed from v4.0.0 and onwards. Support for older defunct browsers (here is looking at you, Microsoft) is going to be depricated in Bootstrap 5 and onward.
-
-		 All CSS and HTML in this page is build for this page only and is not part of the provided framework. If you need the starter templates provided by Bootstrap, check out the '/template/public/html' folder. These are direct copies from their docs, with the exception that the paths to the compiled CSS and JS have been changed.
-	-->
-
-  <!-- Bootstrap -->
-  <link href="template/public/css/styles-less.css" rel="stylesheet" />
-
-  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-  <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-  <style>
-    .container {
-      margin-top: 5px;
-    }
-
-    div.col-xs-1 {
-      background-color: rgba(255, 0, 0, 0.1);
-      min-height: 20px;
-      padding-left: 0px;
-      padding-right: 0px;
-      margin-bottom: 5px;
-    }
-
-    div.col-xs-1:nth-child(2n) {
-      background-color: rgba(255, 0, 0, 0.2);
-    }
-
-    div.col-xs-2 {
-      background-color: rgba(0, 255, 0, 0.1);
-      min-height: 20px;
-      margin-bottom: 5px;
-    }
-
-    div.col-xs-2:nth-child(2n) {
-      background-color: rgba(0, 255, 0, 0.2);
-    }
-
-    div.col-xs-3 {
-      background-color: rgba(0, 0, 255, 0.1);
-      min-height: 20px;
-      margin-bottom: 5px;
-    }
-
-    div.col-xs-3:nth-child(2n) {
-      background-color: rgba(0, 0, 255, 0.2);
-    }
-
-    div.col-xs-4 {
-      background-color: rgba(0, 255, 255, 0.2);
-      min-height: 20px;
-      margin-bottom: 5px;
-    }
-
-    div.col-xs-4:nth-child(2n) {
-      background-color: rgba(0, 255, 255, 0.4);
-    }
-
-    div.col-xs-6 {
-      background-color: rgba(255, 255, 0, 0.2);
-      min-height: 20px;
-      margin-bottom: 5px;
-    }
-
-    div.col-xs-6:nth-child(2n) {
-      background-color: rgba(255, 255, 0, 0.4);
-    }
-
-    .active {
-      color: rgba(0, 0, 255, 0.4);
-      font-weight: bold;
-    }
-
-    .inactive {
-      color: rgba(60, 178, 60, 0.7);
-    }
-
-    .todo {
-      color: darkorange;
-    }
-
-    .advice {
-      color: rgba(0, 0, 0, 0.4);
-    }
-
-    .language {
-      color: rgba(255, 0, 0, 0.6);
-    }
-
-    .featured {
-      color: #c60000;
-      font-weight: bold;
-    }
-
-    h1 {
-      border-bottom: 1px dashed black;
-      display: block;
-      font-weight: bold;
-      font-size: 14px;
-      padding-bottom: 10px;
-    }
-
-    em {
-      font-size: 0.8em;
-    }
-
-    /* NOT THE NICEST CODE, BUT DOES THE TRICK */
-    ul li {
-      list-style-type: disc;
-    }
-
-    ul>li {
-      list-style-type: square;
-    }
-
-    ul>li>ul>li,
-    ol>li>ul>li {
-      list-style-type: disc;
-    }
-
-    ul>li>ul>li>ul>li {
-      list-style-type: circle;
-    }
-
-    ol>li {
-      margin-bottom: 10px;
-    }
-  </style>
 </head>
 
 <body>
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-1"></div>
-      <div class="col-xs-1"></div>
-      <div class="col-xs-1"></div>
-      <div class="col-xs-1"></div>
-      <div class="col-xs-1"></div>
-      <div class="col-xs-1"></div>
-      <div class="col-xs-1"></div>
-      <div class="col-xs-1"></div>
-      <div class="col-xs-1"></div>
-      <div class="col-xs-1"></div>
-      <div class="col-xs-1"></div>
-      <div class="col-xs-1"></div>
-    </div>
-    <div class="row">
-      <div class="col-xs-2"></div>
-      <div class="col-xs-2"></div>
-      <div class="col-xs-2"></div>
-      <div class="col-xs-2"></div>
-      <div class="col-xs-2"></div>
-      <div class="col-xs-2"></div>
-    </div>
-    <div class="row">
-      <div class="col-xs-3"></div>
-      <div class="col-xs-3"></div>
-      <div class="col-xs-3"></div>
-      <div class="col-xs-3"></div>
-    </div>
-    <div class="row">
-      <div class="col-xs-4"></div>
-      <div class="col-xs-4"></div>
-      <div class="col-xs-4"></div>
-    </div>
-    <div class="row">
-      <div class="col-xs-6"></div>
-      <div class="col-xs-6"></div>
-    </div>
-    <div class="row">
-      <div class="col-xs-12">
-        <h1>
-          CURRENT <span class="inactive">AVAILABLE</span> /
-          <span class="active">ACTIVE</span> /
-          <span class="todo">TODO</span> VERSIONS
-        </h1>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-xs-12 col-sm-9">
-        <ul>
-          <li>
-            <b>Bootstrap</b>
-            <!-- https://github.com/twbs/bootstrap/releases -->
-            <ul>
-              <li>
-                Less:
-                <ul>
-                  <li>
-                    <span class="inactive">3.3.1</span> /
-                    <span class="inactive">3.3.2</span> /
-                    <span class="inactive">3.3.4</span> /
-                    <span class="inactive">3.3.5</span> /
-                    <span class="inactive">3.3.6</span> /
-                    <span class="active">3.3.7</span> /
-                    <span class="inactive">3.4.0</span> /
-                    <span class="inactive">3.4.1</span>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-            <ul>
-              <li>
-                Sass:
-                <ul>
-                  <li>
-                    <span class="inactive">4.0.0</span> /
-                    <span class="inactive">4.1.0</span> /
-                    <span class="inactive">4.1.1</span> /
-                    <span class="inactive">4.1.2</span> /
-                    <span class="inactive">4.1.3</span> /
-                    <span class="inactive">4.2.1</span> /
-                    <span class="inactive">4.3.0</span> /
-                    <span class="inactive">4.3.1</span> /
-                    <span class="inactive">4.4.0</span> /
-                    <span class="inactive">4.4.1</span> /
-                    <span class="inactive">4.5.0</span> /
-                    <span class="inactive">4.5.1</span> /
-                    <span class="inactive">4.5.2</span> /
-                    <span class="inactive">4.5.3</span> /
-                    <span class="inactive">4.6.0</span> /
-                    <span class="inactive">4.6.1</span> /
-                    <span class="inactive">5.0.0</span> /
-                    <span class="inactive">5.0.1</span> /
-                    <span class="inactive">5.0.2</span> /
-                    <span class="inactive">5.1.0</span> /
-                    <span class="inactive">5.1.1</span> /
-                    <span class="inactive">5.1.2</span> /
-                    <span class="inactive">5.1.3</span>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <b>FontAwesome *</b>
-            <!-- https://github.com/FortAwesome/Font-Awesome/releases -->
-            <ul>
-              <li>
-                Less:
-                <ul>
-                  <li>
-                    <span class="active">5.0.4</span> /
-                    <span class="inactive">5.0.13</span> /
-                    <span class="inactive">5.9.0</span> /
-                    <span class="inactive">5.15.4</span>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-            <ul>
-              <li>
-                Sass:
-                <ul>
-                  <li type="circle">
-                    <span class="inactive">5.0.4</span> /
-                    <span class="inactive">5.0.13</span> /
-                    <span class="inactive">5.9.0</span> /
-                    <span class="inactive">5.15.4</span>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <b>LessHat</b>
-            <ul>
-              <li>
-                Less:
-                <ul>
-                  <li type="circle">
-                    <span class="active">3.0.2</span>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-          </li>
-          <em>
-            *)&nbsp; Only increments shown on the Font Awesome website. Rest are 50+ redundant versions. I did include 5.0.4, because I still use it.
-          </em>
-        </ul>
-      </div>
-      <div class="col-xs-12 col-sm-3 text-right">
-        <a class="btn btn-primary btn-download" href="https://github.com/MakePixelsWork/CoreBootstrap" target="_blank" role="button"><span class="fas fa-download mr-p10"></span>Download</a>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-xs-12">
-        <h1>
-          VERSIONING <span class="language">LESS</span> OR <span class="language">SASS</span>
-        </h1>
-        <ol type="1">
-          <li>
-            Copy new DIST files to versioned PUBLIC folder (x-x-x) in:<br />
-            <ul>
-              <li>/template/public/fonts/font-awesome/x-x-x/</li>
-              <li>/template/public/fonts/glyphicons/x-x-x/</li>
-              <li>/template/public/js/bootstrap/x-x-x/</li>
-            </ul>
-          </li>
-          <li>
-            Copy new LESS or SASS files to versioned SRC folder (x-x-x) in:<br />
-            <ul>
-              <li>/template/src/<span class="language">less|sass</span>/bootstrap/x-x-x/</li>
-              <li>/template/src/<span class="language">less|sass</span>/font-awesome/x-x-x/</li>
-              <li>/template/src/<span class="language">less|sass</span>/lesshat/x-x-x/</li>
-            </ul>
-          </li>
-          <li>
-            Update CORE TEMPLATE with:<br />
-            <ul>
-              <li>Versioned 'Basic template' source code <span class="advice">...copied from Bootstrap website, within &lt;head&gt;</span></li>
-              <li>Latest CDN JAVASCRIPT <span class="advice">...copied from Bootstrap website, at end &lt;/body&gt;</span></li>
-              <li>If applicable, versioned folder (x-x-x) for bootstrap(.min).js <span class="advice">...after jQuery, at end &lt;/body&gt</span></li>
-            </ul>
-          </li>
-          <li>
-            Update /TEMPLATE/SRC/<span class="language">LESS|SASS</span>/STYLES-<span class="language">LESS|SASS</span>.EXT with:<br />
-            <ul>
-              <li>Your preferred framework versions</li>
-              <li>Your own hierarchical positioned file(s)</li>
-            </ul>
-          </li>
-          <li>
-            If applicable, update /TEMPLATE/SRC/<span class="language">LESS|SASS</span>/VARIABLES.EXT with:<br />
-            <ul>
-              <li>Updated framework variables</li>
-              <li>Your own variables</li>
-            </ul>
-          </li>
-        </ol>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-xs-12">
-        <h1>COMPILING</h1>
-        <ul>
-          <li>
-            Only compile /TEMPLATE/SRC/<span class="language">LESS|SASS</span>/STYLES-<span class="language">LESS|SASS</span>.EXT to
-            /TEMPLATE/PUBLIC/CSS/STYLES-<span class="language">LESS|SASS</span>.CSS<br />
-            <br />
-            <em>
-              Note: This demo is build with LESS: Bootstrap 3.3.7 and
-              FontAwesome 5.0.4 - <b>"If it ain't broke, don't fix it."</b></em>
-            <br />
-            <br />
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
 
-  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <!-- Include all compiled plugins (below), or include individual files as needed -->
-  <script src="template/public/js/bootstrap/3-3-7/bootstrap.min.js"></script>
+  <div class="which-res"></div>
+
+  <main>
+
+    <!-- EXAMPLE -->
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col color-12of1"></div>
+          <div class="col color-12of1"></div>
+          <div class="col color-12of1"></div>
+          <div class="col color-12of1"></div>
+          <div class="col color-12of1"></div>
+          <div class="col color-12of1"></div>
+          <div class="col color-12of1"></div>
+          <div class="col color-12of1"></div>
+          <div class="col color-12of1"></div>
+          <div class="col color-12of1"></div>
+          <div class="col color-12of1"></div>
+          <div class="col color-12of1"></div>
+        </div>
+        <div class="row">
+          <div class="col-2 color-6of2"></div>
+          <div class="col-2 color-6of2"></div>
+          <div class="col-2 color-6of2"></div>
+          <div class="col-2 color-6of2"></div>
+          <div class="col-2 color-6of2"></div>
+          <div class="col-2 color-6of2"></div>
+        </div>
+        <div class="row">
+          <div class="col-3 color-4of3"></div>
+          <div class="col-3 color-4of3"></div>
+          <div class="col-3 color-4of3"></div>
+          <div class="col-3 color-4of3"></div>
+        </div>
+        <div class="row">
+          <div class="col-4 color-3of4"></div>
+          <div class="col-4 color-3of4"></div>
+          <div class="col-4 color-3of4"></div>
+        </div>
+        <div class="row">
+          <div class="col-6 color-2of6"></div>
+          <div class="col-6 color-2of6"></div>
+        </div>
+        <div class="row">
+          <div class="col-12 color-1of12"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CURRENT VERSIONS -->
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h1>
+              CURRENT <span class="available">AVAILABLE</span> /
+              <span class="active">ACTIVE</span> /
+              <span class="todo">TODO</span> VERSIONS
+            </h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-9">
+
+            <!-- BOOTSTRAP > https://github.com/twbs/bootstrap/releases -->
+            <h2>Bootstrap</h2>
+
+            <ul>
+              <li>
+                Less:
+                <span class="available">3.3.1</span> /
+                <span class="available">3.3.2</span> /
+                <span class="available">3.3.4</span> /
+                <span class="available">3.3.5</span> /
+                <span class="available">3.3.6</span> /
+                <span class="available">3.3.7</span> /
+                <span class="available">3.4.0</span> /
+                <span class="available">3.4.1</span>
+              </li>
+              <li>
+                Sass:
+                <span class="available">4.0.0</span> /
+                <span class="available">4.1.0</span> /
+                <span class="available">4.1.1</span> /
+                <span class="available">4.1.2</span> /
+                <span class="available">4.1.3</span> /
+                <span class="available">4.2.1</span> /
+                <span class="available">4.3.0</span> /
+                <span class="available">4.3.1</span> /
+                <span class="available">4.4.0</span> /
+                <span class="available">4.4.1</span> /
+                <span class="available">4.5.0</span> /
+                <span class="available">4.5.1</span> /
+                <span class="available">4.5.2</span> /
+                <span class="available">4.5.3</span> /
+                <span class="available">4.6.0</span> /
+                <span class="available">4.6.1</span> /
+                <span class="available">5.0.0</span> /
+                <span class="available">5.0.1</span> /
+                <span class="available">5.0.2</span> /
+                <span class="available">5.1.0</span> /
+                <span class="available">5.1.1</span> /
+                <span class="available">5.1.2</span> /
+                <span class="active">5.1.3</span>
+              </li>
+            </ul>
+
+            <!-- FONTAWESOME > https://github.com/FortAwesome/Font-Awesome/releases -->
+            <h2>FontAwesome</h2>
+            <ul>
+              <li>
+                Less:
+                <span class="available">5.0.4</span> /
+                <span class="available">5.0.13</span> /
+                <span class="available">5.9.0</span> /
+                <span class="available">5.15.4</span>
+              </li>
+              <li>
+                Sass:
+                <span class="available">5.0.4</span> /
+                <span class="available">5.0.13</span> /
+                <span class="available">5.9.0</span> /
+                <span class="active">5.15.4</span>
+              </li>
+            </ul>
+
+            <!-- LESSHAT > https://www.npmjs.com/package/lesshat -->
+            <h2>LessHat</h2>
+            <ul>
+              <li>
+                Less:
+                <span class="available">3.0.2</span> / <span class="todo">4.1.0</span>
+              </li>
+            </ul>
+
+          </div>
+          <div class="col-12 col-md-3 text-right">
+
+            <!-- DOWNLOAD -->
+            <a class="btn btn-primary btn-download" href="https://github.com/MakePixelsWork/CoreBootstrap" target="_blank" role="button"><span class="fas fa-download mr-p10"></span>Download</a>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HOW TO VERSION -->
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 mt-3">
+            <h1>
+              HOW TO VERSION IN <span class="language">LESS</span> OR <span class="language">SASS</span>
+            </h1>
+            <ol type="1">
+              <li>
+                Copy new DIST files to versioned PUBLIC folder (x-x-x) in:<br />
+                <ul>
+                  <li>/template/public/fonts/font-awesome/x-x-x/</li>
+                  <li>/template/public/fonts/glyphicons/x-x-x/</li>
+                  <li>/template/public/js/bootstrap/x-x-x/</li>
+                </ul>
+              </li>
+              <li>
+                Copy new LESS or SASS files to versioned SRC folder (x-x-x) in:<br />
+                <ul>
+                  <li>/template/src/<span class="language">less|sass</span>/bootstrap/x-x-x/</li>
+                  <li>/template/src/<span class="language">less|sass</span>/font-awesome/x-x-x/</li>
+                  <li>/template/src/<span class="language">less|sass</span>/lesshat/x-x-x/</li>
+                </ul>
+              </li>
+              <li>
+                Update CORE TEMPLATE with:<br />
+                <ul>
+                  <li>Versioned 'Basic template' source code <span class="advice">...copied from Bootstrap website, within &lt;head&gt;</span></li>
+                  <li>Latest JavaScript CDN <span class="advice">...copied from Bootstrap website, at end &lt;/body&gt;</span></li>
+                  <li>If applicable, versioned folder (x-x-x) for bootstrap(.min).js <span class="advice">...at end &lt;/body&gt</span></li>
+                </ul>
+              </li>
+              <li>
+                Update /TEMPLATE/SRC/<span class="language">LESS|SASS</span>/STYLES-<span class="language">LESS|SASS</span>.EXT with:<br />
+                <ul>
+                  <li>Your preferred framework versions</li>
+                  <li>Your own hierarchical positioned file(s)</li>
+                </ul>
+              </li>
+              <li>
+                If applicable, update /TEMPLATE/SRC/<span class="language">LESS|SASS</span>/VARIABLES.EXT with:<br />
+                <ul>
+                  <li>Updated framework variables</li>
+                  <li>Your own variables</li>
+                </ul>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- COMPILING -->
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 mb-5">
+            <h1>COMPILING</h1>
+            Only compile
+            <ul>
+              <li>
+                /TEMPLATE/SRC/<span class="language">LESS|SASS</span>/STYLES-<span class="language">LESS|SASS</span>.EXT<br>
+                to
+              </li>
+              <li>
+                /TEMPLATE/PUBLIC/CSS/STYLES-<span class="language">LESS|SASS</span>.CSS
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 
