@@ -1,16 +1,16 @@
 # CoreBootstrap
 
-Back in 2014, I created CoreBootstrap for my own website projects. I needed a quick and easy method to up- or even downgrade between the different versions of Twitter Bootstrap, without having to constantly make changes in some command-line prompt.
+Back in 2014, I created CoreBootstrap for my own website projects. I needed a quick and easy method to up- or even downgrade between the different versions of Bootstrap, without having to constantly make changes in some command-line prompt.
 
 As a designer, I've always disliked the flat and often unneeded over-complicated command-line messages. I want to use a simple and visual pleasing interface. I previously used a combination of 2+ software packages to compile (WinLess), reload (LiveReload) and minify or even uglify code. These days I just use one program that does it all: PrePros, available at https://prepros.io/
 
 ## Clean frameworks
 
-CoreBootstrap consists of clean downloads of almost all major LESS and Sass frameworks of Twitter Bootstrap. Since a lot of my projects include commonly used mixin libraries, I decided to include them too. These are currently FontAwesome and LessHat.
+CoreBootstrap consists of clean downloads of almost all major LESS and Sass frameworks of Bootstrap. Since a lot of my projects include commonly used mixin libraries, I decided to include them too. These are currently FontAwesome and LessHat.
 
 You load the preferred versions of each source, add your own variables, code addition files... and compile your file(s) to a public folder to read in your final coded website.
 
-Its happened to me twice that I needed to switch to an older version of Twitter Bootstrap, to make things work. The only thing I needed to do in my own CoreBootstrap, was to switch a single number, ie 3.3.5 to 3.3.4, compile the code and voila, finished!
+Its happened to me twice that I needed to switch to an older version of Bootstrap, to make things work. The only thing I needed to do in my own CoreBootstrap, was to switch a single number, ie 3.3.5 to 3.3.4, compile the code and voila, finished!
 
 ## My first GitHub repository
 
@@ -20,7 +20,7 @@ Feel free to drop me a message. I'm interested what you think of CoreBootstrap
 
 ## MIT Licence
 
-I'm also new to licensing. Since Twitter Bootstrap itself is released under an MIT License, I've released my CoreBootstrap under the same, all in good faith. There is no copyright infringement intended.
+I'm also new to licensing. Since Bootstrap itself is released under an MIT License, I've released my CoreBootstrap under the same, all in good faith. There is no copyright infringement intended.
 
 ## Current supported framework versions
 
