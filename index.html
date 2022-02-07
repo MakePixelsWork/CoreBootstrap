@@ -66,6 +66,27 @@
       </div>
     </section>
 
+    <!-- ABOUT -->
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 mt-3">
+            <h1 class="main-header"><span class="color-4">Core</span><span class="color-1">Bootstrap</span></h1>
+            <p>
+              Back in 2014, I created CoreBootstrap for my own website projects. I needed a quick and easy method to up- or even downgrade between the different versions of Bootstrap, without having to constantly make changes, download newer/older versions or worse... get annoyed with the stupid CLI.
+            </p>
+            <p>
+              CoreBootstrap is build to work on any OS, right out of the box. Copy it to a new project, remove redundant versions, follow some of the pre-defined settings, or initiate a compiler for only one (1)file... and you are good to go!
+            </p>
+            <h2>MIT Licence</h2>
+            <p>
+              Since Bootstrap itself is released under an MIT License, I've released my CoreBootstrap under the same, all in good faith. There is no copyright infringement intended.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- CURRENT VERSIONS -->
     <section>
       <div class="container">
@@ -125,7 +146,7 @@
             </ul>
 
             <!-- FONTAWESOME > https://github.com/FortAwesome/Font-Awesome/releases -->
-            <h2>Font Awesome *</h2>
+            <h2>Font Awesome</h2>
             <ul>
               <li>
                 Less:
@@ -169,8 +190,12 @@
         <div class="row">
           <div class="col-12 mt-3">
             <h1>
-              HOW TO VERSION IN <span class="language">LESS</span> OR <span class="language">SASS</span>
+              HOW TO 'VERSION' IN <span class="language">LESS</span> OR <span class="language">SASS</span>
             </h1>
+            <p>
+              The colored <span class="language">less|sass</span> in these steps define the 'less' or 'sass' folder or filename you choose to implement. The word 'ext' defines the extension of the files, if applicable. I've chosen to include this naming convention in the entire CoreBootstrap structure, but you can of course choose other file name(s) for you compiled CSS... i.e. simply styles.css.
+            </p>
+            <p>Step 1 and 2 are only needed to install a newer version.</p>
             <ol type="1">
               <li>
                 Copy new DIST files to versioned PUBLIC folder (x-x-x) in:<br />
@@ -197,14 +222,14 @@
                 </ul>
               </li>
               <li>
-                Update /TEMPLATE/SRC/<span class="language">LESS|SASS</span>/STYLES-<span class="language">LESS|SASS</span>.EXT with:<br />
+                Update PATH /template/src/<span class="language">less|sass</span>/styles-<span class="language">less|sass</span>.ext with:<br />
                 <ul>
                   <li>Your preferred framework versions</li>
                   <li>Your own hierarchical positioned file(s)</li>
                 </ul>
               </li>
               <li>
-                If applicable, update /TEMPLATE/SRC/<span class="language">LESS|SASS</span>/VARIABLES.EXT with:<br />
+                If applicable, update PATH /template/src/<span class="language">less|sass</span>/variables.ext with:<br />
                 <ul>
                   <li>Updated framework variables</li>
                   <li>Your own variables</li>
@@ -221,15 +246,26 @@
       <div class="container">
         <div class="row">
           <div class="col-12 mt-2">
-            <h1>COMPILING</h1>
-            Only compile
+            <h1>HOW TO COMPILE</h1>
+            <ul>
+              <li>Use a compiler, ie PrePros, available at <a href="https://prepros.io/">https://prepros.io/</a></li>
+              <li>
+                Only compile<br>
+                /template/src/<span class="language">less|sass</span>/styles-<span class="language">less|sass</span>.ext<br>
+                to<br>
+                /template/public/css/styles-<span class="language">less|sass</span>.css
+              </li>
+            </ul>
+            <h2>PrePros settings</h2>
             <ul>
               <li>
-                /TEMPLATE/SRC/<span class="language">LESS|SASS</span>/STYLES-<span class="language">LESS|SASS</span>.EXT<br>
-                to
+                You can set PrePros to detect file changes in the other SCSS files, so it recompiles on each save. If you add your own, update the settings in the PrePros software.
               </li>
               <li>
-                /TEMPLATE/PUBLIC/CSS/STYLES-<span class="language">LESS|SASS</span>.CSS
+                PrePros constantly updates this file, so I've exluded it in the .gitignore file.
+              </li>
+              <li>
+                I have made a 'prepros-backup.config' file available, in case you want to see the settings, or update them in between different machines.
               </li>
             </ul>
           </div>
@@ -243,11 +279,22 @@
         <div class="row">
           <div class="col-12 mt-3 mb-5">
             <h1>ADDENDUM</h1>
-            <em>
-              *) Font Awesome provides three seemingly incoherent downloads on their website. I asked them why... and they told me: "The reason behind those different versions in the Docs section of our site has to do when certain aspects of our code/tech changed. For instance, in version 5.9.0, we had a backwards incompatible change that was made, so we needed to have a slight variation to some of our docs. You can see more in our changelog <a href="https://github.com/FortAwesome/Font-Awesome/blob/master/CHANGELOG.md">here</a>." - This is the main reason I also provide those as part of my CoreBootstrap framework.<br>
-              <br>
-              **) LessHat has not been updated since july 2019, but is still one of the best LESS mixin libraries available. I postponed installing v4.1.0 because it became dependent on NPM and Grunt... which is weird, because their initial product had no dependencies at all. I've not use LESS for several years and mainly focus on Sass developments, but I do want to implement it one day. So its on my todos list ;).
-            </em>
+            <p>
+              <strong>Bootstrap 5</strong> introduces lots of new features, which may break your old builds. These include Sass changes, a color system, grid updates, dropping code, new naming conventions... and lots of tweaks throughout the entire framework. If you start a new project, this does not concern you. If you upgrade from an older major version, then be sure update your code where needed. A full migration guide can be found <a href="https://getbootstrap.com/docs/5.0/migration/">here</a>.
+            </p>
+            <p>
+              <strong>Font Awesome</strong> provides three seemingly incoherent downloads on their website. I asked them why... and they told me: "The reason behind those different versions in the Docs section of our site has to do when certain aspects of our code/tech changed. For instance, in version 5.9.0, we had a backwards incompatible change that was made, so we needed to have a slight variation to some of our docs. You can see more in our changelog <a href="https://github.com/FortAwesome/Font-Awesome/blob/master/CHANGELOG.md">here</a>." - This is the main reason I also provide those as part of my CoreBootstrap framework.
+            </p>
+            <p>
+              <strong>LessHat</strong> has not been updated since july 2019, but is still one of the best LESS mixin libraries available. I postponed installing v4.1.0 because it became dependent on NPM and Grunt... which is weird, because their initial product had no dependencies at all. I've not use LESS for several years and mainly focus on Sass developments, but I do want to implement it one day. So its on my todos list ;).
+            </p>
+            <p>
+              Good luck with creating your awesome projects!
+            </p>
+            <p>
+              <strong>Victor van der Put</strong><br>
+              @MakePixelsWork
+            </p>
           </div>
         </div>
       </div>

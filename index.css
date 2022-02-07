@@ -30,16 +30,18 @@ div.color-3of4    { background-color: var(--color-4); }
 div.color-2of6    { background-color: var(--color-5); }
 div.color-1of12   { background-color: var(--color-6); }
 
-
-/* COLORS VERSIONS */
+/* COLORS */
+.advice           { color: #b4b4b4; }
 .active           { color: #1599e6; }
 .available        { color: var(--color-4); }
-.todo             { color: #ff8c00; }
-
-/* COLORS TEXT */
-.advice           { color: #b4b4b4; }
+.color-1          { color: var(--color-1); }
+.color-2          { color: var(--color-2); }
+.color-3          { color: var(--color-3); }
+.color-4          { color: var(--color-4); }
+.color-5          { color: var(--color-5); }
+.color-6          { color: var(--color-6); }
 .language         { color: #d60000; }
-
+.todo             { color: #ff8c00; }
 
 /* TEXTS */
 ol > li {
@@ -48,7 +50,10 @@ ol > li {
 ul li {
   list-style-type: disc;
 }
-
+.main-header {
+  font-weight: bold;
+  font-size: 30px;
+}
 em {
   font-size: small;
   font-style: italic;
