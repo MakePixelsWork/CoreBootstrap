@@ -41,10 +41,15 @@ div.color-1of12   { background-color: var(--color-6); }
 .language         { color: #d60000; }
 
 
-/* LISTS */
+/* TEXTS */
 ol > li {
   margin-bottom: 10px;
 }
 ul li {
   list-style-type: disc;
+}
+
+em {
+  font-size: small;
+  font-style: italic;
 }
