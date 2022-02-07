@@ -4,8 +4,7 @@ Back in 2014, I created CoreBootstrap for my own website projects. I needed a qu
 
 CoreBootstrap is build to work on any OS, right out of the box. Copy it to a new project, remove redundant versions, follow some of the pre-defined settings, or initiate a compiler for only one (1)file... and you are good to go!
 
-**MIT Licence**
-
+### MIT Licence
 Since Bootstrap itself is released under an MIT License, I've released my CoreBootstrap under the same, all in good faith. There is no copyright infringement intended.
 
 ## Current supported versions
