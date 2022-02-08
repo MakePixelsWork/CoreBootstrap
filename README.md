@@ -53,7 +53,7 @@ Step 1 and 2 are only needed to install a newer version.
 to<br>
 /template/public/css/styles-**less|sass**.css
 
-**PrePros settings**
+### PrePros settings
 
 - You can set PrePros to detect file changes in the other SCSS files, so it recompiles on each save. If you add your own, update the settings in the PrePros software.
 - PrePros constantly updates this file, so I've exluded it in the .gitignore file
