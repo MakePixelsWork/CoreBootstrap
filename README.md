@@ -61,11 +61,11 @@ to<br>
 
 ## Addendum
 
-<strong>Bootstrap 5</strong> introduces lots of new features, which may break your old builds. These include Sass changes, a color system, grid updates, dropping code, new naming conventions... and lots of tweaks throughout the entire framework. If you start a new project, this does not concern you. If you upgrade from an older major version, then be sure update your code where needed. A full migration guide can be found <a href="https://getbootstrap.com/docs/5.0/migration/">here</a>.
+<strong>Bootstrap 5</strong> introduced lots of new features, which may break your old builds. These include Sass changes, a color system, grid updates, dropping code, new naming conventions... and lots of tweaks throughout the entire framework. If you start a new project, this does not concern you. If you upgrade from an older major version, then be sure to update your code where needed. A full migration guide can be found <a href="https://getbootstrap.com/docs/5.0/migration/">here</a>.
 
 <strong>Font Awesome</strong> provides three seemingly incoherent downloads on their website. I asked them why... and they told me: "The reason behind those different versions in the Docs section of our site has to do when certain aspects of our code/tech changed. For instance, in version 5.9.0, we had a backwards incompatible change that was made, so we needed to have a slight variation to some of our docs. You can see more in our changelog <a href="https://github.com/FortAwesome/Font-Awesome/blob/master/CHANGELOG.md">here</a>." - This is the main reason I also provide those as part of my CoreBootstrap framework.
 
-<strong>LessHat</strong> has not been updated since july 2019, but is still one of the best LESS mixin libraries available. I postponed installing v4.1.0 because it became dependent on NPM and Grunt... which is weird, because their initial product had no dependencies at all. I've not use LESS for several years and mainly focus on Sass developments, but I do want to implement it one day. So its on my todos list ;).
+<strong>LessHat</strong> has not been updated since july 2019, but is still one of the best LESS mixin libraries available. I postponed installing v4.1.0 because it became dependent on NPM and Grunt... which is weird, because their initial product had no dependencies at all. I've not used LESS for several years now and mainly focus on Sass developments, but I still want to implement this newer mixin library one day. So its on my todos list ;).
 
 Good luck with creating your awesome projects!
 
