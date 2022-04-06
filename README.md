@@ -10,13 +10,13 @@ Since Bootstrap itself is released under an MIT License, I've released my CoreBo
 ## Current supported versions
 
 - Bootstrap
-  - Less: 3.3.1 / 3.3.2 / 3.3.4 / 3.3.5 / 3.3.6 / 3.3.7 / 3.4.0 / 3.4.1
+  - Less:
+    3.3.1 / 3.3.2 / 3.3.4 / 3.3.5 / 3.3.6 / 3.3.7 / 3.4.0 / 3.4.1
   - Sass:
-    4.0.0 / 4.1.0 / 4.1.1 / 4.1.2 / 4.1.3 / 4.2.1 / 4.3.0 / 4.3.1 / 4.4.0 / 4.4.1 / 4.5.0 / 4.5.1 / 4.5.2 / 4.5.3 / 4.6.0 / 4.6.1 / 
-    5.0.0 / 5.0.1 / 5.0.2 / 5.1.0 / 5.1.1 / 5.1.2 / 5.1.3
+    4.0.0 / 4.1.0 / 4.1.1 / 4.1.2 / 4.1.3 / 4.2.1 / 4.3.0 / 4.3.1 / 4.4.0 / 4.4.1 / 4.5.0 / 4.5.1 / 4.5.2 / 4.5.3 / 4.6.0 / 4.6.1 / 5.0.0 / 5.0.1 / 5.0.2 / 5.1.0 / 5.1.1 / 5.1.2 / 5.1.3
 - FontAwesome
-  - Less: 5.0.13 / 5.9.0 / 5.15.4
-  - Sass: 5.0.13 / 5.9.0 / 5.15.4
+  - Less: 5.0.13 / 5.9.0 / 5.15.4 / 6.1.1
+  - Sass: 5.0.13 / 5.9.0 / 5.15.4 / 6.1.1
 - LessHat
   - Less: 3.0.2
 
@@ -63,7 +63,7 @@ to<br>
 
 <strong>Bootstrap 5</strong> introduced lots of new features, which may break your old builds. These include Sass changes, a color system, grid updates, dropping code, new naming conventions... and lots of tweaks throughout the entire framework. If you start a new project, this does not concern you. If you upgrade from an older major version, then be sure to update your code where needed. A full migration guide can be found <a href="https://getbootstrap.com/docs/5.0/migration/">here</a>.
 
-<strong>Font Awesome</strong> provides three seemingly incoherent downloads on their website. I asked them why... and they told me: "The reason behind those different versions in the Docs section of our site has to do when certain aspects of our code/tech changed. For instance, in version 5.9.0, we had a backwards incompatible change that was made, so we needed to have a slight variation to some of our docs. You can see more in our changelog <a href="https://github.com/FortAwesome/Font-Awesome/blob/master/CHANGELOG.md">here</a>." - This is the main reason I also provide those as part of my CoreBootstrap framework.
+<strong>Font Awesome</strong> provides three seemingly incoherent v5 downloads on their website. I asked them why... and they told me: "The reason behind those different versions in the Docs section of our site has to do when certain aspects of our code/tech changed. For instance, in version 5.9.0, we had a backwards incompatible change that was made, so we needed to have a slight variation to some of our docs. You can see more in our changelog <a href="https://github.com/FortAwesome/Font-Awesome/blob/master/CHANGELOG.md">here</a>." - This is the main reason I also provide those as part of my CoreBootstrap framework.
 
 <strong>LessHat</strong> has not been updated since july 2019, but is still one of the best LESS mixin libraries available. I postponed installing v4.1.0 because it became dependent on NPM and Grunt... which is weird, because their initial product had no dependencies at all. I've not used LESS for several years now and mainly focus on Sass developments, but I still want to implement this newer mixin library one day. So its on my todos list ;).
 
