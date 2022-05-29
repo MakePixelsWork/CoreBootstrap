@@ -2,7 +2,7 @@
 
 Back in 2014, I created CoreBootstrap for my own website projects. I needed a quick and easy method to up- or even downgrade between the different versions of Bootstrap, without having to constantly make changes, download newer/older versions or worse... get annoyed with the stupid CLI.
 
-CoreBootstrap is build to work on any OS, right out of the box. Copy it to a new project, remove redundant versions, follow some of the pre-defined settings, or initiate a compiler for only one (1)file... and you are good to go!
+CoreBootstrap is build to work on any OS, right out of the box. Copy it to a new project, remove redundant versions, follow some of the pre-defined settings, or initiate a compiler for only 1 file... and you are good to go!
 
 ### MIT Licence
 Since Bootstrap itself is released under an MIT License, I've released my CoreBootstrap under the same, all in good faith. There is no copyright infringement intended.
@@ -62,6 +62,8 @@ to<br>
 ## Addendum
 
 <strong>Bootstrap 5</strong> introduced lots of new features, which may break your old builds. These include Sass changes, a color system, grid updates, dropping code, new naming conventions... and lots of tweaks throughout the entire framework. If you start a new project, this does not concern you. If you upgrade from an older major version, then be sure to update your code where needed. A full migration guide can be found <a href="https://getbootstrap.com/docs/5.0/migration/">here</a>.
+
+<strong>Bootstrap 5.2.0-beta & 5.3.0 and up</strong> introduce some new stuff which I need to test out, before I can upgrade my own CoreBootstrap. It may involve a different Sass code compiler file method, which won't be backwards compatible. I'm now thinking about writing customer compiler files. To be decided.
 
 <strong>Font Awesome</strong> provides three seemingly incoherent v5 downloads on their website. I asked them why... and they told me: "The reason behind those different versions in the Docs section of our site has to do when certain aspects of our code/tech changed. For instance, in version 5.9.0, we had a backwards incompatible change that was made, so we needed to have a slight variation to some of our docs. You can see more in our changelog <a href="https://github.com/FortAwesome/Font-Awesome/blob/master/CHANGELOG.md">here</a>." - This is the main reason I also provide those as part of my CoreBootstrap framework.
 
