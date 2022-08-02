@@ -85,9 +85,9 @@
 
 /* BASE > HOST */
 :host {
-  font-family: $appname-font-host;
-  font-size: $appname-font-size;
-  color: $appname-font-color;
+  font-family: $font-host;
+  font-size: $font-size;
+  color: $font-color;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -97,10 +97,10 @@
 html, body {
   position: relative;
   margin: 0;
-  font-family: $appname-font;
-  font-size: $appname-font-size;
-  color: $appname-font-color;
-  background-color: $appname-color-bg;
+  font-family: $font-main;
+  font-size: $font-size;
+  color: $font-color;
+  background-color: $color-bg;
 }
 
 
@@ -112,11 +112,11 @@ h1, h2, h3, h4, h5, h6, p, ul:not(.navbar-nav, .dropdown-menu) {
   margin: 0;
   margin-bottom: 10px;
   font-weight: normal;
-  color: $appname-color-primary;
+  color: $color-primary;
 }
 
 h1 {
-  font-family: $appname-font;
+  font-family: $font-main;
   font-size: 20px;
   margin-bottom: 20px;
   margin-top: 20px;
@@ -125,7 +125,7 @@ h1 {
 }
 
 h2 {
-  font-family: $appname-font;
+  font-family: $font-main;
   font-size: 16px;
   font-weight: bold;
   margin-bottom: 10px;
@@ -138,9 +138,9 @@ h3, h4, h5, h6 {
 }
 
 p, ul:not(.navbar-nav, .dropdown-menu) {
-  color: $appname-color-primary;
+  color: $color-primary;
   margin: 0;
-  font-size: $appname-font-size;
+  font-size: $font-size;
   margin-bottom: 20px;
   line-height: 26px;
   &:last-child {
@@ -149,11 +149,11 @@ p, ul:not(.navbar-nav, .dropdown-menu) {
 }
 
 a {
-  color: $appname-color-secondary;
+  color: $color-secondary;
   text-decoration: underline;
   outline: none;
   &:hover, &:focus {
-    color: $appname-color-primary;
+    color: $color-primary;
     outline: none;
   }
   &:active {

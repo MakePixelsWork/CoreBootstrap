@@ -4,26 +4,26 @@
 // - Using your application name is sometimes helpful
 
 // Colors
-$appname-color-primary: #0B486B;
-$appname-color-secondary: #3B8686;
+$color-primary: #0B486B;
+$color-secondary: #3B8686;
 
-$appname-color-bg: #ffffff;
+$color-bg: #ffffff;
 
 // Fonts
-$appname-font: Roboto, Arial, Verdana, "Helvetica Neue", sans-serif;
-$appname-font-host: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial,
+$font-main: Roboto, Arial, Verdana, "Helvetica Neue", sans-serif;
+$font-host: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial,
   Verdana, Helvetica, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
   "Segoe UI Symbol";
-$appname-font-color: #0B486B;
-$appname-font-size: 16px;
+$font-color: #0B486B;
+$font-size: 16px;
 
 // Backgrounds (example)
-$appname-background-radial: radial-gradient(
+$background-radial: radial-gradient(
   99.31% 99.31% at 0% 0.69%,
-  $appname-color-secondary 0%,
-  $appname-color-primary 100%
+  $color-secondary 0%,
+  $color-primary 100%
 );
 
 // Overrides for Bootstrap
-$primary: $appname-color-primary;
-$secondary: $appname-color-secondary;
+$primary: $color-primary;
+$secondary: $color-secondary;
