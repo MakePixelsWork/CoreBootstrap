@@ -32,7 +32,9 @@ prepros.config
 backup/
 download/
 
-# IGNORE > Logs
+# IGNORE > Logs and databases
+*.sql
+*.sqlite
 libpeerconnection.log
 npm-debug.log
 testem.log
