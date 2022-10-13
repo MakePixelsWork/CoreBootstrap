@@ -1,18 +1,43 @@
-# Ignore folders
-.DS_Store
-.history/
+# See https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
+
+# IGNORE > Compiled output
+/dist
+/tmp
+/out-tsc
+
+# IGNORE > Dependencies
 .sass-cache/
-backup/
-download/
 node_modules/
 
-# Ignore folder .vscode, except specific files
+# IGNORE > IDEs and editors
+*.launch
+*.sublime-workspace
+/.idea
+.c9/
+.classpath
+.project
+.settings/
+prepros.config
+
+# IGNORE > IDE > VSCode, except specific files
+*.code-workspace
+.history/*
 .vscode/*
 !.vscode/extensions.json
 !.vscode/launch.json
 !.vscode/settings.json
 !.vscode/tasks.json
-*.code-workspace
 
-# Ignore specific files
-prepros.config
+# IGNORE > Folders
+backup/
+download/
+
+# IGNORE > Logs
+libpeerconnection.log
+npm-debug.log
+testem.log
+yarn-error.log
+
+# IGNORE > System files
+.DS_Store
+Thumbs.db
