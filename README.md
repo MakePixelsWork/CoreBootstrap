@@ -15,8 +15,8 @@ Since Bootstrap itself is released under an MIT License, I've released my CoreBo
   - Sass:
     4.0.0 / 4.1.0 / 4.1.1 / 4.1.2 / 4.1.3 / 4.2.1 / 4.3.0 / 4.3.1 / 4.4.0 / 4.4.1 / 4.5.0 / 4.5.1 / 4.5.2 / 4.5.3 / 4.6.0 / 4.6.1 / 5.0.0 / 5.0.1 / 5.0.2 / 5.1.0 / 5.1.1 / 5.1.2 / 5.1.3
 - FontAwesome
-  - Less: 5.0.13 / 5.9.0 / 5.15.4 / 6.1.1
-  - Sass: 5.0.13 / 5.9.0 / 5.15.4 / 6.1.1
+  - Less: 5.15.4 / 6.1.1
+  - Sass: 5.15.4 / 6.1.1
 - LessHat
   - Less: 3.0.2
 
@@ -65,7 +65,7 @@ to<br>
 
 <strong>Bootstrap 5.2.0 and up</strong> introduce some new stuff which I need to test, before I can upgrade my own CoreBootstrap. It may involve a different method of compiling the main Sass file, which may not be backwards compatible. I'm now thinking about writing custom compiler files, per version. To be decided.
 
-<strong>Font Awesome</strong> provides three seemingly incoherent v5 downloads on their website. I asked them why... and they told me: "The reason behind those different versions in the Docs section of our site has to do when certain aspects of our code/tech changed. For instance, in version 5.9.0, we had a backwards incompatible change that was made, so we needed to have a slight variation to some of our docs. You can see more in our changelog <a href="https://github.com/FortAwesome/Font-Awesome/blob/master/CHANGELOG.md">here</a>." - This is the main reason I also provide those as part of my CoreBootstrap framework.
+<strong>Font Awesome</strong> is fully backwards compatible, so I've decided to only include the latest version of each major release.
 
 <strong>LessHat</strong> has not been updated since july 2019, but is still one of the best LESS mixin libraries available. I postponed installing v4.1.0 because it became dependent on NPM and Grunt... which is weird, because their initial product had no dependencies at all. I've not used LESS for several years now and mainly focus on Sass developments, but I still want to implement this newer mixin library one day. So its on my todos list ;).
 
