@@ -22142,6 +22142,11 @@ html, body {
   background-color: #ffffff;
 }
 
+/* BASE > CONTAINERS */
+header, main, footer {
+  position: relative;
+}
+
 /* BASE > TEXT */
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p, ul:not(.navbar-nav, .dropdown-menu) {
   position: relative;

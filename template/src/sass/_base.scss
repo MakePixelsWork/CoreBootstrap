@@ -103,6 +103,11 @@ html, body {
   background-color: $color-bg;
 }
 
+/* BASE > CONTAINERS */
+header, main, footer {
+  position: relative;
+}
+
 
 /* BASE > TEXT */
 // First normalize them, then redefine them below
