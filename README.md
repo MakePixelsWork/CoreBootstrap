@@ -55,9 +55,10 @@ to<br>
 
 ### PrePros settings
 
-- You can set PrePros to detect file changes in the other SCSS files, so it recompiles on each save. If you add your own, update the settings in the PrePros software.
-- PrePros constantly updates this file, so I've exluded it in the .gitignore file
-- I have made a 'prepros-backup.config' file available, in case you want to see the settings, or update them in between different machines.
+- When active, PrePros detects file changes and recompiles on each save. If you add your own files and/or (re)structure, you'll need to update the settings within the PrePros software.
+- PrePros constantly updates its settings file, so I've exluded it in the .gitignore file
+- I've made a 'prepros-backup.config' file available, in case you want to see the settings or update them in between different machines/projects.
+- Check the PrePros website for more info.
 
 ## Addendum
 
