@@ -65,7 +65,7 @@ to<br>
 Interested in the original source files? Check out the resources throught the links below.
 
 - Bootstrap
-  - Github > <a href="https://github.com/twbs/bootstrap">Bootstrap</a> > <a href="https://github.com/twbs/bootstrap/releases">Releases</a>
+  - GitHub > <a href="https://github.com/twbs/bootstrap">Bootstrap</a> > <a href="https://github.com/twbs/bootstrap/releases">Releases</a>
   - Website > <a href="https://getbootstrap.com/">getbootstrap.com</a>
 - Font Awesome
   - GitHub > <a href="https://github.com/FortAwesome/Font-Awesome">Font Awesome</a> > <a href="https://github.com/FortAwesome/Font-Awesome/releases">Releases</a>
