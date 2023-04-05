@@ -14,7 +14,7 @@ Since Bootstrap itself is released under an MIT License, I've released my CoreBo
     3.3.1 / 3.3.2 / 3.3.4 / 3.3.5 / 3.3.6 / 3.3.7 / 3.4.0 / 3.4.1
   - Sass:
     4.0.0 / 4.1.0 / 4.1.1 / 4.1.2 / 4.1.3 / 4.2.1 / 4.3.0 / 4.3.1 / 4.4.0 / 4.4.1 / 4.5.0 / 4.5.1 / 4.5.2 / 4.5.3 / 4.6.0 / 4.6.1 / 5.0.0 / 5.0.1 / 5.0.2 / 5.1.0 / 5.1.1 / 5.1.2 / 5.1.3
-- FontAwesome
+- Font Awesome
   - Less: 4.7.0 / 5.15.4 / 6.2.1
   - Sass: 4.7.0 / 5.15.4 / 6.2.1
 - LessHat
@@ -22,7 +22,7 @@ Since Bootstrap itself is released under an MIT License, I've released my CoreBo
 
 ## How to 'version' in LESS or SASS
 
-The bolded **LESS|SASS** in these steps define the _less_ or _sass_ folder or filename you choose to implement. The word 'ext' defines the extension of the files, if applicable. I've chosen to include this naming convention in the entire CoreBootstrap structure, but you can of course choose other file name(s) for you compiled CSS... ie simply styles.css.
+The bolded **LESS|SASS** in these steps define the _less_ or _sass_ folder or filename you choose to implement. The word 'ext' defines the extension of the files, if applicable. I've chosen to include this naming convention in the entire CoreBootstrap structure, but you can of course choose other file name(s) for you compiled CSS... i.e. simply 'styles.css'.
 
 Step 1 and 2 are only needed to install a newer version.
 
@@ -59,6 +59,19 @@ to<br>
 - PrePros constantly updates its settings file, so I've exluded it in the .gitignore file
 - I've made a 'prepros-backup.config' file available, in case you want to see the settings or update them in between different machines/projects.
 - Check the PrePros website for more info.
+
+## Resources
+
+Interested in the original source files? Check out the resources throught the links below.
+
+- Bootstrap
+  - Github > <a href="https://github.com/twbs/bootstrap">Bootstrap</a> > <a href="https://github.com/twbs/bootstrap/releases">Releases</a>
+  - Website > <a href="https://getbootstrap.com/">getbootstrap.com</a>
+- Font Awesome
+  - GitHub > <a href="https://github.com/FortAwesome/Font-Awesome">Font Awesome</a> > <a href="https://github.com/FortAwesome/Font-Awesome/releases">Releases</a>
+  - Website > <a href="https://fontawesome.com/">fontawesome.com</a>
+- LessHat
+  - GitHub > <a href="https://github.com/madebysource/lesshat/releases">LessHat</a> > <a href="https://github.com/madebysource/lesshat/releases">Releases</a>
 
 ## Addendum
 
