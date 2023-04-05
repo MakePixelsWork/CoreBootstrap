@@ -71,7 +71,7 @@ Interested in the original source files? Check out the resources throught the li
   - GitHub > <a href="https://github.com/FortAwesome/Font-Awesome">Font Awesome</a> > <a href="https://github.com/FortAwesome/Font-Awesome/releases">Releases</a>
   - Website > <a href="https://fontawesome.com/">fontawesome.com</a>
 - LessHat
-  - GitHub > <a href="https://github.com/madebysource/lesshat/releases">LessHat</a> > <a href="https://github.com/madebysource/lesshat/releases">Releases</a>
+  - GitHub > <a href="https://github.com/madebysource/lesshat/">LessHat</a> > <a href="https://github.com/madebysource/lesshat/releases">Releases</a>
 
 ## Addendum
 
