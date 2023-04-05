@@ -11542,9 +11542,9 @@ textarea.form-control-lg {
   }
 }
 /*!
- * Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com
+ * Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
- * Copyright 2022 Fonticons, Inc.
+ * Copyright 2023 Fonticons, Inc.
  */
 .fa {
   font-family: var(--fa-style-family, "Font Awesome 6 Free");
@@ -19973,9 +19973,9 @@ readers do not read off random characters that represent icons */
 }
 
 /*!
- * Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com
+ * Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
- * Copyright 2022 Fonticons, Inc.
+ * Copyright 2023 Fonticons, Inc.
  */
 :root, :host {
   --fa-style-family-classic: "Font Awesome 6 Free";
@@ -19987,7 +19987,7 @@ readers do not read off random characters that represent icons */
   font-style: normal;
   font-weight: 400;
   font-display: block;
-  src: url("../fonts/font-awesome/6-2-1/webfonts/fa-regular-400.woff2") format("woff2"), url("../fonts/font-awesome/6-2-1/webfonts/fa-regular-400.ttf") format("truetype");
+  src: url("../fonts/font-awesome/6-4-0/webfonts/fa-regular-400.woff2") format("woff2"), url("../fonts/font-awesome/6-4-0/webfonts/fa-regular-400.ttf") format("truetype");
 }
 .far,
 .fa-regular {
@@ -19995,9 +19995,9 @@ readers do not read off random characters that represent icons */
 }
 
 /*!
- * Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com
+ * Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
- * Copyright 2022 Fonticons, Inc.
+ * Copyright 2023 Fonticons, Inc.
  */
 :root, :host {
   --fa-style-family-classic: "Font Awesome 6 Free";
@@ -20009,7 +20009,7 @@ readers do not read off random characters that represent icons */
   font-style: normal;
   font-weight: 900;
   font-display: block;
-  src: url("../fonts/font-awesome/6-2-1/webfonts/fa-solid-900.woff2") format("woff2"), url("../fonts/font-awesome/6-2-1/webfonts/fa-solid-900.ttf") format("truetype");
+  src: url("../fonts/font-awesome/6-4-0/webfonts/fa-solid-900.woff2") format("woff2"), url("../fonts/font-awesome/6-4-0/webfonts/fa-solid-900.ttf") format("truetype");
 }
 .fas,
 .fa-solid {
@@ -20017,9 +20017,9 @@ readers do not read off random characters that represent icons */
 }
 
 /*!
- * Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com
+ * Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
- * Copyright 2022 Fonticons, Inc.
+ * Copyright 2023 Fonticons, Inc.
  */
 :root, :host {
   --fa-style-family-brands: "Font Awesome 6 Brands";
@@ -20031,7 +20031,7 @@ readers do not read off random characters that represent icons */
   font-style: normal;
   font-weight: 400;
   font-display: block;
-  src: url("../fonts/font-awesome/6-2-1/webfonts/fa-brands-400.woff2") format("woff2"), url("../fonts/font-awesome/6-2-1/webfonts/fa-brands-400.ttf") format("truetype");
+  src: url("../fonts/font-awesome/6-4-0/webfonts/fa-brands-400.woff2") format("woff2"), url("../fonts/font-awesome/6-4-0/webfonts/fa-brands-400.ttf") format("truetype");
 }
 .fab,
 .fa-brands {
@@ -21854,6 +21854,10 @@ readers do not read off random characters that represent icons */
   content: "\f26b";
 }
 
+.fa-stubber:before {
+  content: "\e5c7";
+}
+
 .fa-telegram:before {
   content: "\f2c6";
 }
@@ -21864,6 +21868,10 @@ readers do not read off random characters that represent icons */
 
 .fa-old-republic:before {
   content: "\f510";
+}
+
+.fa-odysee:before {
+  content: "\e5c6";
 }
 
 .fa-square-whatsapp:before {
@@ -22318,6 +22326,10 @@ hr {
 
 .no-margin {
   margin: 0 !important;
+}
+
+.no-wrap {
+  white-space: nowrap;
 }
 
 .text-left {
