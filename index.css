@@ -58,7 +58,17 @@ em {
   font-size: small;
   font-style: italic;
 }
-h3 {
+
+h2 {
   font-size: 20px;
+  font-weight: normal;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border-bottom: 1px dashed black;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-size: 18px;
   font-weight: normal;
 }
