@@ -1,0 +1,49 @@
+// COMPILER INFO (SASS)
+// - Use // as comments, because these are stripped
+// - Compile this file to '../../public/css/styles-sass.css'
+// - If applicable, accompanied with its own source map
+// - Update your HTML to point to the compiled CSS file
+
+// BOOTSTRAP 5 SETUP
+// - Option B, as shown at https://getbootstrap.com/docs/5.0/customize/sass/#importing
+// - 1. Add functions first
+// - 2. Add custom vars import
+// - 3. Add remainder or required imports
+// - 4. Add optional imports or whole Bootstrap framework
+// - 5. Add additional libraries
+// - 6. Add additional custom (split-up) code
+
+// 1. Functions
+@import "bootstrap/5-1-1/functions";
+
+// 2. Custom vars
+@import "variables";
+
+// 3. Remainder required
+@import "bootstrap/5-1-1/variables";
+@import "bootstrap/5-1-1/mixins";
+
+// 4. Optional
+@import "bootstrap/5-1-1/bootstrap";
+
+// 5. FONTAWESOME
+@import "font-awesome/6-4-0/fontawesome";
+
+// 5. FONTAWESOME > HACK
+// - Helps make the font path work correctly in SASS!
+// - This path is relative to the compiled CSS file
+// - Does NOT have a trailing slash!
+$fa-font-path: "../fonts/font-awesome/6-4-0/webfonts";
+
+// 5. FONTAWESOME > IMPORTS
+// - Enable certain fonts, depending on project
+@import "font-awesome/6-4-0/regular";
+@import "font-awesome/6-4-0/solid";
+@import "font-awesome/6-4-0/brands";
+
+// 6. INCLUDE ANY POSSIBLE SPLIT-UP SCSS FILES
+// - Improves programmer usability
+@import "base";
+// @import "header";
+// @import "menu";
+// @import "footer";
