@@ -47,13 +47,16 @@ div.color-1of12   { background-color: var(--color-6); }
 ol > li {
   margin-bottom: 10px;
 }
+
 ul li {
   list-style-type: disc;
 }
+
 .main-header {
   font-weight: bold;
   font-size: 30px;
 }
+
 em {
   font-size: small;
   font-style: italic;
