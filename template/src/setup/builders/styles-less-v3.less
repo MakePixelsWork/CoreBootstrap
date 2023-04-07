@@ -1,0 +1,41 @@
+// COMPILER INFO (LESS)
+// - Use // as comments, because these are stripped
+// - Compile this file to '../../public/css/styles-less.css'
+// - If applicable, accompanied with its own source map
+// - Update your HTML to point to the compiled CSS file
+
+// VERSIONING VARS/PATHS
+// - Only apply versioning in the following dynamic vars!
+// - These vars are also used in the core variables file!
+@version-bootstrap: "3-3-7";
+@version-glyphicons: @version-bootstrap;
+@version-fontawesome: "5-15-4";
+@version-lesshat: "3-0-2";
+
+// LOAD CLEAN FRAMEWORKS
+// - Untouched frameworks, each with their default variables
+@import "bootstrap/@{version-bootstrap}/bootstrap.less";
+@import "lesshat/@{version-lesshat}/lesshat-prefixed.less";
+@import "font-awesome/@{version-fontawesome}/fontawesome.less";
+
+// FONT-AWESOME > IMPORTS
+// - Enable certain fonts, depending on project
+// - Only works for v5.0.4 and above!
+@import "font-awesome/@{version-fontawesome}/brands.less";
+@import "font-awesome/@{version-fontawesome}/regular.less";
+@import "font-awesome/@{version-fontawesome}/solid.less";
+
+// DEFINE WEBSITE SPECIFIC VARIABLES
+// - The variables file contains some cloned variables from the frameworks
+// - You can add your own variables in the same file and/or add seperate mixins
+@import "variables.less";
+
+// INCLUDE ANY POSSIBLE SPLIT-UP LESS FILES
+// - Improves programmer usability
+@import "base.less";
+// @import "header.less";
+// @import "menu.less";
+// @import "footer.less";
+
+// UPGRADE ANY VERSIONED .JS IN YOUR TEMPLATE SYSTEM
+// - For instance the bootstrap.min.js
