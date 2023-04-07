@@ -4,12 +4,12 @@
 // - If applicable, accompanied with its own source map
 // - Update your HTML to point to the compiled CSS file
 
-// BOOTSTRAP 5 SETUP
-// - Option B, as shown at https://getbootstrap.com/docs/5.0/customize/sass/#importing
+// BOOTSTRAP SETUP
+// - Option B, as shown at https://getbootstrap.com/docs/5.1/customize/sass/#importing
 // - 1. Add functions first
 // - 2. Add custom vars import
 // - 3. Add remainder or required imports
-// - 4. Add optional imports or whole Bootstrap framework
+// - 4. Add optional imports OR whole Bootstrap framework
 // - 5. Add additional libraries
 // - 6. Add additional custom (split-up) code
 
@@ -22,8 +22,9 @@
 // 3. Remainder required
 @import "bootstrap/5-1-3/variables";
 @import "bootstrap/5-1-3/mixins";
+@import "bootstrap/5-1-3/root";
 
-// 4. Optional
+// 4. Whole framework
 @import "bootstrap/5-1-3/bootstrap";
 
 // 5. FONTAWESOME

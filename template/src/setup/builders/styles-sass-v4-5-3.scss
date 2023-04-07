@@ -4,11 +4,11 @@
 // - If applicable, accompanied with its own source map
 // - Update your HTML to point to the compiled CSS file
 
-// BOOTSTRAP 4 SETUP
-// - Option B, as shown at https://getbootstrap.com/docs/4.6/getting-started/theming/#importing
+// BOOTSTRAP SETUP
+// - Option B, as shown at https://getbootstrap.com/docs/4.5/getting-started/theming/#importing
 // - 1. Add minimal required imports
 // - 2. Add custom vars import
-// - 3. Add optional imports or whole Bootstrap framework
+// - 3. Add optional imports OR whole Bootstrap framework
 // - 4. Add additional libraries
 // - 5. Add additional custom (split-up) code
 
@@ -20,7 +20,7 @@
 // 2. Custom vars
 @import "variables";
 
-// 3. Optional
+// 3. Whole framework
 @import "bootstrap/4-5-3/bootstrap";
 
 // 4. FONTAWESOME
