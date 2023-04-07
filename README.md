@@ -13,7 +13,7 @@ Since Bootstrap itself is released under an MIT License, I've released my CoreBo
   - Less:
     3.3.1 / 3.3.2 / 3.3.4 / 3.3.5 / 3.3.6 / 3.3.7 / 3.4.0 / 3.4.1
   - Sass:
-    4.0.0 / 4.1.0 / 4.1.1 / 4.1.2 / 4.1.3 / 4.2.1 / 4.3.0 / 4.3.1 / 4.4.0 / 4.4.1 / 4.5.0 / 4.5.1 / 4.5.2 / 4.5.3 / 4.6.0 / 4.6.1 / 4.6.2 / 5.0.0 / 5.0.1 / 5.0.2 / 5.1.0 / 5.1.1 / 5.1.2 / 5.1.3
+    4.0.0 / 4.1.0 / 4.1.1 / 4.1.2 / 4.1.3 / 4.2.1 / 4.3.0 / 4.3.1 / 4.4.0 / 4.4.1 / 4.5.0 / 4.5.1 / 4.5.2 / 4.5.3 / 4.6.0 / 4.6.1 / 4.6.2 / 5.0.0 / 5.0.1 / 5.0.2 / 5.1.0 / 5.1.1 / 5.1.2 / 5.1.3 / 5.2.0 / 5.2.1 / 5.2.2 / 5.2.3
 - Font Awesome
   - Less: 4.7.0 / 5.15.4 / 6.4.0
   - Sass: 4.7.0 / 5.15.4 / 6.4.0
@@ -60,6 +60,10 @@ to<br>
 - I've made a 'prepros-backup.config' file available, in case you want to see the settings or update them in between different machines/projects.
 - Check the PrePros website for more info.
 
+## Setup templates
+
+I've made starter setups available for both the 'builds' as well as 'HTML' files needed to run your CoreBootstrap enabled website. These setup files make it easier to create your own versioned compiler and basic website templates. Check the 'template/src/setup' folder for more info.
+
 ## Resources
 
 Interested in the original source files? Check out the resources throught the links below.
@@ -76,8 +80,6 @@ Interested in the original source files? Check out the resources throught the li
 ## Addendum
 
 <strong>Bootstrap 5</strong> introduced lots of new features, which may break your old builds. These include Sass changes, a color system, grid updates, dropping code, new naming conventions... and lots of tweaks throughout the entire framework. If you start a new project, this does not concern you. If you upgrade from an older major version, then be sure to update your code where needed. A full migration guide can be found <a href="https://getbootstrap.com/docs/5.0/migration/">here</a>.
-
-<strong>Bootstrap 5.2.0 and up</strong> introduce some new stuff which I need to test, before I can upgrade my own CoreBootstrap. It may involve a different method of compiling the main Sass file, which may not be backwards compatible. I'm now thinking about writing custom compiler files, per version. To be decided.
 
 <strong>Font Awesome</strong> is fully backwards compatible, so I've decided to only include the latest version of each major release. 4.7.0 is the latest of v4, 5.15.4 the latest of v5, etc etc
 
