@@ -5,6 +5,10 @@
 /tmp
 /out-tsc
 
+# IGNORE > Databases
+*.sql
+*.sqlite
+
 # IGNORE > Dependencies
 .sass-cache/
 jspm_packages/
@@ -39,14 +43,15 @@ prepros.config
 .env.test.local
 .env.production.local
 
-# IGNORE > Logs and databases
-*.sql
-*.sqlite
+# IGNORE > Logs
 libpeerconnection.log
 npm-debug.log
 testem.log
 yarn-debug.log
 yarn-error.log
+
+# IGNORE > Production
+/build
 
 # IGNORE > System files
 .DS_Store
