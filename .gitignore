@@ -10,6 +10,10 @@
 jspm_packages/
 node_modules/
 
+# IGNORE > Folders
+backup/
+download/
+
 # IGNORE > IDEs and editors
 *.launch
 *.sublime-workspace
@@ -29,9 +33,11 @@ prepros.config
 !.vscode/settings.json
 !.vscode/tasks.json
 
-# IGNORE > Folders
-backup/
-download/
+# IGNORE > Local
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
 # IGNORE > Logs and databases
 *.sql
@@ -39,8 +45,12 @@ download/
 libpeerconnection.log
 npm-debug.log
 testem.log
+yarn-debug.log
 yarn-error.log
 
 # IGNORE > System files
 .DS_Store
 Thumbs.db
+
+# IGNORE > Testing
+/coverage
