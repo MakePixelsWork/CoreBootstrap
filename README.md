@@ -83,7 +83,7 @@ Interested in the original source files? Check out the resources throught the li
 
 <strong>Font Awesome</strong> is fully backwards compatible, so I've decided to only include the latest version of each major release. 4.7.0 is the latest of v4, 5.15.4 the latest of v5, etc etc
 
-<strong>LessHat</strong> has not been updated since july 2019, but is still one of the best LESS mixin libraries available. I postponed installing v4.1.0 because it became dependent on NPM and Grunt... which is weird, because their initial product had no dependencies at all. I've not used LESS for several years now and mainly focus on Sass developments, but I still want to implement this newer mixin library one day. So its on my todos list ;).
+<strong>LessHat</strong> has not been updated since july 2016, but is still one of the best LESS mixin libraries available. I postponed installing v4.1.0 because it became dependent on NPM and Grunt... which is weird, because their initial product had no dependencies at all. I've not used LESS for several years now and mainly focus on Sass developments, but I still want to implement this newer mixin library one day. So its on my todos list ;).
 
 Good luck with creating your awesome projects!
 
