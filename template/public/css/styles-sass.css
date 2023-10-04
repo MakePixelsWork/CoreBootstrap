@@ -22771,7 +22771,7 @@ readers do not read off random characters that represent icons */
 .which-res {
   position: fixed;
   right: 10px;
-  top: 10px;
+  bottom: 10px;
   z-index: 2000;
   background-color: red;
   border: 4px solid #ffffff;
@@ -22943,6 +22943,15 @@ hr {
   height: 1px !important;
   background-color: rgb(0, 0, 0);
   opacity: 1;
+}
+
+q::before {
+  margin-left: 0px;
+  margin-right: 3px;
+}
+q::after {
+  margin-left: 2px;
+  margin-right: 2px;
 }
 
 /* BASE > HELPERS */
