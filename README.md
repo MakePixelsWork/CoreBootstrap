@@ -1,5 +1,8 @@
 # CoreBootstrap
 
+> [!NOTE]
+> Added Bootstrap v5.3.2
+
 Back in 2014, I created CoreBootstrap for my own website projects. I needed a quick and easy method to up- or even downgrade between the different versions of Bootstrap, without having to constantly make changes, download newer/older versions or worse... get annoyed with the stupid CLI.
 
 CoreBootstrap is build to work on any OS, right out of the box. Copy it to a new project, remove redundant versions, follow some of the pre-defined settings, or initiate a compiler for only 1 file... and you are good to go!
