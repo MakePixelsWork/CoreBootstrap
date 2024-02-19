@@ -1,8 +1,12 @@
 {
+
+  // CSS Formatter
   "css.format.enable": false,
   "css.format.newlineBetweenRules": false,
   "css.format.newlineBetweenSelectors": false,
   "css.format.spaceAroundSelectorSeparator": false,
+
+  // Editor
   "editor.formatOnPaste": false,
   "editor.formatOnSave": false,
   "editor.tabSize": 2,
@@ -10,27 +14,35 @@
   "files.associations": {
     "*.inc": "html"
   },
+
+  // HTML Formatter
   "[html]": {
     "editor.defaultFormatter": "vscode.html-language-features"
   },
   "html.format.wrapLineLength": 0,
+
+  // Live Sass Compiler
   "liveSassCompile.settings.excludeList": [
-    "**/node_modules/**",
-	"**/template/src/less/**",
-	"**/template/src/sass/bootstrap/**",
-	"**/template/src/sass/font-awesome/**",
-	"**/template/src/setup/**",
-    ".vscode/**"
+    "/node_modules/**",
+    "/template/src/less/**",
+    "/template/src/sass/bootstrap/**",
+    "/template/src/sass/font-awesome/**",
+    "/template/src/setup/**",
+    "/.vscode/**"
   ],
   "liveSassCompile.settings.formats": [
     {
       "format": "expanded",
       "extensionName": ".css",
-      "savePath": "/template/public/css/"
+      "savePath": "/template/public/css"
     }
   ],
-  // Switched off, because you need to learn JavaScript
+
+  // JavaScript Formatter
+  // Switched off, because Vic needs to learn JavaScript
   // "javascript.format.enable": false,
+
+  // SCSS Format
   "scss.format.enable": false,
   "scss.format.newlineBetweenRules": false,
   "scss.format.newlineBetweenSelectors": false,
