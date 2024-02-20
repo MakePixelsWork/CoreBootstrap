@@ -5,7 +5,7 @@
 // - Update your HTML to point to the compiled CSS file
 
 // BOOTSTRAP SETUP
-// - Option B, as shown at https://getbootstrap.com/docs/5.2/customize/sass/#importing
+// - Option B, as shown at https://getbootstrap.com/docs/5.3/customize/sass/#importing
 // - 1. Add functions first
 // - 2. Add custom vars import
 // - 3. Add required default vars import
@@ -16,24 +16,25 @@
 // - 8. Add additional custom (split-up) code
 
 // 1. Functions
-@import "bootstrap/5-2-3/functions";
+@import "bootstrap/5-3-2/functions";
 
 // 2. Custom vars
 @import "variables";
 
 // 3. Required default vars
-@import "bootstrap/5-2-3/variables";
+@import "bootstrap/5-3-2/variables";
+@import "bootstrap/5-3-2/variables-dark";
 
 // 4. Optional maps overrides
 // None (see docs for details, if you need/want this)
 
 // 5. Remainder required
-@import "bootstrap/5-2-3/maps";
-@import "bootstrap/5-2-3/mixins";
-@import "bootstrap/5-2-3/root";
+@import "bootstrap/5-3-2/maps";
+@import "bootstrap/5-3-2/mixins";
+@import "bootstrap/5-3-2/root";
 
 // 6. Whole framework
-@import "bootstrap/5-2-3/bootstrap";
+@import "bootstrap/5-3-2/bootstrap";
 
 // 7. FONTAWESOME
 @import "font-awesome/6-4-2/fontawesome";
