@@ -1,7 +1,7 @@
 # CoreBootstrap
 
 > [!NOTE]
-> Added Bootstrap v5.3.2
+> Added Bootstrap v5.3.3
 
 Back in 2014, I created CoreBootstrap for my own website projects. I needed a quick and easy method to up- or even downgrade between the different versions of Bootstrap, without having to constantly make changes, download newer/older versions or worse... get annoyed with the stupid CLI.
 
@@ -16,7 +16,7 @@ Since Bootstrap itself is released under an MIT License, I've released my CoreBo
   - Less:
     3.3.1 / 3.3.2 / 3.3.4 / 3.3.5 / 3.3.6 / 3.3.7 / 3.4.0 / 3.4.1
   - Sass:
-    4.0.0 / 4.1.0 / 4.1.1 / 4.1.2 / 4.1.3 / 4.2.1 / 4.3.0 / 4.3.1 / 4.4.0 / 4.4.1 / 4.5.0 / 4.5.1 / 4.5.2 / 4.5.3 / 4.6.0 / 4.6.1 / 4.6.2 / 5.0.0 / 5.0.1 / 5.0.2 / 5.1.0 / 5.1.1 / 5.1.2 / 5.1.3 / 5.2.0 / 5.2.1 / 5.2.2 / 5.2.3 / 5.3.0 / 5.3.1 / 5.3.2
+    4.0.0 / 4.1.0 / 4.1.1 / 4.1.2 / 4.1.3 / 4.2.1 / 4.3.0 / 4.3.1 / 4.4.0 / 4.4.1 / 4.5.0 / 4.5.1 / 4.5.2 / 4.5.3 / 4.6.0 / 4.6.1 / 4.6.2 / 5.0.0 / 5.0.1 / 5.0.2 / 5.1.0 / 5.1.1 / 5.1.2 / 5.1.3 / 5.2.0 / 5.2.1 / 5.2.2 / 5.2.3 / 5.3.0 / 5.3.1 / 5.3.2 / 5.3.3
 - Font Awesome
   - Less: 5.15.4 / 6.5.1
   - Sass: 5.15.4 / 6.5.1
