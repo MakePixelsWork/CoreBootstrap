@@ -92,5 +92,5 @@ Interested in the original source files? Check out the resources throught the li
 Good luck with creating your awesome projects!
 
 <strong>Victor van der Put</strong><br>
-@MakePixelsWork
+<a href="https://github.com/MakePixelsWork">@MakePixelsWork</a>
 
