@@ -2,6 +2,7 @@
 
 > [!NOTE]
 > Added Bootstrap v5.3.3
+> Added Fontawesome v6.5.1
 
 Back in 2014, I created CoreBootstrap for my own website projects. I needed a quick and easy method to up- or even downgrade between the different versions of Bootstrap, without having to constantly make changes, download newer/older versions or worse... get annoyed with the stupid CLI.
 
@@ -50,7 +51,7 @@ Step 1 and 2 are only needed to install a newer version.
 
 ## How to compile
 
-- Use a compiler, ie PrePros, available at https://prepros.io/
+- Either use compiler software like <a href="https://prepros.io/">PrePros</a> or a compiler extension like <a href="https://marketplace.visualstudio.com/items?itemName=glenn2223.live-sass">Live Sass Compiler</a>, as recommended in the .vscode workspace folder
 - Only compile<br>
 /template/src/**less|sass**/styles-**less|sass**.ext<br>
 to<br>
