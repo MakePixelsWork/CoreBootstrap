@@ -1,6 +1,6 @@
 # Changelog
 
-This changelog lists all notable updates to the CoreBootstrap framework, in chronological order.
+This changelog lists all notable updates to the CoreBootstrap framework, in reverse chronological order.
 
 ## Unreleased
 
