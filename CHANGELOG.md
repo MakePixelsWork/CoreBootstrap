@@ -13,9 +13,9 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 ## Intermittent updates - 2024-02-23 till ...
 
 - Added `CHANGELOG.md`
-- Added comments with notes to self to changelog
+- Added helper comments to changelog
 - Added history to changelog
-- Added link to changelog inside `README.md`
+- Added link to changelog at top of `README.md`
 - Changed all v5 compiler templates to Fontawesome v6.4.2
 - Changed formatting of changelog
 - Fix error in wishlist
