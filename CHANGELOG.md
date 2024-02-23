@@ -6,9 +6,9 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 
 - Add LessHat v4.1.0
 - Add Sass' own compiler, with Node and NPM info
-- Add tertiary to base variables in v5.3.0 and up ([#8])
-- Fix injecting Sass variables inside a linked folder structure
-- Research effects of double Sass imports
+- Add tertiary to base variables in v5.3.0 and up [#8]
+- Fix injecting Sass variables inside a linked folder structure [#2]
+- Research effects of double Sass imports [#7]
 
 ## Intermittent updates - 2024-02-23 till now
 
@@ -165,3 +165,5 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 [Live Sass Compiler]: https://marketplace.visualstudio.com/items?itemName=glenn2223.live-sass
 
 [#8]: https://github.com/MakePixelsWork/CoreBootstrap/issues/8
+[#7]: https://github.com/MakePixelsWork/CoreBootstrap/issues/7
+[#2]: https://github.com/MakePixelsWork/CoreBootstrap/issues/2
