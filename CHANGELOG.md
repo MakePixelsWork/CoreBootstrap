@@ -150,6 +150,7 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 
 - Added Bootstrap v5.1.3, which fixes a breaking error
 
+
 <!-- Todo
 
 ## [CoreBootstrap v5.0.0 to v5.1.2] - 2021-10-09
@@ -182,6 +183,7 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
   - https://docs.stripe.com/changelog
 
 -->
+
 
 [CoreBootstrap v5.3.3]: https://github.com/MakePixelsWork/CoreBootstrap/tree/4af15546ac25887d3153ac3e638a64eed0154ee8
 
