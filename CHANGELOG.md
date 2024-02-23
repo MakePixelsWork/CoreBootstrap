@@ -4,7 +4,7 @@ This changelog lists all notable updates to the CoreBootstrap framework, in chro
 
 ## Unreleased
 
-- Add LessHat 
+- Add LessHat v4.1.0
 - Add Sass' own compiler, with Node and NPM info
 - Add tertiary to base variables in v5.3.0 and up
 - Fix injecting Sass variables inside a linked folder structure
@@ -18,6 +18,7 @@ This changelog lists all notable updates to the CoreBootstrap framework, in chro
 - Added link to changelog inside `README.md`
 - Changed all v5 compiler templates to Fontawesome v6.4.2
 - Changed formatting of changelog
+- Fix error in wishlist
 
 ## [CoreBootstrap v5.3.3] - 2024-02-22
 
