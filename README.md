@@ -1,8 +1,7 @@
 # CoreBootstrap
 
 > [!NOTE]
-> Added Bootstrap v5.3.3<br>
-> Added Fontawesome v6.5.1
+> Check the [changelog](CHANGELOG.md) for latest updates!
 
 Back in 2014, I created CoreBootstrap for my own website projects. I needed a quick and easy method to up- or even downgrade between the different versions of Bootstrap, without having to constantly make changes, download newer/older versions or worse... get annoyed with the stupid CLI.
 
