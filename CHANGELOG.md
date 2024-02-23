@@ -99,21 +99,26 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 - Fixed setup files, so they are all synced with similar code
 - Improved explanation in all Sass compiler files
 
-## Intermittent updates - 2021-12-05 till 2023-04-05
+## Intermittent updates - 2021-11-02 till 2023-04-05
 
+- Added `.which-res` to show active breakpoints
+- Added breakpoint helpers in `_base.scss`
 - Added empty `favicon.gif` and `favicon.ico` to thwart 404 errors in some browsers
 - Added Fontawesome v4.7.0, for backward compatibility
 - Added Fontawesome v6.1.1
 - Added Fontawesome v6.2.1
 - Added Fontawesome v6.4.0
+- Added reoccuring code essentials to `_base.scss` and `_variables.scss`
 - Added setup files for Bootstrap v4.6.2
 - Added `scss.format` limitations to `settings.json`
 - Added several helpers to `_base.scss`
 - Added several resets to `_base.scss`
+- Added v3 breakpoint helpers in `base.less`
+- Added v5 breakpoint helpers in `_base.scss`
 - Changed `.gitignore`
 - Changed `.prettierignore`
-- Changed custom breakpoint helpers in `_base.scss`
 - Changed base settings in `styles-sass-v5.scss`
+- Changed breakpoint helpers in `_base.scss`
 - Changed demo page
 - Changed documentation
 - Changed Fontawesome file structure
@@ -124,6 +129,7 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 - Fixed breakpoints mismatch in `_base.scss` explanation
 - Fixed grammar
 - Fixed LessHat link
+- Removed copyright from core LESS files
 - Removed deprecated `eg2.vscode-npm-script` from `extensions.json`
 - Removed deprecated `felixfbecker.php-pack` from `extensions.json`
 - Removed Fontawesome v5.0.4
@@ -133,6 +139,31 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 - Removed Fontawesome v6.2.1
 - Removed redundant `appname-` from `_base.scss` and `_variables.scss`
 - Removed Twitter from `README`
+
+## [CoreBootstrap v4.6.1] - 2021-11-01
+
+- Added Bootstrap v4.6.1
+- Added example setup files
+- Changed documentation
+
+## [CoreBootstrap v5.1.3] - 2021-10-10
+
+- Added Bootstrap v5.1.3, which fixes a breaking error
+
+<!-- Todo
+
+## [CoreBootstrap v5.0.0 to v5.1.2] - 2021-10-09
+
+- Added Bootstrap v5.0.0
+- Added Bootstrap v5.0.1
+- Added Bootstrap v5.0.2
+- Added Bootstrap v5.1.0
+- Added Bootstrap v5.1.1
+- Added Bootstrap v5.1.2
+ -->
+
+
+
 
 
 <!--
@@ -161,6 +192,12 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 [CoreBootstrap v5.3.0]: https://github.com/MakePixelsWork/CoreBootstrap/tree/aa8e172a8fe860ed5a952a7fd90e229945a91f54
 
 [CoreBootstrap v5.2.0 to v5.2.3]: https://github.com/MakePixelsWork/CoreBootstrap/tree/777b0b147eda48278789a54770ea196289aafa8f
+
+[CoreBootstrap v5.1.3]: (https://github.com/MakePixelsWork/CoreBootstrap/tree/654cfd61f16e225b1f2ed43fb7ecdb1eee542527)
+
+[CoreBootstrap v5.0.0 to v5.1.2]: (https://github.com/MakePixelsWork/CoreBootstrap/tree/ecf64a3f48daf706868bee1c21889c5fd80cb75b)
+
+[CoreBootstrap v4.6.1]: https://github.com/MakePixelsWork/CoreBootstrap/tree/db749df90e2f2ec2abc9091c46debca4308510f0
 
 [Live Sass Compiler]: https://marketplace.visualstudio.com/items?itemName=glenn2223.live-sass
 
