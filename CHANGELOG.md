@@ -269,6 +269,7 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 ## Init - 2019-10-22
 
 
+
 <!--
   Types of changes
   - Added: for new features.
