@@ -1,6 +1,6 @@
 # Changelog
 
-This changelog lists all notable updates to the CoreBootstrap framework, in reverse chronological order. It adheres to the [Semantic Versioning](https://semver.org/spec/v2.0.0.html) of the original Bootstrap framework. CoreBootstrap versions are equal to theirs.
+This changelog lists all notable updates to the CoreBootstrap framework, in reverse chronological order. It adheres to the [Semantic Versioning](https://semver.org/spec/v2.0.0.html) of the original Bootstrap framework. CoreBootstrap versions are equal to theirs. Versions older that 4.4.0 are available, but not logged.
 
 ## Unreleased
 
