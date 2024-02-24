@@ -242,23 +242,7 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 - Added PrePros `package(-lock).json` and `prepros.cfg`
 - Changed documentation
 - Removed Bootstrap Icons
-- Removed Fontawesome v4.1.0
-- Removed Fontawesome v4.2.0
-- Removed Fontawesome v4.3.0
-- Removed Fontawesome v4.4.0
-- Removed Fontawesome v4.5.0
-- Removed Fontawesome v4.6.3
-- Removed Fontawesome v4.7.0
-- Removed Fontawesome v5.1.1
-- Removed Fontawesome v5.2.0
-- Removed Fontawesome v5.3.1
-- Removed Fontawesome v5.4.2
-- Removed Fontawesome v5.5.0
-- Removed Fontawesome v5.6.3
-- Removed Fontawesome v5.7.2
-- Removed Fontawesome v5.8.2
-- Removed Fontawesome v5.10.2
-- Removed Fontawesome v5.11.2
+- Removed 17 Fontawesome versions, keeping only latest of all majors
 
 ## [CoreBootstrap v4.5.0] - 2020-05-12
 
@@ -267,7 +251,7 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 
 ## [CoreBootstrap v4.4.0 and v4.4.1] - 2019-11-28
 
-- Added 19 Fontawesome versions (v4.1.0 till v5.11.2)
+- Added 19 Fontawesome versions (v4.1.0 to v5.11.2)
 - Added Bootstrap v4.4.0
 - Added Bootstrap v4.4.1
 - Added example templates
