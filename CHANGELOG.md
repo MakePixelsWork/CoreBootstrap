@@ -16,17 +16,18 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 - Added helper comments to changelog
 - Added history to changelog
 - Added link to changelog at top of `README.md`
-- Changed all v5 compiler templates to Fontawesome v6.4.2
+- Changed all v5 compiler templates to Fontawesome v6.5.1
+- Changed documentation
 - Changed formatting of changelog
 - Fixed error in wishlist
 
 ## [CoreBootstrap v5.3.3] - 2024-02-22
 
 - Added Bootstrap v5.3.3
-- Added example setup files
+- Added example templates
 - Added link to my GitHub profile
+- Changed compiler settings in `styles-sass.scss`
 - Changed documentation
-- Changed versioning inside `styles-sass.scss`
 - Fixed grammar
 - Fixed versioning inside `_base.scss`
 
@@ -37,10 +38,10 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 - Added info alert at top of `README.md`
 - Added `<img>` resets to `_base.scss`
 - Added `<q>` resets to `_base.scss`
+- Changed compiler settings in `styles-sass.scss`
 - Changed documentation
 - Changed `extensions.json` to reflect [Live Sass Compiler] advice
-- Changed `prepros.config` to ignores setup files
-- Changed versioning inside `styles-sass.scss`
+- Changed `prepros(-backup).config` to ignores templates
 - Changed years in `LICENCE`
 - Fixed grammar
 - Fixed wrong versioning in demo page
@@ -50,11 +51,11 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 ## [CoreBootstrap v5.3.2] - 2023-10-02
 
 - Added Bootstrap v5.3.2
-- Added example setup files
+- Added example templates
 - Added Fontawesome v6.4.2
-- Backup PrePros settings in `prepros-backup.config`
-- Changed documentation
 - Changed all v5 compiler templates to latest Fontawesome
+- Changed documentation
+- Changed settings in `prepros(-backup).config`
 - Changed versioning inside `_base.scss`
 - Fixed grammar
 - Removed Fontawesome v6.4.0
@@ -63,7 +64,7 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 ## [CoreBootstrap v5.3.1] - 2023-08-08
 
 - Added Bootstrap v5.3.1
-- Added example setup files
+- Added example templates
 - Changed documentation
 
 ## Intermittent updates - 2023-07-20
@@ -73,10 +74,10 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 ## [CoreBootstrap v5.3.0] - 2023-06-02
 
 - Added Bootstrap v5.3.0
-- Added example setup files
+- Added example templates
+- Changed compiler settings in `styles-sass.scss`
 - Changed documentation
 - Changed setup `README.md`
-- Changed versioning inside `styles-sass.scss`
 - Changed years in `LICENCE`
 - Removed Twitter from `LICENCE`
 
@@ -90,13 +91,13 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 - Added Bootstrap v5.2.1
 - Added Bootstrap v5.2.2
 - Added Bootstrap v5.2.3
-- Added example setup files for both LESS and Sass
+- Added example templates for both LESS and Sass
 - Added setup folder structure
 - Added setup `README.md`
 - Changed documentation
 - Changed documentation styling
 - Fixed grammar
-- Fixed setup files, so they are all synced with similar code
+- Fixed templates, so they are all synced with similar code
 - Improved explanation in all Sass compiler files
 
 ## Intermittent updates - 2021-11-02 till 2023-04-05
@@ -108,8 +109,9 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 - Added Fontawesome v6.1.1
 - Added Fontawesome v6.2.1
 - Added Fontawesome v6.4.0
-- Added reoccuring code essentials to `_base.scss` and `_variables.scss`
-- Added setup files for Bootstrap v4.6.2
+- Added reoccuring code essentials to `_base.scss`
+- Added reoccuring variables to `_variables.scss`
+- Added templates for Bootstrap v4.6.2
 - Added `scss.format` limitations to `settings.json`
 - Added several helpers to `_base.scss`
 - Added several resets to `_base.scss`
@@ -117,14 +119,14 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 - Added v5 breakpoint helpers in `_base.scss`
 - Changed `.gitignore`
 - Changed `.prettierignore`
-- Changed base settings in `styles-sass-v5.scss`
+- Changed compiler settings in `styles-less.less`
+- Changed compiler settings in `styles-sass-v5.scss`
 - Changed breakpoint helpers in `_base.scss`
 - Changed demo page
 - Changed documentation
 - Changed Fontawesome file structure
 - Changed helpers naming conventions to prevent clash with v5's new classes
 - Changed `LICENCE`
-- Changed `styles-less.less`
 - Changed workspace files
 - Fixed breakpoints mismatch in `_base.scss` explanation
 - Fixed grammar
@@ -140,35 +142,150 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 - Removed redundant `appname-` from `_base.scss` and `_variables.scss`
 - Removed Twitter from `README`
 
-## [CoreBootstrap v4.6.1] - 2021-11-01
-
-- Added Bootstrap v4.6.1
-- Added example setup files
-- Changed documentation
-
 ## [CoreBootstrap v5.1.3] - 2021-10-10
 
 - Added Bootstrap v5.1.3, which fixes a breaking error
 
-
-<!-- Todo
-
 ## [CoreBootstrap v5.0.0 to v5.1.2] - 2021-10-09
 
+- Added backup folder to `.gitignore`
 - Added Bootstrap v5.0.0
 - Added Bootstrap v5.0.1
 - Added Bootstrap v5.0.2
 - Added Bootstrap v5.1.0
 - Added Bootstrap v5.1.1
 - Added Bootstrap v5.1.2
- -->
+- Added example templates
+- Added `ecmel.vscode-html-css` to `extensions.json`
+- Added `eg2.vscode-npm-script` to `extensions.json`
+- Added `felixfbecker.php-pack` to `extensions.json`
+- Added `formulahendry.auto-rename-tag` to `extensions.json`
+- Added `pkief.material-icon-theme` to `extensions.json`
+- Changed documentation
+- Removed CoreBootstrap demo from testingoursite.com
+- Removed `integrity` and `crossorigin` tags from all templates
 
+## Intermittent updates - 2021-06-14 till 2021-10-08
 
+- Added `.which-res` helper
+- Added Fontawesome v5.15.4
+- Added helpers to `base.less` and `_base.scss`
+- Added compiler settings in `styles-sass-v4.scss`
+- Added compiler settings in `styles-sass-v5.scss`
+- Added warning about breaking changes to documentation
+- Changed documentation
+- Changed settings in `.prettierignore`
+- Changed settings in `.which-res` helper
+- Changed settings in `prepros(-backup).config`
+- Changed settings in `settings.json`
+- Fixed duplicate code in `base.less` and `_base.scss`
+- Fixed grammar
+- Fixed helpers in `base.less` and `_base.scss`
+- Fixed incorrect webfonts links
+- Removed Fontawesome v5.15.3
+
+## [CoreBootstrap v5.0.0] - 2021-05-11
+
+- Added Bootstrap v5.0.0
+- Added example templates
+- Changed documentation
+- Removed CoreBootstrap ZIP download links
+
+## [CoreBootstrap v4.6.1] - 2021-11-01
+
+- Added Bootstrap v4.6.1
+- Added example templates
+- Changed documentation
+
+## Intermittent updates - 2021-02-16 till 2021-03-29
+
+- Added Fontawesome v5.15.3
+- Added `.editorconfig` for same named extension
+- Added `.prettierignore`
+- Added `blueprint()` mixin to `_base.scss`
+- Added default recommendations to `extensions.json`
+- Added images folder with best practice advice in its own `README.md`
+- Added `prepros(-backup).config`
+- Added `vscode.html-language-features` to `settings.json`
+- Changed `.gitignore`
+- Changed all compiler templates to use relative paths
+- Changed documentation
+- Changed compiler settings in `styles-sass.scss`
+- Changed `LICENCE`
+- Changed settings in `_base.scss` and `_variables.scss`
+- Changed settings in `prepros(-backup).config`
+- Changed settings in `settings.json`
+- Fixed duplicate code
+- Fixed grammar
+- Removed Fontawesome v5.15.2
+- Removed `prepros.config`
+- Removed `ritwickdey.liveserver` from `extensions.json`
+- Removed `esbenp.prettier-vscode` from `extensions.json`
+- Removed redundant `prepros.cfg`
+- Testing Dart Sass
+
+## [CoreBootstrap v4.5.1 to 4.6.0] - 2021-02-15
+
+- Added Bootstrap v4.5.1
+- Added Bootstrap v4.5.2
+- Added Bootstrap v4.5.3
+- Added Bootstrap v4.6.0
+- Added example templates
+- Added Fontawesome v5.15.2
+- Changed `.gitignore`
+- Changed documentation
+- Removed Fontawesome v5.15.1
+
+## Intermittent updates - 2020-09-23 till 2021-01-16
+
+- Added Fontawesome v5.15.1
+- Added PrePros `package(-lock).json` and `prepros.cfg`
+- Changed documentation
+- Removed Bootstrap Icons
+- Removed Fontawesome v4.1.0
+- Removed Fontawesome v4.2.0
+- Removed Fontawesome v4.3.0
+- Removed Fontawesome v4.4.0
+- Removed Fontawesome v4.5.0
+- Removed Fontawesome v4.6.3
+- Removed Fontawesome v4.7.0
+- Removed Fontawesome v5.1.1
+- Removed Fontawesome v5.2.0
+- Removed Fontawesome v5.3.1
+- Removed Fontawesome v5.4.2
+- Removed Fontawesome v5.5.0
+- Removed Fontawesome v5.6.3
+- Removed Fontawesome v5.7.2
+- Removed Fontawesome v5.8.2
+- Removed Fontawesome v5.10.2
+- Removed Fontawesome v5.11.2
+
+## [CoreBootstrap v4.5.0] - 2020-05-12
+
+- Added Bootstrap v4.5.0
+- Changed documentation
+
+## [CoreBootstrap v4.4.0 and v4.4.1] - 2019-11-28
+
+- Added 19 Fontawesome versions (v4.1.0 till v5.11.2)
+- Added Bootstrap v4.4.0
+- Added Bootstrap v4.4.1
+- Added example templates
+- Changed documentation
+- Changed fonts files for a few Fontawesome versions
+
+## Intermittent updates - 2019-10-22 till 2019-10-27
+
+- Added `.gitignore`
+- Added `LICENCE`
+- Added documentation
+- Added local files to GitHub
+- Changed `LICENCE`
+- Init
 
 
 
 <!--
-
   Types of changes
   - Added: for new features.
   - Changed: for changes in existing functionality.
@@ -181,28 +298,26 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
   - https://elementor.com/pro/changelog/
   - https://docs.cypress.io/guides/references/changelog
   - https://docs.stripe.com/changelog
-
 -->
 
+<!-- Issues -->
+[#2]: https://github.com/MakePixelsWork/CoreBootstrap/issues/2
+[#7]: https://github.com/MakePixelsWork/CoreBootstrap/issues/7
+[#8]: https://github.com/MakePixelsWork/CoreBootstrap/issues/8
 
-[CoreBootstrap v5.3.3]: https://github.com/MakePixelsWork/CoreBootstrap/tree/4af15546ac25887d3153ac3e638a64eed0154ee8
-
-[CoreBootstrap v5.3.2]: https://github.com/MakePixelsWork/CoreBootstrap/tree/d58ce8fac623f2651c1f8cb5ea845b8c39c9b1eb
-
-[CoreBootstrap v5.3.1]: https://github.com/MakePixelsWork/CoreBootstrap/tree/225224083fd2cb106921ae4e7cbe2d04afec9e4c
-
-[CoreBootstrap v5.3.0]: https://github.com/MakePixelsWork/CoreBootstrap/tree/aa8e172a8fe860ed5a952a7fd90e229945a91f54
-
-[CoreBootstrap v5.2.0 to v5.2.3]: https://github.com/MakePixelsWork/CoreBootstrap/tree/777b0b147eda48278789a54770ea196289aafa8f
-
-[CoreBootstrap v5.1.3]: https://github.com/MakePixelsWork/CoreBootstrap/tree/654cfd61f16e225b1f2ed43fb7ecdb1eee542527
-
-[CoreBootstrap v5.0.0 to v5.1.2]: https://github.com/MakePixelsWork/CoreBootstrap/tree/ecf64a3f48daf706868bee1c21889c5fd80cb75b
-
-[CoreBootstrap v4.6.1]: https://github.com/MakePixelsWork/CoreBootstrap/tree/db749df90e2f2ec2abc9091c46debca4308510f0
-
+<!-- Tools -->
 [Live Sass Compiler]: https://marketplace.visualstudio.com/items?itemName=glenn2223.live-sass
 
-[#8]: https://github.com/MakePixelsWork/CoreBootstrap/issues/8
-[#7]: https://github.com/MakePixelsWork/CoreBootstrap/issues/7
-[#2]: https://github.com/MakePixelsWork/CoreBootstrap/issues/2
+<!-- Versions -->
+[CoreBootstrap v4.4.0 and v4.4.1]: https://github.com/MakePixelsWork/CoreBootstrap/tree/a47c057f0902fd8ff4b3ad31ff118396829f138a
+[CoreBootstrap v4.5.0]: https://github.com/MakePixelsWork/CoreBootstrap/tree/9442d35527f52302ddf8fe3cb3033d7c5cd6ca7f
+[CoreBootstrap v4.5.1 to 4.6.0]: https://github.com/MakePixelsWork/CoreBootstrap/tree/6ca2575f6780925999d34152a448250dd870c045
+[CoreBootstrap v4.6.1]: https://github.com/MakePixelsWork/CoreBootstrap/tree/db749df90e2f2ec2abc9091c46debca4308510f0
+[CoreBootstrap v5.0.0]: https://github.com/MakePixelsWork/CoreBootstrap/tree/dd9548c86fb403ea719b185d5abeeb60526b7ff8
+[CoreBootstrap v5.0.0 to v5.1.2]: https://github.com/MakePixelsWork/CoreBootstrap/tree/ecf64a3f48daf706868bee1c21889c5fd80cb75b
+[CoreBootstrap v5.1.3]: https://github.com/MakePixelsWork/CoreBootstrap/tree/654cfd61f16e225b1f2ed43fb7ecdb1eee542527
+[CoreBootstrap v5.2.0 to v5.2.3]: https://github.com/MakePixelsWork/CoreBootstrap/tree/777b0b147eda48278789a54770ea196289aafa8f
+[CoreBootstrap v5.3.0]: https://github.com/MakePixelsWork/CoreBootstrap/tree/aa8e172a8fe860ed5a952a7fd90e229945a91f54
+[CoreBootstrap v5.3.1]: https://github.com/MakePixelsWork/CoreBootstrap/tree/225224083fd2cb106921ae4e7cbe2d04afec9e4c
+[CoreBootstrap v5.3.2]: https://github.com/MakePixelsWork/CoreBootstrap/tree/d58ce8fac623f2651c1f8cb5ea845b8c39c9b1eb
+[CoreBootstrap v5.3.3]: https://github.com/MakePixelsWork/CoreBootstrap/tree/4af15546ac25887d3153ac3e638a64eed0154ee8
