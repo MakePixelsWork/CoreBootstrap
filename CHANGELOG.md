@@ -281,8 +281,8 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 - Added documentation
 - Added local files to GitHub
 - Changed `LICENCE`
-- Init
 
+## Init - 2019-10-22
 
 
 <!--
