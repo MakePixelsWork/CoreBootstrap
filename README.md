@@ -64,7 +64,7 @@ to<br>
 
 ## Setup templates
 
-I've made starter setups available for both the 'builds' as well as 'HTML' files needed to run your CoreBootstrap enabled website. These setup files make it easier to create your own versioned compiler and basic website templates. Check the 'template/src/setup' folder for more info.
+I've made starter setups available for both the 'builds' as well as 'HTML' files needed to run your CoreBootstrap enabled website. These templates make it easier to create your own versioned compiler and basic websites. Check the 'template/src/setup' folder for more info.
 
 ## Resources
 
