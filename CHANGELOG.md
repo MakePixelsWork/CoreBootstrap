@@ -151,6 +151,20 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 - Added Bootstrap v5.1.3, which fixes a breaking error
 
 
+<!-- Todo
+
+## [CoreBootstrap v5.0.0 to v5.1.2] - 2021-10-09
+
+- Added Bootstrap v5.0.0
+- Added Bootstrap v5.0.1
+- Added Bootstrap v5.0.2
+- Added Bootstrap v5.1.0
+- Added Bootstrap v5.1.1
+- Added Bootstrap v5.1.2
+ -->
+
+
+
 
 
 <!--
@@ -181,7 +195,9 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 
 [CoreBootstrap v5.2.0 to v5.2.3]: https://github.com/MakePixelsWork/CoreBootstrap/tree/777b0b147eda48278789a54770ea196289aafa8f
 
-[CoreBootstrap v5.1.3]: (https://github.com/MakePixelsWork/CoreBootstrap/tree/654cfd61f16e225b1f2ed43fb7ecdb1eee542527)
+[CoreBootstrap v5.1.3]: https://github.com/MakePixelsWork/CoreBootstrap/tree/654cfd61f16e225b1f2ed43fb7ecdb1eee542527
+
+[CoreBootstrap v5.0.0 to v5.1.2]: https://github.com/MakePixelsWork/CoreBootstrap/tree/ecf64a3f48daf706868bee1c21889c5fd80cb75b
 
 [CoreBootstrap v4.6.1]: https://github.com/MakePixelsWork/CoreBootstrap/tree/db749df90e2f2ec2abc9091c46debca4308510f0
 
