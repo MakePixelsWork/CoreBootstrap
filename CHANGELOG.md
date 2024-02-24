@@ -18,7 +18,7 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 - Added link to changelog at top of `README.md`
 - Changed all v5 compiler templates to Fontawesome v6.4.2
 - Changed formatting of changelog
-- Fix error in wishlist
+- Fixed error in wishlist
 
 ## [CoreBootstrap v5.3.3] - 2024-02-22
 
