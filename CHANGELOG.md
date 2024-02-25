@@ -2,6 +2,8 @@
 
 This changelog lists all notable updates to the CoreBootstrap framework, in reverse chronological order. It adheres to the [Semantic Versioning](https://semver.org/spec/v2.0.0.html) of the original Bootstrap framework. CoreBootstrap versions are equal to theirs. Versions older than 4.4.0 are available, but not logged.
 
+Changes to documentation, fixing grammar and other small updates are common practice in every release, so they aren't mentioned in this changelog.
+
 ## Unreleased
 
 - Add LessHat v4.1.0
@@ -17,7 +19,6 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 - Added history to changelog
 - Added link to changelog at top of `README.md`
 - Changed all v5 compiler templates to Fontawesome v6.5.1
-- Changed documentation
 - Changed formatting of changelog
 - Fixed error in wishlist
 
@@ -27,8 +28,6 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 - Added example templates
 - Added link to my GitHub profile
 - Changed compiler settings in `styles-sass.scss`
-- Changed documentation
-- Fixed grammar
 - Fixed versioning inside `_base.scss`
 
 ## Intermittent updates - 2023-10-04 till 2024-02-21
@@ -39,11 +38,9 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 - Added `<img>` resets to `_base.scss`
 - Added `<q>` resets to `_base.scss`
 - Changed compiler settings in `styles-sass.scss`
-- Changed documentation
 - Changed `extensions.json` to reflect [Live Sass Compiler] advice
 - Changed `prepros(-backup).config` to ignores templates
 - Changed years in `LICENCE`
-- Fixed grammar
 - Fixed wrong versioning in demo page
 - Removed Fontawesome v4.7.0 (deprecated)
 - Removed Fontawesome v6.4.2
@@ -54,10 +51,8 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 - Added example templates
 - Added Fontawesome v6.4.2
 - Changed all v5 compiler templates to latest Fontawesome
-- Changed documentation
 - Changed settings in `prepros(-backup).config`
 - Changed versioning inside `_base.scss`
-- Fixed grammar
 - Removed Fontawesome v6.4.0
 - Removed redundant compiler folder
 
@@ -65,7 +60,6 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 
 - Added Bootstrap v5.3.1
 - Added example templates
-- Changed documentation
 
 ## Intermittent updates - 2023-07-20
 
@@ -76,7 +70,6 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 - Added Bootstrap v5.3.0
 - Added example templates
 - Changed compiler settings in `styles-sass.scss`
-- Changed documentation
 - Changed setup `README.md`
 - Changed years in `LICENCE`
 - Removed Twitter from `LICENCE`
@@ -94,9 +87,6 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 - Added example templates for both LESS and Sass
 - Added setup folder structure
 - Added setup `README.md`
-- Changed documentation
-- Changed documentation styling
-- Fixed grammar
 - Fixed templates, so they are all synced with similar code
 - Improved explanation in all Sass compiler files
 
@@ -123,13 +113,11 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 - Changed compiler settings in `styles-sass-v5.scss`
 - Changed breakpoint helpers in `_base.scss`
 - Changed demo page
-- Changed documentation
 - Changed Fontawesome file structure
 - Changed helpers naming conventions to prevent clash with v5's new classes
 - Changed `LICENCE`
 - Changed workspace files
 - Fixed breakpoints mismatch in `_base.scss` explanation
-- Fixed grammar
 - Fixed LessHat link
 - Removed copyright from core LESS files
 - Removed deprecated `eg2.vscode-npm-script` from `extensions.json`
@@ -161,7 +149,6 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 - Added `felixfbecker.php-pack` to `extensions.json`
 - Added `formulahendry.auto-rename-tag` to `extensions.json`
 - Added `pkief.material-icon-theme` to `extensions.json`
-- Changed documentation
 - Removed CoreBootstrap demo from testingoursite.com
 - Removed `integrity` and `crossorigin` tags from all templates
 
@@ -173,13 +160,11 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 - Added compiler settings in `styles-sass-v4.scss`
 - Added compiler settings in `styles-sass-v5.scss`
 - Added warning about breaking changes to documentation
-- Changed documentation
 - Changed settings in `.prettierignore`
 - Changed settings in `.which-res` helper
 - Changed settings in `prepros(-backup).config`
 - Changed settings in `settings.json`
 - Fixed duplicate code in `base.less` and `_base.scss`
-- Fixed grammar
 - Fixed helpers in `base.less` and `_base.scss`
 - Fixed incorrect webfonts links
 - Removed Fontawesome v5.15.3
@@ -188,14 +173,12 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 
 - Added Bootstrap v5.0.0
 - Added example templates
-- Changed documentation
 - Removed CoreBootstrap ZIP download links
 
 ## [CoreBootstrap v4.6.1] - 2021-11-01
 
 - Added Bootstrap v4.6.1
 - Added example templates
-- Changed documentation
 
 ## Intermittent updates - 2021-02-16 till 2021-03-29
 
@@ -209,14 +192,12 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 - Added `vscode.html-language-features` to `settings.json`
 - Changed `.gitignore`
 - Changed all compiler templates to use relative paths
-- Changed documentation
 - Changed compiler settings in `styles-sass.scss`
 - Changed `LICENCE`
 - Changed settings in `_base.scss` and `_variables.scss`
 - Changed settings in `prepros(-backup).config`
 - Changed settings in `settings.json`
 - Fixed duplicate code
-- Fixed grammar
 - Removed Fontawesome v5.15.2
 - Removed `prepros.config`
 - Removed `ritwickdey.liveserver` from `extensions.json`
@@ -233,21 +214,18 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 - Added example templates
 - Added Fontawesome v5.15.2
 - Changed `.gitignore`
-- Changed documentation
 - Removed Fontawesome v5.15.1
 
 ## Intermittent updates - 2020-09-23 till 2021-01-16
 
 - Added Fontawesome v5.15.1
 - Added PrePros `package(-lock).json` and `prepros.cfg`
-- Changed documentation
 - Removed Bootstrap Icons
 - Removed 17 Fontawesome versions, keeping only latest of all majors
 
 ## [CoreBootstrap v4.5.0] - 2020-05-12
 
 - Added Bootstrap v4.5.0
-- Changed documentation
 
 ## [CoreBootstrap v4.4.0 and v4.4.1] - 2019-11-28
 
@@ -255,7 +233,6 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 - Added Bootstrap v4.4.0
 - Added Bootstrap v4.4.1
 - Added example templates
-- Changed documentation
 - Changed fonts files for a few Fontawesome versions
 
 ## Intermittent updates - 2019-10-22 till 2019-10-27
