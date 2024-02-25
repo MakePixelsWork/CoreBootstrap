@@ -2,7 +2,11 @@
 
 This changelog lists all notable updates to the CoreBootstrap framework, in reverse chronological order. It adheres to the [Semantic Versioning](https://semver.org/spec/v2.0.0.html) of the original Bootstrap framework. CoreBootstrap versions are equal to theirs. Versions older than 4.4.0 are available, but not logged.
 
-Changes to documentation, fixing grammar and other small updates are common practice in every release, so they aren't mentioned in this changelog. Important (breaking) changes are, if needed inside alerts.
+> [!INFO]  
+> Changes to documentation, fixing grammar and other small updates are common practice in every release, so they aren't mentioned in this changelog. Important (breaking) changes are, if needed inside alerts.
+
+> [!TIP]  
+> PrePros constantly updates its `prepros.config` settings file, so I've exluded it in `.gitignore`. Its settings are however made available in the `prepros-backup.config`, which I'll change sporadically when those new settings are needed in your projects.
 
 ## Unreleased
 
@@ -184,9 +188,6 @@ Changes to documentation, fixing grammar and other small updates are common prac
 - Added example templates
 
 ## Intermittent updates - 2021-02-16 till 2021-03-29
-
-> [!TIP]  
-> PrePros constantly updates its `prepros.config` settings file, so I've exluded it in `.gitignore`. Its settings are however made available in the `prepros-backup.config`, which I'll change sporadically when those new settings are needed in your projects.
 
 - Added Fontawesome v5.15.3
 - Added `.editorconfig` for same named extension
