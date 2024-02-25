@@ -39,7 +39,7 @@ Changes to documentation, fixing grammar and other small updates are common prac
 - Added `<q>` resets to `_base.scss`
 - Changed compiler settings in `styles-sass.scss`
 - Changed `extensions.json` to reflect [Live Sass Compiler] advice
-- Changed `prepros(-backup).config` to ignores templates
+- Changed settings in `prepros-backup.config`
 - Changed years in `LICENCE`
 - Fixed wrong versioning in demo page
 - Removed Fontawesome v4.7.0 (deprecated)
@@ -51,7 +51,7 @@ Changes to documentation, fixing grammar and other small updates are common prac
 - Added example templates
 - Added Fontawesome v6.4.2
 - Changed all v5 compiler templates to latest Fontawesome
-- Changed settings in `prepros(-backup).config`
+- Changed settings in `prepros-backup.config`
 - Changed versioning inside `_base.scss`
 - Removed Fontawesome v6.4.0
 - Removed redundant compiler folder
@@ -162,7 +162,7 @@ Changes to documentation, fixing grammar and other small updates are common prac
 - Added warning about breaking changes to documentation
 - Changed settings in `.prettierignore`
 - Changed settings in `.which-res` helper
-- Changed settings in `prepros(-backup).config`
+- Changed settings in `prepros-backup.config`
 - Changed settings in `settings.json`
 - Fixed duplicate code in `base.less` and `_base.scss`
 - Fixed helpers in `base.less` and `_base.scss`
@@ -185,20 +185,24 @@ Changes to documentation, fixing grammar and other small updates are common prac
 
 ## Intermittent updates - 2021-02-16 till 2021-03-29
 
+> [!TIP]  
+> PrePros constantly updates its `prepros.config` settings file, so I've exluded it in `.gitignore`. Its settings are however made available in the `prepros-backup.config`, which is updated sporadically.
+
 - Added Fontawesome v5.15.3
 - Added `.editorconfig` for same named extension
 - Added `.prettierignore`
 - Added `blueprint()` mixin to `_base.scss`
 - Added default recommendations to `extensions.json`
 - Added images folder with best practice advice in its own `README.md`
-- Added `prepros(-backup).config`
+- Added `prepros.config`
+- Added `prepros-backup.config`
 - Added `vscode.html-language-features` to `settings.json`
 - Changed `.gitignore`
 - Changed all compiler templates to use relative paths
 - Changed compiler settings in `styles-sass.scss`
 - Changed `LICENCE`
 - Changed settings in `_base.scss` and `_variables.scss`
-- Changed settings in `prepros(-backup).config`
+- Changed settings in `prepros-backup.config`
 - Changed settings in `settings.json`
 - Fixed duplicate code
 - Removed Fontawesome v5.15.2
