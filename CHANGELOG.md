@@ -186,7 +186,7 @@ Changes to documentation, fixing grammar and other small updates are common prac
 ## Intermittent updates - 2021-02-16 till 2021-03-29
 
 > [!TIP]  
-> PrePros constantly updates its `prepros.config` settings file, so I've exluded it in `.gitignore`. Its settings are however made available in the `prepros-backup.config`, which is updated sporadically.
+> PrePros constantly updates its `prepros.config` settings file, so I've exluded it in `.gitignore`. Its settings are however made available in the `prepros-backup.config`, which I'll change sporadically when those new settings are needed in your projects.
 
 - Added Fontawesome v5.15.3
 - Added `.editorconfig` for same named extension
