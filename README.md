@@ -96,21 +96,21 @@ Good luck with creating your awesome projects!
 
 <!-- 
 
-How to add GitHub alerts
+GitHub alerts. The two spaces behind each title are needed, to make its header work both in GitHub as well as normal markdown!
 
-> [!NOTE]
+> [!NOTE]  
 > Highlights information that users should take into account, even when skimming.
 
-> [!TIP]
+> [!TIP]  
 > Optional information to help a user be more successful.
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > Crucial information necessary for users to succeed.
 
-> [!WARNING]
+> [!WARNING]  
 > Critical content demanding immediate user attention due to potential risks.
 
-> [!CAUTION]
+> [!CAUTION]  
 > Negative potential consequences of an action.
 
 -->
