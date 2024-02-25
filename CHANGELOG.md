@@ -206,7 +206,7 @@ Changes to documentation, fixing grammar and other small updates are common prac
 - Changed settings in `settings.json`
 - Fixed duplicate code
 - Removed Fontawesome v5.15.2
-- Removed `prepros.config`
+- Removed `prepros.config` (see Tip above for info)
 - Removed `ritwickdey.liveserver` from `extensions.json`
 - Removed `esbenp.prettier-vscode` from `extensions.json`
 - Removed redundant `prepros.cfg`
@@ -226,7 +226,7 @@ Changes to documentation, fixing grammar and other small updates are common prac
 ## Intermittent updates - 2020-09-23 till 2021-01-16
 
 - Added Fontawesome v5.15.1
-- Added PrePros `package(-lock).json` and `prepros.cfg`
+- Added PrePros `package.json`, `package-lock.json` and `prepros.cfg`
 - Removed Bootstrap Icons
 - Removed 17 Fontawesome versions, keeping only latest of all majors
 
