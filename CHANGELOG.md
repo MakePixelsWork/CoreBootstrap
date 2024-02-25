@@ -171,7 +171,7 @@ Changes to documentation, fixing grammar and other small updates are common prac
 
 ## [CoreBootstrap v5.0.0] - 2021-05-11
 
-> [!WARNING]
+> **[!WARNING]**
 > Bootstrap 5 introduced lots of new features, which may break your old builds. If you start a new project, this does not concern you. If you upgrade from an older major version, then be sure to update your code where needed. A full migration guide can be found [here](https://getbootstrap.com/docs/5.0/migration/).
 
 - Added Bootstrap v5.0.0
