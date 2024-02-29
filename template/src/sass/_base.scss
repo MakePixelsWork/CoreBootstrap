@@ -116,7 +116,7 @@ html, body {
   font-family: $font-main;
   font-size: $font-size;
   color: $font-color;
-  background-color: $color-bg;
+  background-color: $clr-bg;
 }
 
 /* BASE > CONTAINERS */
@@ -133,7 +133,7 @@ h1, h2, h3, h4, h5, h6, p, ul:not(.navbar-nav, .dropdown-menu) {
   margin: 0;
   margin-bottom: 10px;
   font-weight: normal;
-  color: $color-primary;
+  color: $clr-primary;
 }
 
 h1 {
@@ -159,7 +159,7 @@ h3, h4, h5, h6 {
 }
 
 p, ul:not(.navbar-nav, .dropdown-menu) {
-  color: $color-primary;
+  color: $clr-primary;
   margin: 0;
   font-size: $font-size;
   margin-bottom: 20px;
@@ -170,11 +170,11 @@ p, ul:not(.navbar-nav, .dropdown-menu) {
 }
 
 a {
-  color: $color-secondary;
+  color: $clr-secondary;
   text-decoration: underline;
   outline: none;
   &:hover, &:focus {
-    color: $color-primary;
+    color: $clr-primary;
     outline: none;
   }
   &:active {
