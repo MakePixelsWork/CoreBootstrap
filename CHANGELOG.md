@@ -6,7 +6,7 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 > Changes to documentation, fixing grammar and other small updates are common practice in every release, so they aren't mentioned in this changelog. Important (breaking) changes are, if needed inside alerts.
 
 > [!TIP]  
-> PrePros constantly updates its `prepros.config` settings file, so I've exluded it in `.gitignore`. Its settings are however made available in the `prepros-backup.config`, which I'll change sporadically when those new settings are needed in your projects.
+> PrePros constantly updates its `prepros.config` settings file, so it has been exluded in `.gitignore`. These settings are however made available in the `prepros-backup.config`, which will be updated sporadically when those new settings are needed in your projects.
 
 ## Unreleased
 
