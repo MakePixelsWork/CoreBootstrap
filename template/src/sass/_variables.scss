@@ -3,11 +3,14 @@
 // - Add your own custom variables needed for the rest of your application
 // - Using your application name is sometimes helpful
 
-// Colors
-$color-primary: #0B486B;
-$color-secondary: #3B8686;
+// Color variables delibirately start with 'clr-' so they don't conflict
+// with Bootstrap's 'color-' declarations.
 
-$color-bg: #ffffff;
+// Colors
+$clr-primary: #0B486B;
+$clr-secondary: #3B8686;
+
+$clr-bg: #ffffff;
 
 // Fonts
 $font-main: Roboto, Arial, Verdana, "Helvetica Neue", sans-serif;
@@ -20,10 +23,10 @@ $font-size: 16px;
 // Backgrounds (example)
 $background-radial: radial-gradient(
   99.31% 99.31% at 0% 0.69%,
-  $color-secondary 0%,
-  $color-primary 100%
+  $clr-secondary 0%,
+  $clr-primary 100%
 );
 
 // Overrides for Bootstrap
-$primary: $color-primary;
-$secondary: $color-secondary;
+$primary: $clr-primary;
+$secondary: $clr-secondary;
