@@ -18,6 +18,7 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 
 ## Intermittent updates - 2024-02-23 till now
 
+- Added advice about partials to all compiler templates
 - Added `CHANGELOG.md`
 - Added helper comments to changelog
 - Added history to changelog

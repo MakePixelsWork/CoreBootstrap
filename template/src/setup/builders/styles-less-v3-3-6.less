@@ -32,10 +32,14 @@
 
 // INCLUDE ANY POSSIBLE SPLIT-UP LESS FILES
 // - Improves programmer usability
+// - Specificity applies, so order them correctly
+// @import "root.less";
+// @import "helpers.less";
 @import "base.less";
-// @import "header.less";
-// @import "menu.less";
-// @import "footer.less";
+// @import "template.less";
+// @import "application.less";
+// @import "website.less";
+// @import "hacks.less";
 
 // UPGRADE ANY VERSIONED .JS IN YOUR TEMPLATE SYSTEM
 // - For instance the bootstrap.min.js

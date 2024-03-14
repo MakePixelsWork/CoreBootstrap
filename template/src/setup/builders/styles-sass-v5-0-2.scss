@@ -43,7 +43,11 @@ $fa-font-path: "../fonts/font-awesome/6-5-1/webfonts";
 
 // 6. INCLUDE ANY POSSIBLE SPLIT-UP SCSS FILES
 // - Improves programmer usability
+// - Specificity applies, so order them correctly
+// @import "root";
+// @import "helpers";
 @import "base";
-// @import "header";
-// @import "menu";
-// @import "footer";
+// @import "template";
+// @import "application";
+// @import "website";
+// @import "hacks";
