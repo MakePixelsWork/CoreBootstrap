@@ -24182,7 +24182,11 @@ readers do not read off random characters that represent icons */
   content: "\f3f6";
 }
 
-/* CURRENT VERSION: 5.3.2 */
+/*
+CURRENT VERSION
+- Bootstrap: v5.3.2
+- Fontawesome: v6.5.1
+*/
 /* MIXIN > BLUEPRINT */
 /* HELPER > WHICH BOOTSTRAP 5 BREAKPOINT IS ACTIVE? */
 .which-res {
