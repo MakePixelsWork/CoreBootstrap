@@ -20,6 +20,7 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 
 - Added advice about partials to all compiler templates
 - Added `CHANGELOG.md`
+- Added GDPR compliant Bunny Fonts import to `_variables.scss`
 - Added hidden helper comments inside changelog
 - Added history to changelog
 - Added link to changelog at top of `README.md`
