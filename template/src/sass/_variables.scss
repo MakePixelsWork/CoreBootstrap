@@ -3,6 +3,9 @@
 // - Add your own custom variables needed for the rest of your application
 // - Using your application name is sometimes helpful
 
+// Import zero-tracking and non-logging fonts
+@import url(https://fonts.bunny.net/css?family=roboto:300,300i,500,500i,700,700i,900,900i);
+
 // Color variables delibirately start with 'clr-' so they don't conflict
 // with Bootstrap's 'color-' declarations.
 
@@ -13,7 +16,7 @@ $clr-secondary: #3B8686;
 $clr-bg: #ffffff;
 
 // Fonts
-$font-main: Roboto, Arial, Verdana, "Helvetica Neue", sans-serif;
+$font-main: 'Roboto', Arial, Verdana, "Helvetica Neue", sans-serif;
 $font-host: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial,
   Verdana, Helvetica, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
   "Segoe UI Symbol";
