@@ -24201,7 +24201,7 @@ CURRENT VERSION
   width: 100px;
   height: auto;
   text-align: center;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 30px;
 }
 @media screen and (max-width: 575px) {
@@ -24317,7 +24317,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p, ul:not(.navbar-nav, .dr
   position: relative;
   margin: 0;
   margin-bottom: 10px;
-  font-weight: normal;
+  font-weight: 500;
   color: #0B486B;
 }
 
@@ -24333,14 +24333,14 @@ h1, .h1 {
 h2, .h2 {
   font-family: "Roboto", Arial, Verdana, "Helvetica Neue", sans-serif;
   font-size: 16px;
-  font-weight: bold;
+  font-weight: 900;
   margin-bottom: 10px;
 }
 
 h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   font-size: 22px;
   margin-bottom: 5px;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 p, ul:not(.navbar-nav, .dropdown-menu) {
@@ -24368,7 +24368,7 @@ a:active {
 }
 
 b, strong {
-  font-weight: bold;
+  font-weight: 700;
 }
 
 hr {
