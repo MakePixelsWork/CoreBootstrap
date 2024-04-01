@@ -24,10 +24,11 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 - Added hidden helper comments inside changelog
 - Added history to changelog
 - Added link to changelog at top of `README.md`
-- Changed all v5 compiler templates to Fontawesome v6.5.1
-- Changed default font values
-- Changed color variables naming convention
 - Changed `.which-res` mixin settings
+- Changed all v5 compiler templates to Fontawesome v6.5.1
+- Changed color variables naming convention
+- Changed default font values
+- Changed demo to Bootstrap v5.3.3
 - Changed formatting of changelog
 - Fixed error in wishlist
 
