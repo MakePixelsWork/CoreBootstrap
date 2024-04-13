@@ -20,17 +20,19 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 
 - Added advice about partials to all compiler templates
 - Added `CHANGELOG.md`
+- Added Fontawesome v6.5.2
 - Added GDPR compliant Bunny Fonts import to `_variables.scss`
 - Added hidden helper comments inside changelog
 - Added history to changelog
 - Added link to changelog at top of `README.md`
 - Changed `.which-res` mixin settings
-- Changed all v5 compiler templates to Fontawesome v6.5.1
+- Changed all v5 compiler templates to Fontawesome v6.5.2
 - Changed color variables naming convention
 - Changed default font values
 - Changed demo to Bootstrap v5.3.3
 - Changed formatting of changelog
 - Fixed error in wishlist
+- Removed Fontawesome v6.5.1
 
 ## [CoreBootstrap v5.3.3] - 2024-02-22
 
