@@ -27,19 +27,19 @@
 @import "bootstrap/5-0-0/bootstrap";
 
 // 5. FONTAWESOME
-@import "font-awesome/6-5-1/fontawesome";
+@import "font-awesome/6-5-2/fontawesome";
 
 // 5. FONTAWESOME > HACK
 // - Helps make the font path work correctly in SASS!
 // - This path is relative to the compiled CSS file
 // - Does NOT have a trailing slash!
-$fa-font-path: "../fonts/font-awesome/6-5-1/webfonts";
+$fa-font-path: "../fonts/font-awesome/6-5-2/webfonts";
 
 // 5. FONTAWESOME > IMPORTS
 // - Enable certain fonts, depending on project
-@import "font-awesome/6-5-1/regular";
-@import "font-awesome/6-5-1/solid";
-@import "font-awesome/6-5-1/brands";
+@import "font-awesome/6-5-2/regular";
+@import "font-awesome/6-5-2/solid";
+@import "font-awesome/6-5-2/brands";
 
 // 6. INCLUDE ANY POSSIBLE SPLIT-UP SCSS FILES
 // - Improves programmer usability
