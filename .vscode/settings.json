@@ -9,6 +9,8 @@
   // Editor
   "editor.formatOnPaste": false,
   "editor.formatOnSave": false,
+  "editor.hover.hidingDelay": 300,
+  "editor.hover.delay": 1000,
   "editor.tabSize": 2,
   "editor.wordWrap": "on",
   "files.associations": {
