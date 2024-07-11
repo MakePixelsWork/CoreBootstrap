@@ -16,7 +16,7 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 - Fix injecting one Sass variable inside another [#2]
 - Research effects of double Sass imports [#7]
 
-## Intermittent updates - 2024-02-23 till now
+## Intermittent updates - 2024-02-23 till 2024-05-16
 
 - Added advice about partials to all compiler templates
 - Added `CHANGELOG.md`
