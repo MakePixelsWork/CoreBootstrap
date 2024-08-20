@@ -83,7 +83,7 @@ Interested in the original source files? Check out the resources throught the li
 
 <strong>Bootstrap 5</strong> introduced lots of new features, which may break your old builds. These include Sass changes, a color system, grid updates, dropping code, new naming conventions... and lots of tweaks throughout the entire framework. If you start a new project, this does not concern you. If you upgrade from an older major version, then be sure to update your code where needed. A full migration guide can be found [here](https://getbootstrap.com/docs/5.0/migration/).
 
-<strong>Font Awesome</strong> is somewhat backwards compatible, so I've decided to only include the latest maintained versions of each major release. v5.15.4 is the latest of 5, v6.5.1 is the latest of 6. Version 4 and lower are no longer supported.
+<strong>Font Awesome</strong> is somewhat backwards compatible, so I've decided to only include the latest maintained versions of each major release. v5.15.4 is the latest of 5, v6.5.2 is the latest of 6. Version 4 and lower are no longer supported.
 
 <strong>LessHat</strong> has not been updated since july 2016, but is still one of the best LESS mixin libraries available. I postponed installing v4.1.0 because it became dependent on NPM and Grunt... which is weird, because their initial product had no dependencies at all. I've not used LESS for several years now and mainly focus on Sass developments, but I still want to implement this newer mixin library one day. So its on my todos list.
 
