@@ -24410,6 +24410,10 @@ q::after {
 }
 
 /* BASE > HELPERS */
+.mt-p0 {
+  margin-top: 0px !important;
+}
+
 .mt-p5 {
   margin-top: 5px !important;
 }
@@ -24432,6 +24436,10 @@ q::after {
 
 .mt-p40 {
   margin-top: 40px !important;
+}
+
+.mr-p0 {
+  margin-right: 0px !important;
 }
 
 .mr-p5 {
@@ -24458,6 +24466,10 @@ q::after {
   margin-right: 40px !important;
 }
 
+.mb-p0 {
+  margin-bottom: 0px !important;
+}
+
 .mb-p5 {
   margin-bottom: 5px !important;
 }
@@ -24480,6 +24492,10 @@ q::after {
 
 .mb-p40 {
   margin-bottom: 40px !important;
+}
+
+.ml-p0 {
+  margin-left: 0px !important;
 }
 
 .ml-p5 {
