@@ -16,7 +16,7 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 - Fix injecting one Sass variable inside another [#2]
 - Research effects of double Sass imports [#7]
 
-## Intermittent updates - 2024-02-23 till 2024-05-16
+## Intermittent updates - 2024-02-23 till 2024-10-21
 
 - Added advice about partials to all compiler templates
 - Added `CHANGELOG.md`
@@ -25,6 +25,7 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 - Added hidden helper comments inside changelog
 - Added history to changelog
 - Added link to changelog at top of `README.md`
+- Added zero pixel margin helpers to `_base.scss`
 - Changed `.which-res` mixin settings
 - Changed all v5 compiler templates to Fontawesome v6.5.2
 - Changed color variables naming convention
