@@ -10,5 +10,5 @@ This folder contains the 'build' scripts needed to compile LESS or SASS to its C
 ## HTML folder
 This folder contains the starter templates for each version of Bootstrap. These are examples of how Bootstrap is used inside your HTML. Where Bootstrap v3 and v4 relied on jQuery to run, v5 no longer has that dependency.
 
-<strong>Victor van der Put</strong><br>
+**Victor van der Put**<br>
 [@MakePixelsWork](https://github.com/MakePixelsWork)

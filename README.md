@@ -89,7 +89,7 @@ Interested in the original source files? Check out the resources throught the li
 
 Good luck with creating your awesome projects!
 
-<strong>Victor van der Put</strong><br>
+**Victor van der Put**<br>
 [@MakePixelsWork](https://github.com/MakePixelsWork)
 
 

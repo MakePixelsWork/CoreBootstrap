@@ -73,5 +73,5 @@ Got a site with hundreds of pages, each with their own banner? Then I would plac
 
 Its bad practice, especially for SEO purposes. But for SEO it would even be better if your wrote out all your images. But for your template this is never needed. You can apply several more SEO rules to images for your final content. Go crazy. But keep your template images folder clean!
 
-<strong>Victor van der Put</strong><br>
+**Victor van der Put**<br>
 [@MakePixelsWork](https://github.com/MakePixelsWork)
