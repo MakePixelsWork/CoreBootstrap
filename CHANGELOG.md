@@ -16,8 +16,9 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 - Fix injecting one Sass variable inside another [#2]
 - Research effects of double Sass imports [#7]
 
-## Intermittent updates - 2024-02-23 till 2024-10-21
+## Intermittent updates - 2024-02-23 till 2024-12-03
 
+- Added advice about Latin numerals in `_variables.scss`
 - Added advice about partials to all compiler templates
 - Added `CHANGELOG.md`
 - Added Fontawesome v6.5.2
@@ -47,8 +48,8 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 ## Intermittent updates - 2023-10-04 till 2024-02-21
 
 - Added Fontawesome v6.5.1
-- Added support for [Live Sass Compiler] in `settings.json`
 - Added info alert at top of `README.md`
+- Added support for [Live Sass Compiler] in `settings.json`
 - Added `<img>` resets to `_base.scss`
 - Added `<q>` resets to `_base.scss`
 - Changed compiler settings in `styles-sass.scss`
