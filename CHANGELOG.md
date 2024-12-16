@@ -17,9 +17,9 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 
 ## Intermittent updates - 2024-02-23 till 2024-12-03
 
-- Added advice about Latin numerals in `_variables.scss`
-- Added advice about partials to all compiler templates
 - Added `CHANGELOG.md`
+- Added advice about partials to all compiler templates
+- Added advice about Latin numerals in `_variables.scss`
 - Added Fontawesome v6.5.2
 - Added Fontawesome v6.7.1
 - Added GDPR compliant Bunny Fonts import to `_variables.scss`
@@ -49,13 +49,13 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 
 ## Intermittent updates - 2023-10-04 till 2024-02-21
 
+- Added `<img>` resets to `_base.scss`
+- Added `<q>` resets to `_base.scss`
 - Added Fontawesome v6.5.1
 - Added info alert at top of `README.md`
 - Added support for [Live Sass Compiler] in `settings.json`
-- Added `<img>` resets to `_base.scss`
-- Added `<q>` resets to `_base.scss`
-- Changed compiler settings in `styles-sass.scss`
 - Changed `extensions.json` to reflect [Live Sass Compiler] advice
+- Changed compiler settings in `styles-sass.scss`
 - Changed settings in `prepros-backup.config`
 - Changed years in `LICENCE`
 - Fixed wrong versioning in demo page
@@ -110,6 +110,7 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 ## Intermittent updates - 2021-11-02 till 2023-04-05
 
 - Added `.which-res` to show active breakpoints
+- Added `scss.format` limitations to `settings.json`
 - Added breakpoint helpers in `_base.scss`
 - Added empty `favicon.gif` and `favicon.ico` to thwart 404 errors in some browsers
 - Added Fontawesome v4.7.0, for backward compatibility
@@ -119,20 +120,19 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 - Added reoccuring code essentials to `_base.scss`
 - Added reoccuring variables to `_variables.scss`
 - Added templates for Bootstrap v4.6.2
-- Added `scss.format` limitations to `settings.json`
 - Added several helpers to `_base.scss`
 - Added several resets to `_base.scss`
 - Added v3 breakpoint helpers in `base.less`
 - Added v5 breakpoint helpers in `_base.scss`
 - Changed `.gitignore`
 - Changed `.prettierignore`
+- Changed `LICENCE`
+- Changed breakpoint helpers in `_base.scss`
 - Changed compiler settings in `styles-less.less`
 - Changed compiler settings in `styles-sass-v5.scss`
-- Changed breakpoint helpers in `_base.scss`
 - Changed demo page
 - Changed Fontawesome file structure
 - Changed helpers naming conventions to prevent clash with v5's new classes
-- Changed `LICENCE`
 - Changed workspace files
 - Fixed breakpoints mismatch in `_base.scss` explanation
 - Fixed LessHat link
@@ -166,16 +166,16 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 - Added `felixfbecker.php-pack` to `extensions.json`
 - Added `formulahendry.auto-rename-tag` to `extensions.json`
 - Added `pkief.material-icon-theme` to `extensions.json`
-- Removed CoreBootstrap demo from testingoursite.com
 - Removed `integrity` and `crossorigin` tags from all templates
+- Removed CoreBootstrap demo from testingoursite.com
 
 ## Intermittent updates - 2021-06-14 till 2021-10-08
 
 - Added `.which-res` helper
-- Added Fontawesome v5.15.4
-- Added helpers to `base.less` and `_base.scss`
 - Added compiler settings in `styles-sass-v4.scss`
 - Added compiler settings in `styles-sass-v5.scss`
+- Added Fontawesome v5.15.4
+- Added helpers to `base.less` and `_base.scss`
 - Added warning about breaking changes to documentation
 - Changed settings in `.prettierignore`
 - Changed settings in `.which-res` helper
@@ -202,27 +202,27 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 
 ## Intermittent updates - 2021-02-16 till 2021-03-29
 
-- Added Fontawesome v5.15.3
 - Added `.editorconfig` for same named extension
 - Added `.prettierignore`
 - Added `blueprint()` mixin to `_base.scss`
-- Added default recommendations to `extensions.json`
-- Added images folder with best practice advice in its own `README.md`
 - Added `prepros.config`
 - Added `prepros-backup.config`
 - Added `vscode.html-language-features` to `settings.json`
+- Added default recommendations to `extensions.json`
+- Added Fontawesome v5.15.3
+- Added images folder with best practice advice in its own `README.md`
 - Changed `.gitignore`
+- Changed `LICENCE`
 - Changed all compiler templates to use relative paths
 - Changed compiler settings in `styles-sass.scss`
-- Changed `LICENCE`
 - Changed settings in `_base.scss` and `_variables.scss`
 - Changed settings in `prepros-backup.config`
 - Changed settings in `settings.json`
 - Fixed duplicate code
 - Removed Fontawesome v5.15.2
+- Removed `esbenp.prettier-vscode` from `extensions.json`
 - Removed `prepros.config` (see Tip above for info)
 - Removed `ritwickdey.liveserver` from `extensions.json`
-- Removed `esbenp.prettier-vscode` from `extensions.json`
 - Removed redundant `prepros.cfg`
 - Testing Dart Sass
 
@@ -241,8 +241,8 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 
 - Added Fontawesome v5.15.1
 - Added PrePros `package.json`, `package-lock.json` and `prepros.cfg`
-- Removed Bootstrap Icons
 - Removed 17 Fontawesome versions, keeping only latest of all majors
+- Removed Bootstrap Icons
 
 ## [CoreBootstrap v4.5.0] - 2020-05-12
 
