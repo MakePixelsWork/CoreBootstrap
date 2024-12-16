@@ -18,8 +18,8 @@ Since Bootstrap itself is released under an MIT License, I've released my CoreBo
   - Sass:
     4.0.0 / 4.1.0 / 4.1.1 / 4.1.2 / 4.1.3 / 4.2.1 / 4.3.0 / 4.3.1 / 4.4.0 / 4.4.1 / 4.5.0 / 4.5.1 / 4.5.2 / 4.5.3 / 4.6.0 / 4.6.1 / 4.6.2 / 5.0.0 / 5.0.1 / 5.0.2 / 5.1.0 / 5.1.1 / 5.1.2 / 5.1.3 / 5.2.0 / 5.2.1 / 5.2.2 / 5.2.3 / 5.3.0 / 5.3.1 / 5.3.2 / 5.3.3
 - Font Awesome
-  - Less: 5.15.4 / 6.5.2
-  - Sass: 5.15.4 / 6.5.2
+  - Less: 5.15.4 / 6.7.1
+  - Sass: 5.15.4 / 6.7.1
 - LessHat
   - Less: 3.0.2
 
@@ -83,7 +83,7 @@ Interested in the original source files? Check out the resources throught the li
 
 <strong>Bootstrap 5</strong> introduced lots of new features, which may break your old builds. These include Sass changes, a color system, grid updates, dropping code, new naming conventions... and lots of tweaks throughout the entire framework. If you start a new project, this does not concern you. If you upgrade from an older major version, then be sure to update your code where needed. A full migration guide can be found [here](https://getbootstrap.com/docs/5.0/migration/).
 
-<strong>Font Awesome</strong> is somewhat backwards compatible, so I've decided to only include the latest maintained versions of each major release. v5.15.4 is the latest of 5, v6.5.2 is the latest of 6. Version 4 and lower are no longer supported.
+<strong>Font Awesome</strong> is somewhat backwards compatible, so I've decided to only include the latest maintained versions of each major release. v5.15.4 is the latest of 5, v6.7.1 is the latest of 6. Version 4 and lower are no longer supported.
 
 <strong>LessHat</strong> has not been updated since july 2016, but is still one of the best LESS mixin libraries available. I postponed installing v4.1.0 because it became dependent on NPM and Grunt... which is weird, because their initial product had no dependencies at all. I've not used LESS for several years now and mainly focus on Sass developments, but I still want to implement this newer mixin library one day. So its on my todos list.
 
