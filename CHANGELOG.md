@@ -72,7 +72,7 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 - `extensions.json` to reflect [Live Sass Compiler] advice
 - Compiler settings in `styles-sass.scss`
 - Settings in `prepros-backup.config`
-- Years in `LICENCE`
+- Years in `LICENSE`
 
 ### Fixed
 - Wrong versioning in demo page
@@ -117,10 +117,10 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 ### Changed
 - Compiler settings in `styles-sass.scss`
 - Setup `README.md`
-- Years in `LICENCE`
+- Years in `LICENSE`
 
 ### Removed
-- Twitter from `LICENCE`
+- Twitter from `LICENSE`
 
 ## Intermittent updates - 2023-05-05
 
@@ -166,7 +166,7 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 ### Changed
 - `.gitignore`
 - `.prettierignore`
-- `LICENCE`
+- `LICENSE`
 - Breakpoint helpers in `_base.scss`
 - Compiler settings in `styles-less.less`
 - Compiler settings in `styles-sass-v5.scss`
@@ -274,7 +274,7 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 
 ### Changed
 - `.gitignore`
-- `LICENCE`
+- `LICENSE`
 - All compiler templates to use relative paths
 - Compiler settings in `styles-sass.scss`
 - Settings in `_base.scss` and `_variables.scss`
@@ -340,12 +340,12 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 
 ### Added
 - `.gitignore`
-- `LICENCE`
+- `LICENSE`
 - Documentation
 - Local files to GitHub
 
 ### Changed
-- Changed `LICENCE`
+- Changed `LICENSE`
 
 ## Init - 2019-10-22
 
