@@ -17,9 +17,9 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 
 ## Intermittent updates - 2024-02-23 till 2024-12-03
 
-- Added `CHANGELOG.md`
 - Added advice about partials to all compiler templates
 - Added advice about Latin numerals in `_variables.scss`
+- Added `CHANGELOG.md`
 - Added Fontawesome v6.5.2
 - Added Fontawesome v6.7.1
 - Added GDPR compliant Bunny Fonts import to `_variables.scss`
@@ -205,12 +205,12 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 - Added `.editorconfig` for same named extension
 - Added `.prettierignore`
 - Added `blueprint()` mixin to `_base.scss`
-- Added `prepros.config`
-- Added `prepros-backup.config`
-- Added `vscode.html-language-features` to `settings.json`
 - Added default recommendations to `extensions.json`
 - Added Fontawesome v5.15.3
 - Added images folder with best practice advice in its own `README.md`
+- Added `prepros.config`
+- Added `prepros-backup.config`
+- Added `vscode.html-language-features` to `settings.json`
 - Changed `.gitignore`
 - Changed `LICENCE`
 - Changed all compiler templates to use relative paths
@@ -265,7 +265,6 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 - Changed `LICENCE`
 
 ## Init - 2019-10-22
-
 
 
 <!--
