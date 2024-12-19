@@ -23,6 +23,7 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 - `CHANGELOG.md`
 - Fontawesome v6.5.2
 - Fontawesome v6.7.1
+- Fontawesome v6.7.2
 - GDPR compliant Bunny Fonts import to `_variables.scss`
 - Hidden helper comments inside changelog
 - History to changelog
@@ -44,6 +45,7 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 ### Removed
 - Fontawesome v6.5.1
 - Fontawesome v6.5.2
+- Fontawesome v6.7.1
 - Material Icon Theme from workspace recommendations
 
 ## [CoreBootstrap v5.3.3] - 2024-02-22
