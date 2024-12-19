@@ -21,9 +21,9 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 - Advice about partials to all compiler templates
 - Advice about Latin numerals in `_variables.scss`
 - `CHANGELOG.md`
-- Fontawesome v6.5.2
-- Fontawesome v6.7.1
-- Fontawesome v6.7.2
+- Font Awesome v6.5.2
+- Font Awesome v6.7.1
+- Font Awesome v6.7.2
 - GDPR compliant Bunny Fonts import to `_variables.scss`
 - Hidden helper comments inside changelog
 - History to changelog
@@ -32,8 +32,8 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 
 ### Changed
 - `.which-res` mixin settings
-- All v5 compiler templates to Fontawesome v6.5.2
-- All v5 compiler templates to Fontawesome v6.7.1
+- All v5 compiler templates to Font Awesome v6.5.2
+- All v5 compiler templates to Font Awesome v6.7.1
 - Color variables naming convention
 - Default font values
 - Demo to Bootstrap v5.3.3
@@ -43,9 +43,9 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 - Error in wishlist
 
 ### Removed
-- Fontawesome v6.5.1
-- Fontawesome v6.5.2
-- Fontawesome v6.7.1
+- Font Awesome v6.5.1
+- Font Awesome v6.5.2
+- Font Awesome v6.7.1
 - Material Icon Theme from workspace recommendations
 
 ## [CoreBootstrap v5.3.3] - 2024-02-22
@@ -66,7 +66,7 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 ### Added
 - `<img>` resets to `_base.scss`
 - `<q>` resets to `_base.scss`
-- Fontawesome v6.5.1
+- Font Awesome v6.5.1
 - Info alert at top of `README.md`
 - Support for [Live Sass Compiler] in `settings.json`
 
@@ -80,23 +80,23 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 - Wrong versioning in demo page
 
 ### Removed
-- Fontawesome v4.7.0 (deprecated)
-- Fontawesome v6.4.2
+- Font Awesome v4.7.0 (deprecated)
+- Font Awesome v6.4.2
 
 ## [CoreBootstrap v5.3.2] - 2023-10-02
 
 ### Added
 - Bootstrap v5.3.2
 - Example templates
-- Fontawesome v6.4.2
+- Font Awesome v6.4.2
 
 ### Changed
-- All v5 compiler templates to latest Fontawesome
+- All v5 compiler templates to latest Font Awesome
 - Settings in `prepros-backup.config`
 - Versioning inside `_base.scss`
 
 ### Removed
-- Fontawesome v6.4.0
+- Font Awesome v6.4.0
 - Redundant compiler folder
 
 ## [CoreBootstrap v5.3.1] - 2023-08-08
@@ -153,10 +153,10 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 - `scss.format` limitations to `settings.json`
 - Breakpoint helpers in `_base.scss`
 - Empty `favicon.gif` and `favicon.ico` to thwart 404 errors in some browsers
-- Fontawesome v4.7.0, for backward compatibility
-- Fontawesome v6.1.1
-- Fontawesome v6.2.1
-- Fontawesome v6.4.0
+- Font Awesome v4.7.0, for backward compatibility
+- Font Awesome v6.1.1
+- Font Awesome v6.2.1
+- Font Awesome v6.4.0
 - Reoccuring code essentials to `_base.scss`
 - Reoccuring variables to `_variables.scss`
 - Templates for Bootstrap v4.6.2
@@ -173,7 +173,7 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 - Compiler settings in `styles-less.less`
 - Compiler settings in `styles-sass-v5.scss`
 - Demo page
-- Fontawesome file structure
+- Font Awesome file structure
 - Helpers naming conventions to prevent clash with v5's new classes
 - Workspace files
 
@@ -185,11 +185,11 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 - Copyright from core LESS files
 - Deprecated `eg2.vscode-npm-script` from `extensions.json`
 - Deprecated `felixfbecker.php-pack` from `extensions.json`
-- Fontawesome v5.0.4
-- Fontawesome v5.0.13
-- Fontawesome v5.9.0
-- Fontawesome v6.1.1
-- Fontawesome v6.2.1
+- Font Awesome v5.0.4
+- Font Awesome v5.0.13
+- Font Awesome v5.9.0
+- Font Awesome v6.1.1
+- Font Awesome v6.2.1
 - Redundant `appname-` from `_base.scss` and `_variables.scss`
 - Twitter from `README`
 
@@ -225,7 +225,7 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 - `.which-res` helper
 - Compiler settings in `styles-sass-v4.scss`
 - Compiler settings in `styles-sass-v5.scss`
-- Fontawesome v5.15.4
+- Font Awesome v5.15.4
 - Helpers to `base.less` and `_base.scss`
 - Warning about breaking changes to documentation
 
@@ -241,7 +241,7 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 - Fixed incorrect webfonts links
 
 ### Removed
-- Fontawesome v5.15.3
+- Font Awesome v5.15.3
 
 ## [CoreBootstrap v5.0.0] - 2021-05-11
 
@@ -268,7 +268,7 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 - `.prettierignore`
 - `blueprint()` mixin to `_base.scss`
 - Default recommendations to `extensions.json`
-- Fontawesome v5.15.3
+- Font Awesome v5.15.3
 - Images folder with best practice advice in its own `README.md`
 - `prepros.config`
 - `prepros-backup.config`
@@ -287,7 +287,7 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 - Duplicate code
 
 ### Removed
-- Fontawesome v5.15.2
+- Font Awesome v5.15.2
 - `esbenp.prettier-vscode` from `extensions.json`
 - `prepros.config` (see Tip above for info)
 - `ritwickdey.liveserver` from `extensions.json`
@@ -304,22 +304,22 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 - Bootstrap v4.5.3
 - Bootstrap v4.6.0
 - Example templates
-- Fontawesome v5.15.2
+- Font Awesome v5.15.2
 
 ### Changed
 - Changed `.gitignore`
 
 ### Removed
-- Fontawesome v5.15.1
+- Font Awesome v5.15.1
 
 ## Intermittent updates - 2020-09-23 till 2021-01-16
 
 ### Added
-- Fontawesome v5.15.1
+- Font Awesome v5.15.1
 - PrePros `package.json`, `package-lock.json` and `prepros.cfg`
 
 ### Removed
-- 17 Fontawesome versions, keeping only latest of all majors
+- 17 Font Awesome versions, keeping only latest of all majors
 - Bootstrap Icons
 
 ## [CoreBootstrap v4.5.0] - 2020-05-12
@@ -330,13 +330,13 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 ## [CoreBootstrap v4.4.0 and v4.4.1] - 2019-11-28
 
 ### Added
-- 19 Fontawesome versions (v4.1.0 to v5.11.2)
+- 19 Font Awesome versions (v4.1.0 to v5.11.2)
 - Bootstrap v4.4.0
 - Bootstrap v4.4.1
 - Example templates
 
 ### Changed
-- Changed fonts files for a few Fontawesome versions
+- Changed fonts files for a few Font Awesome versions
 
 ## Intermittent updates - 2019-10-22 till 2019-10-27
 
