@@ -220,7 +220,7 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 
 ## Intermittent updates - 2021-06-14 till 2021-10-08
 
-### Addewd
+### Added
 - `.which-res` helper
 - Compiler settings in `styles-sass-v4.scss`
 - Compiler settings in `styles-sass-v5.scss`
