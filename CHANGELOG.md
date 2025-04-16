@@ -12,7 +12,18 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 
 - Add LessHat v4.1.0
 - Add Sass' own compiler, with Node and NPM info
+- Add Font Awesome 7, coming June 2025
 - Fix injecting one Sass variable inside another [#2]
+
+## [CoreBootstrap v5.3.4 and v5.3.5] - 2025-04-16
+
+### Added
+- Bootstrap v5.3.4
+- Bootstrap v5.3.5
+- Example templates
+
+### Changed
+- Compiler settings in `styles-sass.scss`
 
 ## Intermittent updates - 2024-02-23 till 2024-12-19
 
@@ -387,3 +398,4 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 [CoreBootstrap v5.3.1]: https://github.com/MakePixelsWork/CoreBootstrap/tree/225224083fd2cb106921ae4e7cbe2d04afec9e4c
 [CoreBootstrap v5.3.2]: https://github.com/MakePixelsWork/CoreBootstrap/tree/d58ce8fac623f2651c1f8cb5ea845b8c39c9b1eb
 [CoreBootstrap v5.3.3]: https://github.com/MakePixelsWork/CoreBootstrap/tree/4af15546ac25887d3153ac3e638a64eed0154ee8
+[CoreBootstrap v5.3.4 and v5.3.5]: https://github.com/MakePixelsWork/CoreBootstrap/tree/69a576447694a098ca9b8b92d78cf44a536509c9
