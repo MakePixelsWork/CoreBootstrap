@@ -17,11 +17,9 @@ Since Bootstrap itself is released under an MIT License, I've released my CoreBo
     3.3.1 / 3.3.2 / 3.3.4 / 3.3.5 / 3.3.6 / 3.3.7 / 3.4.0 / 3.4.1
   - Sass:
     4.0.0 / 4.1.0 / 4.1.1 / 4.1.2 / 4.1.3 / 4.2.1 / 4.3.0 / 4.3.1 / 4.4.0 / 4.4.1 / 4.5.0 / 4.5.1 / 4.5.2 / 4.5.3 / 4.6.0 / 4.6.1 / 4.6.2 / 5.0.0 / 5.0.1 / 5.0.2 / 5.1.0 / 5.1.1 / 5.1.2 / 5.1.3 / 5.2.0 / 5.2.1 / 5.2.2 / 5.2.3 / 5.3.0 / 5.3.1 / 5.3.2 / 5.3.3 / 5.3.4 / 5.3.5
-
 - Font Awesome
   - Less: 5.15.4 / 6.7.2
   - Sass: 5.15.4 / 6.7.2
-
 - LessHat
   - Less: 3.0.2
 
@@ -35,21 +33,17 @@ Step 1 and 2 are only needed to install a newer version.
    - /template/public/fonts/font-awesome/x-x-x/
    - /template/public/fonts/glyphicons/x-x-x/
    - /template/public/js/bootstrap/x-x-x/
-
 2. Copy new LESS or SASS files to versioned SRC folder (x-x-x) in:
    - /template/src/**`less|sass`**/bootstrap/x-x-x/
    - /template/src/**`less|sass`**/font-awesome/x-x-x/
    - /template/src/**`less|sass`**/lesshat/x-x-x/
-
 3. Update CORE TEMPLATE with:
    - Versioned 'Basic template' source code _...copied from Bootstrap website, within \<head\>_
    - Latest JavaScript CDN _...copied from Bootstrap website, at end \</body\>_
    - If applicable, versioned folder (x-x-x) for bootstrap(.min).js _...at end \</body\>_
-
 4. Update PATH /template/src/**`less|sass`**/styles-**`less|sass`**.ext with:
    - Your preferred framework versions
    - Your own hierarchical positioned file(s)
-
 5. If applicable, update PATH /template/src/**`less|sass`**/variables.ext with:
    - Updated framework variables
    - Your own variables
@@ -57,11 +51,10 @@ Step 1 and 2 are only needed to install a newer version.
 ## How to compile
 
 - Either use compiler software like [PrePros] or a compiler extension like [Live Sass Compiler], as recommended in the .vscode workspace folder
-
 - Only compile<br>
-  /template/src/**`less|sass`**/styles-**`less|sass`**.ext<br>
-  to<br>
-  /template/public/css/styles-**`less|sass`**.css
+/template/src/**`less|sass`**/styles-**`less|sass`**.ext<br>
+to<br>
+/template/public/css/styles-**`less|sass`**.css
 
 ### PrePros settings
 
@@ -80,11 +73,9 @@ Interested in the original source files? Check out the resources throught the li
 - Bootstrap
   - GitHub > [Bootstrap](https://github.com/twbs/bootstrap) > [Releases](https://github.com/twbs/bootstrap/releases)
   - Website > [getbootstrap.com](https://getbootstrap.com/)
-
 - Font Awesome
   - GitHub > [Font Awesome](https://github.com/FortAwesome/Font-Awesome) > [Releases](https://github.com/FortAwesome/Font-Awesome/releases)
   - Website > [fontawesome.com](https://fontawesome.com/)
-  
 - LessHat
   - GitHub > [LessHat](https://github.com/madebysource/lesshat/) > [Releases](https://github.com/madebysource/lesshat/releases)
 
