@@ -16,6 +16,16 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 - Fix injecting one Sass variable inside another [#2](https://github.com/MakePixelsWork/CoreBootstrap/issues/2)
 - Fix incorrect .js includes in template files [#40](https://github.com/MakePixelsWork/CoreBootstrap/issues/40)
 
+## [CoreBootstrap v5.3.6] - 2025-05-06
+
+### Added
+- Bootstrap v5.3.6
+- Example templates
+
+### Changed
+- Compiler settings in `styles-sass.scss`
+- Version in `bootstrap-grid-example.html`
+
 ## [CoreBootstrap v5.3.4 and v5.3.5] - 2025-04-16
 
 ### Added
@@ -395,3 +405,4 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 [CoreBootstrap v5.3.2]: https://github.com/MakePixelsWork/CoreBootstrap/tree/d58ce8fac623f2651c1f8cb5ea845b8c39c9b1eb
 [CoreBootstrap v5.3.3]: https://github.com/MakePixelsWork/CoreBootstrap/tree/4af15546ac25887d3153ac3e638a64eed0154ee8
 [CoreBootstrap v5.3.4 and v5.3.5]: https://github.com/MakePixelsWork/CoreBootstrap/tree/69a576447694a098ca9b8b92d78cf44a536509c9
+[CoreBootstrap v5.3.6]: https://github.com/MakePixelsWork/CoreBootstrap/tree/159315efc93e37f7630f270de7bb22e0bd1f252f
