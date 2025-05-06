@@ -14,6 +14,7 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 - Add Sass' own compiler, with Node and NPM info
 - Add Font Awesome 7, coming June 2025
 - Fix injecting one Sass variable inside another [#2]
+- Fix incorrect .js includes in template files [#40]
 
 ## [CoreBootstrap v5.3.4 and v5.3.5] - 2025-04-16
 
@@ -376,11 +377,6 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
   - https://docs.cypress.io/guides/references/changelog
   - https://docs.stripe.com/changelog
 -->
-
-<!-- Issues -->
-[#2]: https://github.com/MakePixelsWork/CoreBootstrap/issues/2
-[#7]: https://github.com/MakePixelsWork/CoreBootstrap/issues/7
-[#8]: https://github.com/MakePixelsWork/CoreBootstrap/issues/8
 
 <!-- Tools -->
 [Live Sass Compiler]: https://marketplace.visualstudio.com/items?itemName=glenn2223.live-sass
