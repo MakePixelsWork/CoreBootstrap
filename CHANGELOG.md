@@ -14,7 +14,7 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 - Add Sass' own compiler, with Node and NPM info
 - Add Font Awesome 7, coming June 2025
 - Fix injecting one Sass variable inside another [#2](https://github.com/MakePixelsWork/CoreBootstrap/issues/2)
-- Fix incorrect .js includes in template files [#40](https://github.com/MakePixelsWork/CoreBootstrap/issues/40)
+
 
 ## [CoreBootstrap v5.3.6] - 2025-05-06
 
@@ -25,6 +25,9 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 ### Changed
 - Compiler settings in `styles-sass.scss`
 - Version in `bootstrap-grid-example.html`
+
+### Fixed
+- Incorrect .js includes in template files [#40](https://github.com/MakePixelsWork/CoreBootstrap/issues/40)
 
 ## [CoreBootstrap v5.3.4 and v5.3.5] - 2025-04-16
 
