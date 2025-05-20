@@ -23,6 +23,15 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 - Rewrite LessHat to Sass [#17](https://github.com/MakePixelsWork/CoreBootstrap/issues/17)
 - Use ChatGPT to create Sass mixins for me [#23](https://github.com/MakePixelsWork/CoreBootstrap/issues/23)
 
+
+## Intermittent updates - 2024-05-20 till now
+
+### Added
+- Addendum about @import to `index.html` and `README.md`
+
+### Tested
+- @use and @forward modules
+
 ## [CoreBootstrap v5.3.6] - 2025-05-06
 
 ### Added
