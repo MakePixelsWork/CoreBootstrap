@@ -11,8 +11,40 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 ## Unreleased
 
 - Add LessHat v4.1.0
+- Add my own CoreBootstrap variables and classes [#16](https://github.com/MakePixelsWork/CoreBootstrap/issues/16)
 - Add Sass' own compiler, with Node and NPM info
-- Fix injecting one Sass variable inside another [#2]
+- Add Font Awesome 7, coming June 2025 [#21](https://github.com/MakePixelsWork/CoreBootstrap/issues/21)
+- Check if deprecated warning in other project applies to CoreBootstrap [#18](https://github.com/MakePixelsWork/CoreBootstrap/issues/18)
+- Check if scoped colors need to be replaced in Sass variables [#20](https://github.com/MakePixelsWork/CoreBootstrap/issues/20)
+- Fix injecting one Sass variable inside another variable / path [#2](https://github.com/MakePixelsWork/CoreBootstrap/issues/2)
+- Fix low contrast in scoped colored button hovers [#22](https://github.com/MakePixelsWork/CoreBootstrap/issues/22)
+- Refactor Sass to partials, or is the demo not big enough? [#24](https://github.com/MakePixelsWork/CoreBootstrap/issues/22)
+- Research nice mixins to add to the lib [#13](https://github.com/MakePixelsWork/CoreBootstrap/issues/13)
+- Rewrite LessHat to Sass [#17](https://github.com/MakePixelsWork/CoreBootstrap/issues/17)
+- Use ChatGPT to create Sass mixins for me [#23](https://github.com/MakePixelsWork/CoreBootstrap/issues/23)
+
+## [CoreBootstrap v5.3.6] - 2025-05-06
+
+### Added
+- Bootstrap v5.3.6
+- Example templates
+
+### Changed
+- Compiler settings in `styles-sass.scss`
+- Version in `bootstrap-grid-example.html`
+
+### Fixed
+- Incorrect .js includes in template files [#40](https://github.com/MakePixelsWork/CoreBootstrap/issues/40)
+
+## [CoreBootstrap v5.3.4 and v5.3.5] - 2025-04-16
+
+### Added
+- Bootstrap v5.3.4
+- Bootstrap v5.3.5
+- Example templates
+
+### Changed
+- Compiler settings in `styles-sass.scss`
 
 ## Intermittent updates - 2024-02-23 till 2024-12-19
 
@@ -220,7 +252,7 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 
 ## Intermittent updates - 2021-06-14 till 2021-10-08
 
-### Addewd
+### Added
 - `.which-res` helper
 - Compiler settings in `styles-sass-v4.scss`
 - Compiler settings in `styles-sass-v5.scss`
@@ -366,11 +398,6 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
   - https://docs.stripe.com/changelog
 -->
 
-<!-- Issues -->
-[#2]: https://github.com/MakePixelsWork/CoreBootstrap/issues/2
-[#7]: https://github.com/MakePixelsWork/CoreBootstrap/issues/7
-[#8]: https://github.com/MakePixelsWork/CoreBootstrap/issues/8
-
 <!-- Tools -->
 [Live Sass Compiler]: https://marketplace.visualstudio.com/items?itemName=glenn2223.live-sass
 
@@ -387,3 +414,5 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 [CoreBootstrap v5.3.1]: https://github.com/MakePixelsWork/CoreBootstrap/tree/225224083fd2cb106921ae4e7cbe2d04afec9e4c
 [CoreBootstrap v5.3.2]: https://github.com/MakePixelsWork/CoreBootstrap/tree/d58ce8fac623f2651c1f8cb5ea845b8c39c9b1eb
 [CoreBootstrap v5.3.3]: https://github.com/MakePixelsWork/CoreBootstrap/tree/4af15546ac25887d3153ac3e638a64eed0154ee8
+[CoreBootstrap v5.3.4 and v5.3.5]: https://github.com/MakePixelsWork/CoreBootstrap/tree/69a576447694a098ca9b8b92d78cf44a536509c9
+[CoreBootstrap v5.3.6]: https://github.com/MakePixelsWork/CoreBootstrap/tree/996a04908f981a82b61a5633730e3c686e78122f

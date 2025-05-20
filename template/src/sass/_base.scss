@@ -1,7 +1,7 @@
 
 /*
 CURRENT VERSION
-- Bootstrap: v5.3.3
+- Bootstrap: v5.3.5
 - Font Awesome: v6.7.2
 */
 
@@ -54,17 +54,17 @@ CURRENT VERSION
 
 // XS is often not needed, because Bootstrap is mobile-first
 
-// SM and up        @include media-breakpoint-up(sm) { }
-// MD and up        @include media-breakpoint-up(md) { }
-// LG and up        @include media-breakpoint-up(lg) { }
-// XL and up        @include media-breakpoint-up(xl) { }
-// XXL and up       @include media-breakpoint-up(xxl) { }
+// SM and higher    @include media-breakpoint-up(sm) { }
+// MD and higher    @include media-breakpoint-up(md) { }
+// LG and higher    @include media-breakpoint-up(lg) { }
+// XL and higher    @include media-breakpoint-up(xl) { }
+// XXL and higher   @include media-breakpoint-up(xxl) { }
 
-// XS and down      @include media-breakpoint-down(sm) { }
-// SM and down      @include media-breakpoint-down(md) { }
-// MD and down      @include media-breakpoint-down(lg) { }
-// LG and down      @include media-breakpoint-down(xl) { }
-// XL and down      @include media-breakpoint-down(xxl) { }
+// XS and lower     @include media-breakpoint-down(sm) { }
+// SM and lower     @include media-breakpoint-down(md) { }
+// MD and lower     @include media-breakpoint-down(lg) { }
+// LG and lower     @include media-breakpoint-down(xl) { }
+// XL and lower     @include media-breakpoint-down(xxl) { }
 
 // XS only          @include media-breakpoint-only(xs) { }
 // SM only          @include media-breakpoint-only(sm) { }

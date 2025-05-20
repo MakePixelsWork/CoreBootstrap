@@ -16,7 +16,7 @@ Since Bootstrap itself is released under an MIT License, I've released my CoreBo
   - Less:
     3.3.1 / 3.3.2 / 3.3.4 / 3.3.5 / 3.3.6 / 3.3.7 / 3.4.0 / 3.4.1
   - Sass:
-    4.0.0 / 4.1.0 / 4.1.1 / 4.1.2 / 4.1.3 / 4.2.1 / 4.3.0 / 4.3.1 / 4.4.0 / 4.4.1 / 4.5.0 / 4.5.1 / 4.5.2 / 4.5.3 / 4.6.0 / 4.6.1 / 4.6.2 / 5.0.0 / 5.0.1 / 5.0.2 / 5.1.0 / 5.1.1 / 5.1.2 / 5.1.3 / 5.2.0 / 5.2.1 / 5.2.2 / 5.2.3 / 5.3.0 / 5.3.1 / 5.3.2 / 5.3.3
+    4.0.0 / 4.1.0 / 4.1.1 / 4.1.2 / 4.1.3 / 4.2.1 / 4.3.0 / 4.3.1 / 4.4.0 / 4.4.1 / 4.5.0 / 4.5.1 / 4.5.2 / 4.5.3 / 4.6.0 / 4.6.1 / 4.6.2 / 5.0.0 / 5.0.1 / 5.0.2 / 5.1.0 / 5.1.1 / 5.1.2 / 5.1.3 / 5.2.0 / 5.2.1 / 5.2.2 / 5.2.3 / 5.3.0 / 5.3.1 / 5.3.2 / 5.3.3 / 5.3.4 / 5.3.5 / 5.3.6
 - Font Awesome
   - Less: 5.15.4 / 6.7.2
   - Sass: 5.15.4 / 6.7.2
@@ -27,7 +27,7 @@ Since Bootstrap itself is released under an MIT License, I've released my CoreBo
 
 The bolded **`less|sass`** in these steps define the _less_ or _sass_ folder and filename you choose to implement. The word 'ext' defines the extension of the files, if applicable. I've chosen to include this naming convention in the entire CoreBootstrap structure, but you can of course choose other file name(s) for you compiled CSS... i.e. simply 'styles.css'.
 
-Step 1 and 2 are only needed to install a newer version.
+Step 1, 2 and 7 are only needed to install a newer version.
 
 1. Copy new DIST files to versioned PUBLIC folder (x-x-x) in:
    - /template/public/fonts/font-awesome/x-x-x/
@@ -47,6 +47,11 @@ Step 1 and 2 are only needed to install a newer version.
 5. If applicable, update PATH /template/src/**`less|sass`**/variables.ext with:
    - Updated framework variables
    - Your own variables
+6. Run your preferred compiler to create new compiled files
+7. Update versioning in documentation files:
+   - CHANGELOG.md
+   - index.html
+   - README.md
 
 ## How to compile
 
