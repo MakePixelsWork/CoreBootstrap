@@ -24,7 +24,7 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 - Use ChatGPT to create Sass mixins for me [#23](https://github.com/MakePixelsWork/CoreBootstrap/issues/23)
 
 
-## Intermittent updates - 2024-05-20 till now
+## Intermittent updates - 2025-05-20 till now
 
 ### Added
 - Addendum about @import to `index.html` and `README.md`
