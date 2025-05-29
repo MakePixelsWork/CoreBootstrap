@@ -16,7 +16,7 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 - Add Font Awesome 7, coming June 2025 [#21](https://github.com/MakePixelsWork/CoreBootstrap/issues/21)
 - Check if deprecated warning in other project applies to CoreBootstrap [#18](https://github.com/MakePixelsWork/CoreBootstrap/issues/18)
 - Check if scoped colors need to be replaced in Sass variables [#20](https://github.com/MakePixelsWork/CoreBootstrap/issues/20)
-- ~Fix injecting one Sass variable inside another variable / path~ (not allowed in `@import`'s)
+- ~Fix injecting one Sass variable inside another variable / path~ > Not allowed in `@import`'s, see comments in [#2](https://github.com/MakePixelsWork/CoreBootstrap/issues/2)
 - Fix low contrast in scoped colored button hovers [#22](https://github.com/MakePixelsWork/CoreBootstrap/issues/22)
 - Refactor Sass to partials, or is the demo not big enough? [#24](https://github.com/MakePixelsWork/CoreBootstrap/issues/22)
 - Research nice mixins to add to the lib [#13](https://github.com/MakePixelsWork/CoreBootstrap/issues/13)
