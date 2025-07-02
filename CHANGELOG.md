@@ -491,4 +491,4 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 [CoreBootstrap v5.3.3]: https://github.com/MakePixelsWork/CoreBootstrap/tree/4af15546ac25887d3153ac3e638a64eed0154ee8
 [CoreBootstrap v5.3.4 and v5.3.5]: https://github.com/MakePixelsWork/CoreBootstrap/tree/69a576447694a098ca9b8b92d78cf44a536509c9
 [CoreBootstrap v5.3.6]: https://github.com/MakePixelsWork/CoreBootstrap/tree/996a04908f981a82b61a5633730e3c686e78122f
-[CoreBootstrap v5.3.7]: https://github.com/MakePixelsWork/CoreBootstrap/tree/dcbd5ad644cbca69a9f2552833f5d14f9fc486d7
+[CoreBootstrap v5.3.7]: https://github.com/MakePixelsWork/CoreBootstrap/tree/9186370cc9c07d6705b906a7460c0ecf8df8f820
