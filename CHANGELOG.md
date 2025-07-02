@@ -32,13 +32,14 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 ## [CoreBootstrap v5.3.7] - 2025-07-02
 
 ### Added
-- Bootstrap v5.3.6
+- Bootstrap v5.3.7
 - Example templates
 
 ### Changed
 - `CHANGELOG.md`
 - Compiler settings in `styles-sass.scss`
 - Version in `bootstrap-grid-example.html`
+
 
 <!-- UPDATE -->
 ## Intermittent updates - 2025-05-20 till 2025-05-29
