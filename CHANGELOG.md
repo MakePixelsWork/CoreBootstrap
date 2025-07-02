@@ -24,7 +24,24 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 - Use ChatGPT to create Sass mixins for me [#23](https://github.com/MakePixelsWork/CoreBootstrap/issues/23)
 
 
-## Intermittent updates - 2025-05-20 till now
+<!-- UPDATE 
+## Intermittent updates - 2025-xx-xx till now
+-->
+
+<!-- UPDATE -->
+## [CoreBootstrap v5.3.7] - 2025-07-02
+
+### Added
+- Bootstrap v5.3.6
+- Example templates
+
+### Changed
+- `CHANGELOG.md`
+- Compiler settings in `styles-sass.scss`
+- Version in `bootstrap-grid-example.html`
+
+<!-- UPDATE -->
+## Intermittent updates - 2025-05-20 till 2025-05-29
 
 ### Added
 - Addendum about @import to `index.html` and `README.md`
@@ -32,6 +49,8 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 ### Tested
 - @use and @forward modules
 
+
+<!-- UPDATE -->
 ## [CoreBootstrap v5.3.6] - 2025-05-06
 
 ### Added
@@ -45,6 +64,8 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 ### Fixed
 - Incorrect .js includes in template files [#40](https://github.com/MakePixelsWork/CoreBootstrap/issues/40)
 
+
+<!-- UPDATE -->
 ## [CoreBootstrap v5.3.4 and v5.3.5] - 2025-04-16
 
 ### Added
@@ -55,6 +76,8 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 ### Changed
 - Compiler settings in `styles-sass.scss`
 
+
+<!-- UPDATE -->
 ## Intermittent updates - 2024-02-23 till 2024-12-19
 
 ### Added
@@ -88,6 +111,8 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 - Font Awesome v6.7.1
 - Material Icon Theme from workspace recommendations
 
+
+<!-- UPDATE -->
 ## [CoreBootstrap v5.3.3] - 2024-02-22
 
 ### Added
@@ -101,6 +126,8 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 ### Fixed
 - Versioning inside `_base.scss`
 
+
+<!-- UPDATE -->
 ## Intermittent updates - 2023-10-04 till 2024-02-21
 
 ### Added
@@ -123,6 +150,8 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 - Font Awesome v4.7.0 (deprecated)
 - Font Awesome v6.4.2
 
+
+<!-- UPDATE -->
 ## [CoreBootstrap v5.3.2] - 2023-10-02
 
 ### Added
@@ -139,17 +168,23 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 - Font Awesome v6.4.0
 - Redundant compiler folder
 
+
+<!-- UPDATE -->
 ## [CoreBootstrap v5.3.1] - 2023-08-08
 
 ### Added
 - Bootstrap v5.3.1
 - Example templates
 
+
+<!-- UPDATE -->
 ## Intermittent updates - 2023-07-20
 
 ### Changed
 - `.gitignore`
 
+
+<!-- UPDATE -->
 ## [CoreBootstrap v5.3.0] - 2023-06-02
 
 ### Added
@@ -164,11 +199,15 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 ### Removed
 - Twitter from `LICENSE`
 
+
+<!-- UPDATE -->
 ## Intermittent updates - 2023-05-05
 
 ### Changed
 - `.gitignore`
 
+
+<!-- UPDATE -->
 ## [CoreBootstrap v5.2.0 to v5.2.3] - 2023-04-07
 
 ### Added
@@ -186,6 +225,8 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 ### Fixed
 - Templates, so they are all synced with similar code
 
+
+<!-- UPDATE -->
 ## Intermittent updates - 2021-11-02 till 2023-04-05
 
 ### Added
@@ -233,11 +274,15 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 - Redundant `appname-` from `_base.scss` and `_variables.scss`
 - Twitter from `README`
 
+
+<!-- UPDATE -->
 ## [CoreBootstrap v5.1.3] - 2021-10-10
 
 ### Added
 - Bootstrap v5.1.3, which fixes a breaking error
 
+
+<!-- UPDATE -->
 ## [CoreBootstrap v5.0.0 to v5.1.2] - 2021-10-09
 
 ### Added
@@ -259,6 +304,8 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 - `integrity` and `crossorigin` tags from all templates
 - CoreBootstrap demo from testingoursite.com
 
+
+<!-- UPDATE -->
 ## Intermittent updates - 2021-06-14 till 2021-10-08
 
 ### Added
@@ -283,6 +330,8 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 ### Removed
 - Font Awesome v5.15.3
 
+
+<!-- UPDATE -->
 ## [CoreBootstrap v5.0.0] - 2021-05-11
 
 > [!WARNING]  
@@ -295,12 +344,16 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 ### Removed
 - CoreBootstrap ZIP download links
 
+
+<!-- UPDATE -->
 ## [CoreBootstrap v4.6.1] - 2021-11-01
 
 ### Added
 - Bootstrap v4.6.1
 - Example templates
 
+
+<!-- UPDATE -->
 ## Intermittent updates - 2021-02-16 till 2021-03-29
 
 ### Added
@@ -336,6 +389,8 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 ### Tested
 - Dart Sass
 
+
+<!-- UPDATE -->
 ## [CoreBootstrap v4.5.1 to 4.6.0] - 2021-02-15
 
 ### Added
@@ -352,6 +407,8 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 ### Removed
 - Font Awesome v5.15.1
 
+
+<!-- UPDATE -->
 ## Intermittent updates - 2020-09-23 till 2021-01-16
 
 ### Added
@@ -362,11 +419,15 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 - 17 Font Awesome versions, keeping only latest of all majors
 - Bootstrap Icons
 
+
+<!-- UPDATE -->
 ## [CoreBootstrap v4.5.0] - 2020-05-12
 
 ### Added
 - Bootstrap v4.5.0
 
+
+<!-- UPDATE -->
 ## [CoreBootstrap v4.4.0 and v4.4.1] - 2019-11-28
 
 ### Added
@@ -378,6 +439,8 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 ### Changed
 - Changed fonts files for a few Font Awesome versions
 
+
+<!-- UPDATE -->
 ## Intermittent updates - 2019-10-22 till 2019-10-27
 
 ### Added
@@ -389,6 +452,8 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 ### Changed
 - Changed `LICENSE`
 
+
+<!-- INIT -->
 ## Init - 2019-10-22
 
 
