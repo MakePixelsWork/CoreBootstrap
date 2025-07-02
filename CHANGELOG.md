@@ -28,6 +28,7 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 ## Intermittent updates - 2025-xx-xx till now
 -->
 
+
 <!-- UPDATE -->
 ## [CoreBootstrap v5.3.7] - 2025-07-02
 
