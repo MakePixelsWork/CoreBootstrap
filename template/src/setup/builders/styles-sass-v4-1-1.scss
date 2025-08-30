@@ -23,20 +23,10 @@
 // 3. Whole framework
 @import "bootstrap/4-1-1/bootstrap";
 
-// 4. FONTAWESOME
-@import "font-awesome/5-15-4/fontawesome";
-
-// 4. FONTAWESOME > HACK
-// - Helps make the font path work correctly in SASS!
-// - This path is relative to the compiled CSS file
-// - Does NOT have a trailing slash!
-$fa-font-path: "../fonts/font-awesome/5-15-4/webfonts";
-
-// 4. FONTAWESOME > IMPORTS
-// - Enable certain fonts, depending on project
-@import "font-awesome/5-15-4/regular";
-@import "font-awesome/5-15-4/solid";
-@import "font-awesome/5-15-4/brands";
+// 4. Add additional libraries
+// This used to include Font Awesome or LESS/Sass
+// libraries, but we decided to remove them.
+// Feel free to add libraries here.
 
 // 5. INCLUDE ANY POSSIBLE SPLIT-UP SCSS FILES
 // - Improves programmer usability

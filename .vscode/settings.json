@@ -28,7 +28,6 @@
     "/node_modules/**",
     "/template/src/less/**",
     "/template/src/sass/bootstrap/**",
-    "/template/src/sass/font-awesome/**",
     "/template/src/setup/**",
     "/.vscode/**"
   ],

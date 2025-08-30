@@ -17,9 +17,6 @@ Since Bootstrap itself is released under an MIT License, I've released my CoreBo
     3.3.1 / 3.3.2 / 3.3.4 / 3.3.5 / 3.3.6 / 3.3.7 / 3.4.0 / 3.4.1
   - Sass:
     4.0.0 / 4.1.0 / 4.1.1 / 4.1.2 / 4.1.3 / 4.2.1 / 4.3.0 / 4.3.1 / 4.4.0 / 4.4.1 / 4.5.0 / 4.5.1 / 4.5.2 / 4.5.3 / 4.6.0 / 4.6.1 / 4.6.2 / 5.0.0 / 5.0.1 / 5.0.2 / 5.1.0 / 5.1.1 / 5.1.2 / 5.1.3 / 5.2.0 / 5.2.1 / 5.2.2 / 5.2.3 / 5.3.0 / 5.3.1 / 5.3.2 / 5.3.3 / 5.3.4 / 5.3.5 / 5.3.6 / 5.3.7 / 5.3.8
-- Font Awesome
-  - Less: 5.15.4 / 6.7.2
-  - Sass: 5.15.4 / 6.7.2
 - LessHat
   - Less: 3.0.2
 
@@ -30,12 +27,10 @@ The bolded **`less|sass`** in these steps define the _less_ or _sass_ folder and
 Step 1, 2 and 7 are only needed to install a newer version.
 
 1. Copy new DIST files to versioned PUBLIC folder (x-x-x) in:
-   - /template/public/fonts/font-awesome/x-x-x/
    - /template/public/fonts/glyphicons/x-x-x/
    - /template/public/js/bootstrap/x-x-x/
 2. Copy new LESS or SASS files to versioned SRC folder (x-x-x) in:
    - /template/src/**`less|sass`**/bootstrap/x-x-x/
-   - /template/src/**`less|sass`**/font-awesome/x-x-x/
    - /template/src/**`less|sass`**/lesshat/x-x-x/
 3. Update CORE TEMPLATE with:
    - Versioned 'Basic template' source code _...copied from Bootstrap website, within \<head\>_
@@ -78,9 +73,6 @@ Interested in the original source files? Check out the resources throught the li
 - Bootstrap
   - GitHub > [Bootstrap](https://github.com/twbs/bootstrap) > [Releases](https://github.com/twbs/bootstrap/releases)
   - Website > [getbootstrap.com](https://getbootstrap.com/)
-- Font Awesome
-  - GitHub > [Font Awesome](https://github.com/FortAwesome/Font-Awesome) > [Releases](https://github.com/FortAwesome/Font-Awesome/releases)
-  - Website > [fontawesome.com](https://fontawesome.com/)
 - LessHat
   - GitHub > [LessHat](https://github.com/madebysource/lesshat/) > [Releases](https://github.com/madebysource/lesshat/releases)
 
@@ -93,8 +85,6 @@ The reality: Bootstrap's SCSS is not fully compatible with the newer module syst
 Bootstrap has not fully transitioned to @use/@forward yet, mainly for compatibility and inertia. Beta versions of v6 also use @import, so this could remain an issue. Unless they decide to rewrite it all, but I wonder how you over-write things then. To be continued.
 
 <strong>Bootstrap 5</strong> introduced lots of new features, which may break your old builds. These include Sass changes, a color system, grid updates, dropping code, new naming conventions... and lots of tweaks throughout the entire framework. If you start a new project, this does not concern you. If you upgrade from an older major version, then be sure to update your code where needed. A full migration guide can be found [here](https://getbootstrap.com/docs/5.0/migration/).
-
-<strong>Font Awesome</strong> is somewhat backwards compatible, so I've decided to only include the latest maintained versions of each major release. v5.15.4 is the latest of 5, v6.7.2 is the latest of 6 and well... v7 has that too. Version 4 and lower are no longer supported.
 
 <strong>LessHat</strong> has not been updated since july 2016, but is still one of the best LESS mixin libraries available. I postponed installing v4.1.0 because it became dependent on NPM and Grunt... which is weird, because their initial product had no dependencies at all. I've not used LESS for several years now and mainly focus on Sass developments, but I still want to implement this newer mixin library one day. So its on my todos list.
 

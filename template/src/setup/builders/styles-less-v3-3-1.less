@@ -9,21 +9,12 @@
 // - These vars are also used in the core variables file!
 @version-bootstrap: "3-3-2";
 @version-glyphicons: @version-bootstrap;
-@version-fontawesome: "5-15-4";
 @version-lesshat: "3-0-2";
 
 // LOAD CLEAN FRAMEWORKS
 // - Untouched frameworks, each with their default variables
 @import "bootstrap/@{version-bootstrap}/bootstrap.less";
 @import "lesshat/@{version-lesshat}/lesshat-prefixed.less";
-@import "font-awesome/@{version-fontawesome}/fontawesome.less";
-
-// FONT-AWESOME > IMPORTS
-// - Enable certain fonts, depending on project
-// - Only works for v5.0.4 and above!
-@import "font-awesome/@{version-fontawesome}/brands.less";
-@import "font-awesome/@{version-fontawesome}/regular.less";
-@import "font-awesome/@{version-fontawesome}/solid.less";
 
 // DEFINE WEBSITE SPECIFIC VARIABLES
 // - The variables file contains some cloned variables from the frameworks

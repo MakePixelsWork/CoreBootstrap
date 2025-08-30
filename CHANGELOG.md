@@ -13,7 +13,6 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 - Add LessHat v4.1.0
 - Add my own CoreBootstrap variables and classes [#16](https://github.com/MakePixelsWork/CoreBootstrap/issues/16)
 - Add Sass' own compiler, with Node and NPM info
-- Add Font Awesome 7 [#21](https://github.com/MakePixelsWork/CoreBootstrap/issues/21)
 - Check if deprecated warning in other project applies to CoreBootstrap [#18](https://github.com/MakePixelsWork/CoreBootstrap/issues/18)
 - Check if scoped colors need to be replaced in Sass variables [#20](https://github.com/MakePixelsWork/CoreBootstrap/issues/20)
 - ~Fix injecting one Sass variable inside another variable / path~ > Not allowed in `@import`'s, see comments in [#2](https://github.com/MakePixelsWork/CoreBootstrap/issues/2)
@@ -27,9 +26,17 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 <!-- UPDATE -->
 ## Intermittent updates - 2025-08-30 till now
 
+### Added
+- Font Awesome v7 css and webfonts files
+
+### Changed
+- All builder templates
+- [Live Sass Compiler] settings
+
 ### Removed
+- Font Awesome LESS and Sass
+- Font Awesome references from all compiler files
 - Font Awesome SCSS from `style-sass-scss`, which reduced the compiled `styles-sass.css` to 56% its original size.
-- References to `CHANGELOG.md`, because documention changes aren't mentioned in this changelog.
 
 
 <!-- UPDATE -->
