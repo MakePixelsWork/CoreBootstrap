@@ -88,7 +88,7 @@ Interested in the original source files? Check out the resources throught the li
 
 <strong>I still use @import</strong> because the order of SCSS imports are critical for Bootstrap customization. You must first load custom variables, before Bootstrap's, so it uses our values instead of its own. Then you load their files, other frameworks, after which you can over-write their code in your own custom files. While those still can be partials, the newer SCSS module system (@use) enforces that all @use rules should come first, which conflicts with the classic @import-based Bootstrap workflow.
 
-The reality: Bootstrap's SCSS is not fully compatible with the newer module system (@use/@forward) unless you fully refactor Bootstrap's source files (which I do not want to do). Mixing @use and @import is only safe if all @use rules come first... but this breaks the variable override patterns I need.
+The reality: Bootstrap's SCSS is not fully compatible with the newer module system (@use/@forward) unless you refactor Bootstrap's source files (which we do not want to do). Mixing @use and @import is only safe if all @use rules come first... but this breaks the variable override pattern we need.
 
 Bootstrap has not fully transitioned to @use/@forward yet, mainly for compatibility and inertia. Beta versions of v6 also use @import, so this could remain an issue. Unless they decide to rewrite it all, but I wonder how you over-write things then. To be continued.
 

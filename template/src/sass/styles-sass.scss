@@ -13,8 +13,8 @@
 //
 // The reality:
 // Bootstrap's SCSS is not fully compatible with the newer module system
-// (@use/@forward) unless fully refactor Bootstrap's source files (which we
-// do not want to do. Mixing @use and @import is only safe if all @use rules
+// (@use/@forward) unless you refactor Bootstrap's source files (which we
+// do not want to do). Mixing @use and @import is only safe if all @use rules
 // come first... but this breaks the variable override pattern we need.
 
 
