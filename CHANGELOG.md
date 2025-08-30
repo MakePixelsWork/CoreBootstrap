@@ -27,8 +27,8 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 ## Intermittent updates - 2025-08-30 till now
 
 ### Added
-- Font Awesome v7 css and webfonts files [#21](https://github.com/MakePixelsWork/CoreBootstrap/issues/21)
-- Font Awesome v7 to all templates
+- Font Awesome v7 css and webfonts files
+- Font Awesome v7 to all templates [#21](https://github.com/MakePixelsWork/CoreBootstrap/issues/21)
 
 ### Changed
 - [Live Sass Compiler] settings
