@@ -28,9 +28,9 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 
 ### Added
 - Font Awesome v7 css and webfonts files
+- Font Awesome v7 to all templates
 
 ### Changed
-- All builder templates
 - [Live Sass Compiler] settings
 
 ### Removed
