@@ -13619,11 +13619,6 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-/*
-CURRENT VERSION
-- Bootstrap: v5.3.7
-- Font Awesome: v6.7.2
-*/
 /* MIXIN > BLUEPRINT */
 /* HELPER > WHICH BOOTSTRAP 5 BREAKPOINT IS ACTIVE? */
 .which-res {
