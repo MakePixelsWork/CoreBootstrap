@@ -24,9 +24,13 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 - Use ChatGPT to create Sass mixins for me [#23](https://github.com/MakePixelsWork/CoreBootstrap/issues/23)
 
 
-<!-- UPDATE 
-## Intermittent updates - 2025-xx-xx till now
--->
+<!-- UPDATE -->
+## Intermittent updates - 2025-08-30 till now
+
+### Removed
+- Font Awesome SCSS from `style-sass-scss`, which reduced the compiled `styles-sass.css` to56% the original size.
+- References to `CHANGELOG.md`, because documention changes aren't mentioned in this changelog.
+
 
 <!-- UPDATE -->
 ## [CoreBootstrap v5.3.8] - 2025-08-30
@@ -36,7 +40,6 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 - Example templates
 
 ### Changed
-- `CHANGELOG.md`
 - Compiler settings in `styles-sass.scss`
 - Version in `bootstrap-grid-example.html`
 
@@ -49,7 +52,6 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 - Example templates
 
 ### Changed
-- `CHANGELOG.md`
 - Compiler settings in `styles-sass.scss`
 - Version in `bootstrap-grid-example.html`
 
