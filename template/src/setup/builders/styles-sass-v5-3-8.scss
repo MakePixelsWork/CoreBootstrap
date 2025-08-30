@@ -1,29 +1,8 @@
-
-// WHY WE STILL USE @IMPORT
-// The order of SCSS imports is critical for Bootstrap customization. We must
-// load our custom variables first, before Bootstrap’s variables are imported,
-// so Bootstrap uses our values, instead of its own. That is why we import
-// them in step 2, then load their contents, other frameworks and then over-
-// write their code in step 8.
-//
-// The newer SCSS module system (@use) enforces that all @use rules should
-// come first, which conflicts with the classic @import-based Bootstrap
-// workflow. Bootstrap has not fully transitioned to @use/@forward yet,
-// mainly for compatibility and inertia.
-//
-// The reality:
-// Bootstrap's SCSS is not fully compatible with the newer module system
-// (@use/@forward) unless fully refactor Bootstrap's source files (which we
-// do not want to do. Mixing @use and @import is only safe if all @use rules
-// come first... but this breaks the variable override pattern we need.
-
-
 // COMPILER INFO (SASS)
 // - Use // as comments, because these are stripped
 // - Compile this file to '../../public/css/styles-sass.css'
 // - If applicable, accompanied with its own source map
 // - Update your HTML to point to the compiled CSS file
-
 
 // BOOTSTRAP SETUP
 // - Option B, as shown at https://getbootstrap.com/docs/5.3/customize/sass/#importing

@@ -28,6 +28,18 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 ## Intermittent updates - 2025-xx-xx till now
 -->
 
+<!-- UPDATE -->
+## [CoreBootstrap v5.3.8] - 2025-08-30
+
+### Added
+- Bootstrap v5.3.8
+- Example templates
+
+### Changed
+- `CHANGELOG.md`
+- Compiler settings in `styles-sass.scss`
+- Version in `bootstrap-grid-example.html`
+
 
 <!-- UPDATE -->
 ## [CoreBootstrap v5.3.7] - 2025-07-02
@@ -493,3 +505,4 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 [CoreBootstrap v5.3.4 and v5.3.5]: https://github.com/MakePixelsWork/CoreBootstrap/tree/69a576447694a098ca9b8b92d78cf44a536509c9
 [CoreBootstrap v5.3.6]: https://github.com/MakePixelsWork/CoreBootstrap/tree/996a04908f981a82b61a5633730e3c686e78122f
 [CoreBootstrap v5.3.7]: https://github.com/MakePixelsWork/CoreBootstrap/tree/9186370cc9c07d6705b906a7460c0ecf8df8f820
+[CoreBootstrap v5.3.8]: https://github.com/MakePixelsWork/CoreBootstrap/
