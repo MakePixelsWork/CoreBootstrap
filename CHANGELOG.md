@@ -28,7 +28,7 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 ## Intermittent updates - 2025-08-30 till now
 
 ### Removed
-- Font Awesome SCSS from `style-sass-scss`, which reduced the compiled `styles-sass.css` to56% the original size.
+- Font Awesome SCSS from `style-sass-scss`, which reduced the compiled `styles-sass.css` to 56% its original size.
 - References to `CHANGELOG.md`, because documention changes aren't mentioned in this changelog.
 
 
