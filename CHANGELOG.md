@@ -346,9 +346,9 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 - Settings in `settings.json`
 
 ### Fixed
-- Fixed duplicate code in `base.less` and `_base.scss`
-- Fixed helpers in `base.less` and `_base.scss`
-- Fixed incorrect webfonts links
+- Duplicate code in `base.less` and `_base.scss`
+- Helpers in `base.less` and `_base.scss`
+- Incorrect webfonts links
 
 ### Removed
 - Font Awesome v5.15.3
@@ -425,7 +425,7 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 - Font Awesome v5.15.2
 
 ### Changed
-- Changed `.gitignore`
+- `.gitignore`
 
 ### Removed
 - Font Awesome v5.15.1
@@ -460,7 +460,7 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 - Example templates
 
 ### Changed
-- Changed fonts files for a few Font Awesome versions
+- Fonts files for a few Font Awesome versions
 
 
 <!-- UPDATE -->
@@ -473,7 +473,7 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 - Local files to GitHub
 
 ### Changed
-- Changed `LICENSE`
+- `LICENSE`
 
 
 <!-- INIT -->
