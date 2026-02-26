@@ -26,6 +26,9 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 <!-- UPDATE -->
 ## Intermittent updates - 2025-08-30 till now
 
+> [!WARNING]  
+> Font Awesome is no longer included in CoreBootstrap's pre-compiled code. Its now added as its self-contained CSS format, as part of the main template. Recompile your project where needed!
+
 ### Added
 - Font Awesome v7 css and webfonts files
 - Font Awesome v7 to all HTML files [#21](https://github.com/MakePixelsWork/CoreBootstrap/issues/21)
@@ -39,7 +42,6 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 - Font Awesome LESS and Sass
 - Font Awesome references from all compiler files
 - Font Awesome SCSS from `style-sass-scss`, which reduced the compiled `styles-sass.css` to 56% its original size.
-
 
 <!-- UPDATE -->
 ## [CoreBootstrap v5.3.8] - 2025-08-30
