@@ -32,6 +32,8 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 
 ### Changed
 - [Live Sass Compiler] settings
+- Settings in `prepros.config`
+- Settings in `prepros-backup.config`
 
 ### Removed
 - Font Awesome LESS and Sass
