@@ -27,7 +27,7 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 ## Intermittent updates - 2025-08-30 till now
 
 > [!WARNING]  
-> Font Awesome is no longer included in CoreBootstrap's pre-compiled code. Its now added as its self-contained CSS format, as part of the main template. Recompile your project where needed!
+> Font Awesome is no longer included in CoreBootstrap's pre-compiled code. Its now added as its self-contained CSS, as part of the main HTML template(s). Recompile your project where needed!
 
 ### Added
 - Font Awesome v7 css and webfonts files
