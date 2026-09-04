@@ -35,6 +35,8 @@ This changelog lists all notable updates to the CoreBootstrap framework, in reve
 - Latest version of my `.prettierignore`
 
 ### Changed
+- Compiler settings for Less
+- External documentation links
 - [Live Sass Compiler] settings
 - Settings in `prepros.config`
 - Settings in `prepros-backup.config`
