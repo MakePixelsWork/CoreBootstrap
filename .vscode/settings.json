@@ -43,6 +43,9 @@
   // Switched off, because Vic needs to learn JavaScript
   // "javascript.format.enable": false,
 
+  // Less Formatter
+  "less.format.enable": false,
+
   // SCSS Formatter
   "scss.format.enable": false,
   "scss.format.newlineBetweenRules": false,
